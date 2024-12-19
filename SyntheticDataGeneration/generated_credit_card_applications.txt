@@ -1,0 +1,59 @@
+Application
+"**Application Type**: Credit Card
+**Bank Name**: Global Bank
+**Applicant Name**: David Miller
+**Address**: 123 Main Street, Anytown, CA 91234
+**Phone Number**: (555) 123-4567
+**Email Address**: david.miller@email.com
+**Monthly Income**: $7,500
+**Credit Card Type**: Global Bank Rewards Visa
+**Credit Limit Requested**: $10,000
+**Additional Notes**: Seeking a card with a good rewards program for travel and dining.
+
+
+**Application Type**: Credit Card
+**Bank Name**: First National Bank
+**Applicant Name**: Emily Carter
+**Address**: 456 Oak Avenue, Apt 3B, Springfield, IL 62704
+**Phone Number**: (555) 987-6543
+**Email Address**: emily.carter@email.com
+**Monthly Income**: $4,200
+**Credit Card Type**: First National Bank Cash Back Mastercard
+**Credit Limit Requested**: $5,000
+**Additional Notes**:  Interested in a card with a low APR and cash back rewards.
+
+
+**Application Type**: Credit Card
+**Bank Name**: City Credit Union
+**Applicant Name**: Michael Rodriguez
+**Address**: 789 Pine Lane, Austin, TX 78701
+**Phone Number**: (555) 555-5555
+**Email Address**: michael.rodriguez@email.com
+**Monthly Income**: $9,000
+**Credit Card Type**: City Credit Union Platinum Visa
+**Credit Limit Requested**: $15,000
+**Additional Notes**:  Excellent credit history. Looking for a card with travel perks and a high credit limit.
+
+
+**Application Type**: Credit Card
+**Bank Name**: Premier Bank
+**Applicant Name**:  Ashley Davis
+**Address**: 101 Elm Street, Seattle, WA 98101
+**Phone Number**: (555) 111-2222
+**Email Address**: ashley.davis@email.com
+**Monthly Income**: $6,000
+**Credit Card Type**: Premier Bank Secured Mastercard
+**Credit Limit Requested**: $1,000
+**Additional Notes**: Building credit.  Willing to provide a security deposit.
+
+
+**Application Type**: Credit Card
+**Bank Name**:  Star Bank
+**Applicant Name**:  Christopher Wilson
+**Address**: 222 Maple Drive, Denver, CO 80202
+**Phone Number**: (555) 333-4444
+**Email Address**: christopher.wilson@email.com
+**Monthly Income**: $10,000
+**Credit Card Type**: Star Bank Business Visa
+**Credit Limit Requested**: $20,000
+**Additional Notes**:  Applying for a business credit card for company expenses.  Company annual revenue: $500,000."
