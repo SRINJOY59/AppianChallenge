@@ -13,6 +13,7 @@ def clean_data(df):
 
 all_cleaned_data = []
 
+
 for file_name in os.listdir(data_dir):
     if file_name.endswith('.csv'):
         file_path = os.path.join(data_dir, file_name)
@@ -30,6 +31,10 @@ final_cleaned_df = pd.concat(all_cleaned_data, ignore_index=True)
 
 final_cleaned_df = final_cleaned_df.sample(frac=1).reset_index(drop=True)  
 
+
+
+
+final_cleaned_df['label'] = 'bank'
 
 output_file = 'Data/bank_data_combined.csv'
 final_cleaned_df.to_csv(output_file, index=False)
