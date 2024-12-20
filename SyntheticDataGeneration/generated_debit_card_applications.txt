@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Application
+=======
+Application
+>>>>>>> 9527bd80446df9199d6452380570222c455ab75c
 "**Application 1**
 
 **Application Type**: Debit Card
@@ -81,4 +85,8 @@ Application
 **Preferred ATM Network**: Allpoint
 **Additional Services**: Online Bill Pay, Zelle
 **ID Type**: Driver's License
+<<<<<<< HEAD
 **ID Number**: FL7654321"
+=======
+**ID Number**: FL7654321"
+>>>>>>> 9527bd80446df9199d6452380570222c455ab75c
