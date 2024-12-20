@@ -36,7 +36,7 @@ final_cleaned_df = final_cleaned_df.sample(frac=1).reset_index(drop=True)
 
 final_cleaned_df['label'] = 'bank'
 
-output_file = 'Data/bank_data_combined.csv'
+output_file = 'Main_Data/bank_data_combined.csv'
 final_cleaned_df.to_csv(output_file, index=False)
 
 print(f"Cleaned data saved to {output_file}")
