@@ -1,38 +1,37 @@
-import json
 import random
 import csv
 from faker import Faker
-from Templates_bank.credit_card_template import (
-    sbi_credit_card_template,
-    hdfc_credit_card_template,
-    icici_credit_card_template,
-    axis_credit_card_template,
-    kotak_credit_card_template,
-    pnb_credit_card_template,
-    yes_bank_credit_card_template,
-    canara_credit_card_template,
-    union_bank_credit_card_template,
-    bob_credit_card_template,
+from Templates_bank.account_closure_templates import (
+    sbi_closure_template,
+    hdfc_closure_template,
+    icici_closure_template,
+    axis_closure_template,
+    kotak_closure_template,
+    pnb_closure_template,
+    yes_bank_closure_template,
+    canara_closure_template,
+    union_bank_closure_template,
+    bob_closure_template,
 )
 
 # Initialize Faker
 fake = Faker()
 
-# List of templates
-templates = [
-    sbi_credit_card_template,
-    hdfc_credit_card_template,
-    icici_credit_card_template,
-    axis_credit_card_template,
-    kotak_credit_card_template,
-    pnb_credit_card_template,
-    yes_bank_credit_card_template,
-    canara_credit_card_template,
-    union_bank_credit_card_template,
-    bob_credit_card_template,
+# List of templates for account closure
+account_closure_templates = [
+    sbi_closure_template,
+    hdfc_closure_template,
+    icici_closure_template,
+    axis_closure_template,
+    kotak_closure_template,
+    pnb_closure_template,
+    yes_bank_closure_template,
+    canara_closure_template,
+    union_bank_closure_template,
+    bob_closure_template,
 ]
 
-# Generate synthetic data from template
+# Generate synthetic data from account closure template
 def generate_data_from_template(template):
     synthetic_data = {
         # Basic Personal Information
@@ -45,45 +44,37 @@ def generate_data_from_template(template):
         "mobile": fake.phone_number(),
         "email": fake.email(),
 
-        # Residence Information
+        # Address Information
         "current_address": fake.address(),
         "permanent_address": fake.address(),
         "city": fake.city(),
         "state": fake.state(),
         "country": fake.country(),
         "pin": fake.zipcode(),
-        "residence_status": random.choice(["Owned", "Rented", "Company Provided"]), 
 
-        # Employment Information
-        "occupation": random.choice(["Salaried", "Self-Employed", "Business"]),
-        "company_name": fake.company(),
-        "annual_income": fake.random_int(min=300000, max=2000000),
-        "work_experience": random.randint(1, 20),
-
-        # Financial Details
-        "credit_score": random.randint(300, 850),
-        "previous_credit_card": random.choice([True, False]),
-        "monthly_expenses": fake.random_int(min=5000, max=50000),
-        "loan_type": random.choice(["Home Loan", "Car Loan", "Personal Loan", "None"]),
-        "savings_balance": fake.random_int(min=10000, max=500000),
-        "loan_balance": fake.random_int(min=5000, max=100000),
-        "existing_credit_limit": fake.random_int(min=50000, max=500000),
-
-        # Bank Details
+        # Account Information
         "account_number": fake.bban(),
         "account_type": random.choice(["Savings", "Current"]),
         "branch_name": fake.city(),
         "account_opening_date": fake.date_this_decade().strftime("%Y-%m-%d"),
 
-        # Card Preferences
-        "card_type": random.choice(["Simply Save", "Elite", "Prime", "Signature"]),
-        "secondary_email": fake.email(),
-        "referral_code": fake.uuid4(),
+        # Closure Details
+        "closure_reason": random.choice(["Personal Reasons", "Account No Longer Needed", "Better Services Elsewhere"]),
+        "settlement_mode": random.choice(["Transfer", "Cheque", "Cash"]),
+        "transfer_bank_name": fake.company(),
+        "transfer_account_number": fake.bban(),
+        "transfer_ifsc": fake.random_number(digits=11),
+        "debit_card": fake.random_number(digits=16),
+        "internet_banking": random.choice(["Active", "Inactive"]),
+        "mobile_banking": random.choice(["Active", "Inactive"]),
+        "standing_instructions": random.choice(["Yes", "No"]),
+        "outstanding_charges": random.choice(["Yes", "No"]),
+        "unused_cheques": random.randint(1, 5),
     }
 
     # Find all placeholders in the template (anything within curly braces)
     placeholders = [key.strip('{}') for key in template.split() if key.startswith("{") and key.endswith("}")]
-
+    
     # Create a dictionary to handle missing attributes
     data_to_format = {key: synthetic_data.get(key, '') for key in placeholders}
 
@@ -96,23 +87,20 @@ def generate_data_from_template(template):
 
     return filled_template
 
-
-
-
-# Generate two data points for each template
+# Generate two data points for each account closure template
 all_data = []
-for template in templates:
+for template in account_closure_templates:
     for _ in range(2):  # Loop to generate two data points for each template
         data_points = generate_data_from_template(template)
         if data_points:
             all_data.append({
                 "information": data_points,  # Using the formatted template as string
                 "label": "bank",
-                "specific_label": "credit card details"
+                "specific_label": "account closure details"
             })
 
 # Write to CSV file
-output_file = r"Data/credit_card_data.csv"
+output_file = r"Data/account_closure_data.csv"
 with open(output_file, mode="w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=["information", "label", "specific_label"])
     writer.writeheader()

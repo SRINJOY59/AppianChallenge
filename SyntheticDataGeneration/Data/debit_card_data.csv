@@ -1,0 +1,283 @@
+information,label,specific_label
+"
+**STATE BANK OF INDIA - DEBIT CARD APPLICATION**
+Application Reference: b92463a3-4b41-4875-9174-b915f8589960
+Branch Code: 944548
+
+ACCOUNT DETAILS
+--------------
+Account Holder Name: Amy Lopez
+Account Number: PVUV38657639851252
+Account Type: Current  # Savings/Current/NRE/NRO
+Customer ID: 
+Branch Name: Lowerymouth
+
+PERSONAL DETAILS
+--------------
+Date of Birth: 1979-09-12
+PAN Number: A5784
+Aadhaar Number: 468331381202
+Mobile Number: 001-226-888-2928
+Email ID: moniqueboyd@example.org
+
+CARD REQUIREMENTS
+---------------
+Card Variant: Gold  # Global/Classic/Gold/Platinum
+Card Network: Visa  # RuPay/Visa/Mastercard
+International Usage: No  # Yes/No
+Daily ATM Limit: 27431
+Daily POS Limit: 13075
+",bank,debit card details
+"
+**STATE BANK OF INDIA - DEBIT CARD APPLICATION**
+Application Reference: d63cb06f-ff02-4667-959c-fa827f7aed89
+Branch Code: 900640
+
+ACCOUNT DETAILS
+--------------
+Account Holder Name: Heather Walter PhD
+Account Number: FNMJ41895340556664
+Account Type: Current  # Savings/Current/NRE/NRO
+Customer ID: 
+Branch Name: North Carriefurt
+
+PERSONAL DETAILS
+--------------
+Date of Birth: 1995-07-28
+PAN Number: J3047
+Aadhaar Number: 529959953274
+Mobile Number: 552.773.6850
+Email ID: orodriguez@example.org
+
+CARD REQUIREMENTS
+---------------
+Card Variant: EasyShop  # Global/Classic/Gold/Platinum
+Card Network: Mastercard  # RuPay/Visa/Mastercard
+International Usage: Yes  # Yes/No
+Daily ATM Limit: 35690
+Daily POS Limit: 11867
+",bank,debit card details
+"
+**HDFC BANK - DEBIT CARD APPLICATION**
+Application ID: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder: 
+Account Number: JYNM66605035241228
+Account Type: Savings
+Customer ID: 
+Home Branch: 
+
+PERSONAL DETAILS
+--------------
+Date of Birth: 1955-05-23
+PAN Number: J8536
+Mobile Number: (216)979-0660
+Email Address: melissashaw@example.net
+
+CARD PREFERENCES
+--------------
+Card Type:   # EasyShop/Premium/Business
+Card Design:   # Standard/Custom
+ATM Withdrawal Limit: 6595
+Shopping Limit: 24234
+SMS Alerts: No  # Yes/No
+",bank,debit card details
+"
+**HDFC BANK - DEBIT CARD APPLICATION**
+Application ID: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder: 
+Account Number: WJEY36467364958812
+Account Type: Current
+Customer ID: 
+Home Branch: 
+
+PERSONAL DETAILS
+--------------
+Date of Birth: 1960-08-19
+PAN Number: O161
+Mobile Number: (205)922-6566x108
+Email Address: joseph41@example.com
+
+CARD PREFERENCES
+--------------
+Card Type:   # EasyShop/Premium/Business
+Card Design:   # Standard/Custom
+ATM Withdrawal Limit: 19408
+Shopping Limit: 45612
+SMS Alerts: Yes  # Yes/No
+",bank,debit card details
+"
+**ICICI BANK - DEBIT CARD APPLICATION**
+Reference Number: 
+
+ACCOUNT DETAILS
+-------------
+Primary Account Holder: 
+Account Number: TFNJ51786981051136
+Account Type: Current
+Customer ID: 
+Branch: 
+
+PERSONAL INFORMATION
+------------------
+Date of Birth: 1974-07-12
+PAN Card Number: R9129
+Aadhaar Number: 478191060904
+Mobile Number: 783.520.9190x758
+Email ID: jhughes@example.net
+
+CARD REQUIREMENTS
+---------------
+Card Variant: Business  # Coral/Sapphiro/Expression
+Card Network:   # Visa/Mastercard/RuPay
+International Transactions: Yes
+Daily Transaction Limits:
+    ATM: 9849
+    POS: 26146
+    E-commerce: 35349
+",bank,debit card details
+"
+**ICICI BANK - DEBIT CARD APPLICATION**
+Reference Number: 
+
+ACCOUNT DETAILS
+-------------
+Primary Account Holder: 
+Account Number: AGFO39448903933702
+Account Type: Savings
+Customer ID: 
+Branch: 
+
+PERSONAL INFORMATION
+------------------
+Date of Birth: 1957-03-21
+PAN Card Number: N4781
+Aadhaar Number: 43465097892
+Mobile Number: 951-865-4346
+Email ID: cardenassusan@example.com
+
+CARD REQUIREMENTS
+---------------
+Card Variant: Platinum  # Coral/Sapphiro/Expression
+Card Network:   # Visa/Mastercard/RuPay
+International Transactions: Yes
+Daily Transaction Limits:
+    ATM: 6821
+    POS: 48509
+    E-commerce: 40309
+",bank,debit card details
+"
+**YES BANK - DEBIT CARD APPLICATION**
+Reference ID: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Name: 
+Account Number: QLGA22361869946711
+Customer ID: 
+Branch Name: Bonnieville
+
+KYC DETAILS
+----------
+Date of Birth: 1955-06-26
+PAN Number: D9865
+Aadhaar Number: 962097193935
+Mobile Number: (240)529-3851
+Email: fstuart@example.com
+
+CARD SELECTION
+------------
+Card Variant: Classic  # Classic/Gold/Platinum
+Network Preference: 
+Daily Limits:
+    ATM Withdrawal: 47770
+    Shopping: 25880
+International Enabled: 
+",bank,debit card details
+"
+**YES BANK - DEBIT CARD APPLICATION**
+Reference ID: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Name: 
+Account Number: KTHU77648537008924
+Customer ID: 
+Branch Name: Carlsonborough
+
+KYC DETAILS
+----------
+Date of Birth: 1989-04-17
+PAN Number: Q3698
+Aadhaar Number: 303912708568
+Mobile Number: 256-592-4798x811
+Email: dsmith@example.com
+
+CARD SELECTION
+------------
+Card Variant: Gold  # Classic/Gold/Platinum
+Network Preference: 
+Daily Limits:
+    ATM Withdrawal: 48041
+    Shopping: 28820
+International Enabled: 
+",bank,debit card details
+"
+**AXIS BANK - DEBIT CARD APPLICATION**
+Application Number: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Name: 
+Account Number: WOND15699185724956
+Account Type: Current
+CIF Number: 
+Branch: 
+
+CONTACT DETAILS
+-------------
+Mobile Number: (496)612-3561
+Email ID: williamsandrew@example.net
+Communication Address: 
+
+CARD PREFERENCES
+--------------
+Card Variant: EasyShop  # Easy/Prime/Priority
+Card Network: 
+Daily Limits:
+    Cash Withdrawal: 
+    Purchase: 
+E-commerce Enabled:   # Yes/No
+",bank,debit card details
+"
+**AXIS BANK - DEBIT CARD APPLICATION**
+Application Number: 
+
+ACCOUNT INFORMATION
+-----------------
+Account Name: 
+Account Number: GYTC47110541913987
+Account Type: Savings
+CIF Number: 
+Branch: 
+
+CONTACT DETAILS
+-------------
+Mobile Number: 907-264-1474x93385
+Email ID: cchavez@example.net
+Communication Address: 
+
+CARD PREFERENCES
+--------------
+Card Variant: Platinum  # Easy/Prime/Priority
+Card Network: 
+Daily Limits:
+    Cash Withdrawal: 
+    Purchase: 
+E-commerce Enabled:   # Yes/No
+",bank,debit card details

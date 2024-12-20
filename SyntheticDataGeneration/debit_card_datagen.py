@@ -1,65 +1,114 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-from dotenv import load_dotenv
-import pandas as pd
-
-load_dotenv()
-
-llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
-    temperature=0.7,
-    max_tokens=1500,
-    timeout=60,
-    max_retries=2,
+import random
+import csv
+from faker import Faker
+from Templates_bank.debit_card_template import (
+    sbi_debit_card_template,
+    hdfc_debit_card_template,
+    icici_debit_card_template,
+    yes_bank_debit_card_template, 
+    axis_debit_card_template, 
+    
 )
 
-system_prompt = (
-    "You are an expert in generating realistic and detailed debit card applications "
-    "for synthetic data purposes. Each application must include complete details about "
-    "checking accounts, reflect professional language, and vary in structure to cover "
-    "different banks. Just generate these examples, don't provide any extra information."
-)
+# Initialize Faker
+fake = Faker()
 
-debit_card_template = """
-**Application Type**: Debit Card
-**Bank Name**: {bank_name}
-**Applicant Name**: {name}
-**Address**: {address}
-**Phone Number**: {phone}
-**Email Address**: {email}
-**Employment Status**: {employment}
-**Checking Account Type**: {account_type}
-**Initial Deposit**: {initial_deposit}
-**Preferred ATM Network**: {atm_network}
-**Additional Services**: {additional_services}
-**ID Type**: {id_type}
-**ID Number**: {id_number}
-"""
+# List of templates for debit cards
+debit_card_templates = [
+    sbi_debit_card_template,
+    hdfc_debit_card_template,
+    icici_debit_card_template,
+    yes_bank_debit_card_template, 
+    axis_debit_card_template
+]
 
-user_prompt = (
-    f"Generate 5 distinct and detailed debit card applications using the following template:\n\n"
-    f"{debit_card_template}\n\n"
-    "1. Use realistic applicant details such as names, addresses, phone numbers, email addresses, "
-    "employment information, and checking account details.\n"
-    "2. Ensure that the applications are diverse, considering different banks, account types "
-    "(basic checking, premium checking, student checking), and regions.\n"
-    "3. Include realistic initial deposits and ATM network preferences."
-)
+# Generate synthetic data from template
+def generate_data_from_template(template):
+    synthetic_data = {
+        # Basic Personal Information
+        "ref_number": fake.uuid4(),
+        "branch_code": fake.random_number(digits=6),
+        "name": fake.name(),
+        "dob": fake.date_of_birth(minimum_age=18, maximum_age=70).strftime("%Y-%m-%d"),
+        "pan": fake.random_uppercase_letter() + str(fake.random_number(digits=4)),  # Fix applied here
+        "aadhaar": fake.random_number(digits=12),
+        "mobile": fake.phone_number(),
+        "email": fake.email(),
 
-def generate_applications():
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
+        # Residence Information
+        "current_address": fake.address(),
+        "permanent_address": fake.address(),
+        "city": fake.city(),
+        "state": fake.state(),
+        "country": fake.country(),
+        "pin": fake.zipcode(),
+        "residence_status": random.choice(["Owned", "Rented", "Company Provided"]), 
 
-    response = llm.invoke(messages)
-    applications = response.content.strip().split("\n\n---\n\n")
-    return applications
+        # Employment Information
+        "occupation": random.choice(["Salaried", "Self-Employed", "Business"]),
+        "company_name": fake.company(),
+        "annual_income": fake.random_int(min=300000, max=2000000),
+        "work_experience": random.randint(1, 20),
 
-def save_to_csv(applications, filename="generated_debit_card_applications.txt"):
-    df = pd.DataFrame({"Application": applications})
-    df.to_csv(filename, index=False)
-    print(f"Generated applications saved to {filename}")
+        # Financial Details
+        "credit_score": random.randint(300, 850),
+        "previous_credit_card": random.choice([True, False]),
+        "monthly_expenses": fake.random_int(min=5000, max=50000),
+        "loan_type": random.choice(["Home Loan", "Car Loan", "Personal Loan", "None"]),
+        "savings_balance": fake.random_int(min=10000, max=500000),
+        "loan_balance": fake.random_int(min=5000, max=100000),
+        "existing_credit_limit": fake.random_int(min=50000, max=500000),
 
-if __name__ == "__main__":
-    applications = generate_applications()
-    save_to_csv(applications) 
+        # Bank Details
+        "account_number": fake.bban(),
+        "account_type": random.choice(["Savings", "Current"]),
+        "branch_name": fake.city(),
+        "account_opening_date": fake.date_this_decade().strftime("%Y-%m-%d"),
+
+        # Card Preferences
+        "card_variant": random.choice(["Global", "Classic", "Gold", "Platinum", "EasyShop", "Premium", "Business"]),
+        "card_network": random.choice(["RuPay", "Visa", "Mastercard"]),
+        "international_enabled": random.choice(["Yes", "No"]),
+        "atm_limit": fake.random_int(min=5000, max=50000),
+        "pos_limit": fake.random_int(min=5000, max=50000),
+        "sms_alerts": random.choice(["Yes", "No"]),
+        "withdrawal_limit": fake.random_int(min=5000, max=50000),
+        "shopping_limit": fake.random_int(min=5000, max=50000),
+        "ecom_limit": fake.random_int(min=5000, max=50000),
+    }
+
+    # Find all placeholders in the template (anything within curly braces)
+    placeholders = [key.strip('{}') for key in template.split() if key.startswith("{") and key.endswith("}")]
+    
+    # Create a dictionary to handle missing attributes
+    data_to_format = {key: synthetic_data.get(key, '') for key in placeholders}
+
+    try:
+        filled_template = template.format(**data_to_format)
+    except KeyError as e:
+        print(f"Missing attribute: {e}, leaving it vacant.")
+        # Replace missing keys with empty string
+        filled_template = template.format(**{key: synthetic_data.get(key, '') for key in placeholders})
+
+    return filled_template
+
+# Generate two data points for each debit card template
+all_data = []
+for template in debit_card_templates:
+    for _ in range(2):  # Loop to generate two data points for each template
+        data_points = generate_data_from_template(template)
+        if data_points:
+            all_data.append({
+                "information": data_points,  # Using the formatted template as string
+                "label": "bank",
+                "specific_label": "debit card details"
+            })
+
+# Write to CSV file
+output_file = r"Data/debit_card_data.csv"
+with open(output_file, mode="w", newline="", encoding="utf-8") as file:
+    writer = csv.DictWriter(file, fieldnames=["information", "label", "specific_label"])
+    writer.writeheader()
+    writer.writerows(all_data)
+
+print(f"Synthetic data saved to {output_file}")
