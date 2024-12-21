@@ -23,6 +23,8 @@ for file_name in os.listdir(data_folder):
                         text_data.append(combined_text)
                         if "passport" in file_name.lower():
                             labels.append("passport")
+                        elif "voter" in file_name.lower():
+                            labels.append("votar card")
                         else:
                             labels.append("aadhar")
                     
