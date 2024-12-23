@@ -1,0 +1,755 @@
+information,label,specific_label
+"
+**STATE BANK OF INDIA - ACCOUNT CLOSURE REQUEST**
+Reference Number: 703006eb-90ec-4c03-924e-8bf31268b619
+Date: 
+
+ACCOUNT HOLDER DETAILS
+--------------------
+Name: 
+Customer ID: 
+Mobile Number: 995-669-2338
+Email ID: rhodesmark@example.com
+
+ACCOUNT DETAILS
+-------------
+Account Number: AXVI65365285783638
+Account Type: Savings
+Branch Name: West Joseph
+IFSC Code: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: Account No Longer Needed
+Mode of Balance Settlement: Cash  # Cash/Transfer/DD
+Settlement Account Details (if applicable):
+    Bank Name: Collins, Jones and Torres
+    Account Number: OJYD10290644000663
+    IFSC Code: 23117466630
+
+LINKED SERVICES
+-------------
+Debit Card Number: 8117845065976117
+Internet Banking: Inactive  # Active/Inactive
+Mobile Banking: Active  # Active/Inactive
+Standing Instructions: No  # Yes/No
+
+DECLARATION
+----------
+Outstanding Charges: No  # Yes/No
+Unused Cheque Leaves: 2
+",bank,account closure details
+"
+**STATE BANK OF INDIA - ACCOUNT CLOSURE REQUEST**
+Reference Number: 804aa154-faa5-4ab3-b58f-b77ced3a421e
+Date: 
+
+ACCOUNT HOLDER DETAILS
+--------------------
+Name: 
+Customer ID: 
+Mobile Number: 664-202-7295
+Email ID: hreilly@example.net
+
+ACCOUNT DETAILS
+-------------
+Account Number: DLRO24959349113072
+Account Type: Savings
+Branch Name: Hoffmanfurt
+IFSC Code: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: Personal Reasons
+Mode of Balance Settlement: Cash  # Cash/Transfer/DD
+Settlement Account Details (if applicable):
+    Bank Name: Johnson-Green
+    Account Number: IKSK08976718759557
+    IFSC Code: 96730543363
+
+LINKED SERVICES
+-------------
+Debit Card Number: 9731290066624167
+Internet Banking: Inactive  # Active/Inactive
+Mobile Banking: Active  # Active/Inactive
+Standing Instructions: Yes  # Yes/No
+
+DECLARATION
+----------
+Outstanding Charges: Yes  # Yes/No
+Unused Cheque Leaves: 3
+",bank,account closure details
+"
+**HDFC BANK - ACCOUNT CLOSURE APPLICATION**
+Application ID: 
+
+PRIMARY ACCOUNT HOLDER
+-------------------
+Full Name: 
+Customer ID: 
+Contact Number: 
+Email Address: jenniferfreeman@example.com
+
+ACCOUNT INFORMATION
+-----------------
+Account Number: MYIE57775271251183
+Account Type: Savings
+Home Branch: 
+Account Opening Date: 
+
+CLOSURE REQUEST
+-------------
+Primary Reason: 
+Detailed Reason: 
+Preferred Closure Date: 
+
+SETTLEMENT INSTRUCTIONS
+--------------------
+Settlement Method:   # NEFT/RTGS/DD/Cash
+Beneficiary Details:
+    Name: 
+    Account Number: 
+    Bank & Branch: 
+    IFSC Code: 
+
+PRODUCT SURRENDERS
+---------------
+Debit Card: 
+Credit Card Linked:   # Yes/No
+Investment Accounts:   # Yes/No
+Locker Facility:   # Yes/No
+",bank,account closure details
+"
+**HDFC BANK - ACCOUNT CLOSURE APPLICATION**
+Application ID: 
+
+PRIMARY ACCOUNT HOLDER
+-------------------
+Full Name: 
+Customer ID: 
+Contact Number: 
+Email Address: mary73@example.org
+
+ACCOUNT INFORMATION
+-----------------
+Account Number: SZYZ81774900421331
+Account Type: Savings
+Home Branch: 
+Account Opening Date: 
+
+CLOSURE REQUEST
+-------------
+Primary Reason: 
+Detailed Reason: 
+Preferred Closure Date: 
+
+SETTLEMENT INSTRUCTIONS
+--------------------
+Settlement Method:   # NEFT/RTGS/DD/Cash
+Beneficiary Details:
+    Name: 
+    Account Number: 
+    Bank & Branch: 
+    IFSC Code: 
+
+PRODUCT SURRENDERS
+---------------
+Debit Card: 
+Credit Card Linked:   # Yes/No
+Investment Accounts:   # Yes/No
+Locker Facility:   # Yes/No
+",bank,account closure details
+"
+**ICICI BANK - ACCOUNT CLOSURE FORM**
+Reference Number: 
+
+CUSTOMER DETAILS
+--------------
+Customer Name: 
+Customer ID: 
+Mobile Number: 838.850.0115
+Email ID: hamptonglenn@example.com
+
+ACCOUNT DETAILS
+-------------
+Account Number: PICC66353745943059
+Account Type: Savings
+Branch: Christophermouth
+Opening Date: 
+
+CLOSURE INFORMATION
+----------------
+Reason for Closure: Better Services Elsewhere
+Closure Date Requested: 
+Balance Settlement Mode: Cash
+Transfer Details (if applicable):
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 68326738708
+
+LINKED FACILITIES
+--------------
+Debit Card Status: 
+Internet Banking: Inactive
+Bill Payments: 
+UPI Services: 
+
+DECLARATIONS
+----------
+Outstanding Dues: 
+Uncleared Cheques: 
+",bank,account closure details
+"
+**ICICI BANK - ACCOUNT CLOSURE FORM**
+Reference Number: 
+
+CUSTOMER DETAILS
+--------------
+Customer Name: 
+Customer ID: 
+Mobile Number: 8773306215
+Email ID: lunathomas@example.org
+
+ACCOUNT DETAILS
+-------------
+Account Number: LOOF38679162839633
+Account Type: Current
+Branch: New Patrickfurt
+Opening Date: 
+
+CLOSURE INFORMATION
+----------------
+Reason for Closure: Better Services Elsewhere
+Closure Date Requested: 
+Balance Settlement Mode: Transfer
+Transfer Details (if applicable):
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 9865691791
+
+LINKED FACILITIES
+--------------
+Debit Card Status: 
+Internet Banking: Active
+Bill Payments: 
+UPI Services: 
+
+DECLARATIONS
+----------
+Outstanding Dues: 
+Uncleared Cheques: 
+",bank,account closure details
+"
+**AXIS BANK - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Name: Cameron Austin
+Customer ID: 
+Contact Details:
+    Mobile: 348.312.3111
+    Email: joseph75@example.org
+
+ACCOUNT DETAILS
+-------------
+Account Number: MZSR84464650759871
+Type of Account: Current
+Branch Name: 
+IFSC Code: 
+
+CLOSURE REQUEST DETAILS
+--------------------
+Reason for Closure: 
+Preferred Closure Date: 
+Balance Amount: 
+Settlement Instructions: 
+
+LINKED PRODUCTS
+-------------
+Debit Card Number: 2392089949353125
+Credit Card Linkage: 
+Investment Account: 
+Loan Account: 
+
+DECLARATIONS
+----------
+Pending Charges: 
+Unused Cheques: 5
+Standing Instructions: Yes
+",bank,account closure details
+"
+**AXIS BANK - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Name: Kathryn Allen
+Customer ID: 
+Contact Details:
+    Mobile: 8384381678
+    Email: matthew13@example.com
+
+ACCOUNT DETAILS
+-------------
+Account Number: KBSG17072308792225
+Type of Account: Current
+Branch Name: 
+IFSC Code: 
+
+CLOSURE REQUEST DETAILS
+--------------------
+Reason for Closure: 
+Preferred Closure Date: 
+Balance Amount: 
+Settlement Instructions: 
+
+LINKED PRODUCTS
+-------------
+Debit Card Number: 2743324170253174
+Credit Card Linkage: 
+Investment Account: 
+Loan Account: 
+
+DECLARATIONS
+----------
+Pending Charges: 
+Unused Cheques: 3
+Standing Instructions: Yes
+",bank,account closure details
+"
+**KOTAK MAHINDRA BANK - ACCOUNT CLOSURE APPLICATION**
+Application ID: 
+
+PERSONAL DETAILS
+--------------
+Account Holder Name: 
+Customer Relationship Number: 
+Mobile Number: 868.633.8100x281
+Email Address: rmccormick@example.com
+
+ACCOUNT INFORMATION
+----------------
+Account Number: LYGW87342690092136
+Account Type: Current
+Branch: 
+Account Status: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: 
+Requested Closure Date: 
+Mode of Settlement: Cash
+Settlement Details:
+    Beneficiary Name: 
+    Account Number: 
+    IFSC Code: 
+
+ASSOCIATED SERVICES
+----------------
+Debit Card: 3664628130011585
+Net Banking: 
+Mobile Banking: Inactive
+Recurring Instructions: 
+",bank,account closure details
+"
+**KOTAK MAHINDRA BANK - ACCOUNT CLOSURE APPLICATION**
+Application ID: 
+
+PERSONAL DETAILS
+--------------
+Account Holder Name: 
+Customer Relationship Number: 
+Mobile Number: 001-513-675-3257x9519
+Email Address: heathermurray@example.org
+
+ACCOUNT INFORMATION
+----------------
+Account Number: NSVS41774990219190
+Account Type: Savings
+Branch: 
+Account Status: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: 
+Requested Closure Date: 
+Mode of Settlement: Transfer
+Settlement Details:
+    Beneficiary Name: 
+    Account Number: 
+    IFSC Code: 
+
+ASSOCIATED SERVICES
+----------------
+Debit Card: 6984542857429544
+Net Banking: 
+Mobile Banking: Inactive
+Recurring Instructions: 
+",bank,account closure details
+"
+**PUNJAB NATIONAL BANK - ACCOUNT CLOSURE FORM**
+Reference Number: c30e1ad8-c4b4-4ca6-8501-975847674e79
+
+ACCOUNT HOLDER DETAILS
+-------------------
+Name: Jonathan Patrick
+Customer ID: 
+Mobile Number: 949.918.2975x854
+Email: lindajenkins@example.net
+
+ACCOUNT INFORMATION
+----------------
+Account Number: UCDA03516531861867
+Type of Account: Savings
+Branch Name: Melanieborough
+Opening Date: 
+
+CLOSURE REQUEST
+-------------
+Reason for Closure: 
+Settlement Method: 
+Transfer Details (if applicable):
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 31508827046
+
+LINKED FACILITIES
+--------------
+Debit Card Number: 8085820925390142
+Internet Banking: Active
+Mobile Banking: Inactive
+Standing Instructions: Yes
+",bank,account closure details
+"
+**PUNJAB NATIONAL BANK - ACCOUNT CLOSURE FORM**
+Reference Number: 26245b0b-0512-4832-a553-9edc870488fa
+
+ACCOUNT HOLDER DETAILS
+-------------------
+Name: Misty Cross
+Customer ID: 
+Mobile Number: 555-234-7238
+Email: megan16@example.net
+
+ACCOUNT INFORMATION
+----------------
+Account Number: SNYF37144863916662
+Type of Account: Current
+Branch Name: West Jeremiahchester
+Opening Date: 
+
+CLOSURE REQUEST
+-------------
+Reason for Closure: 
+Settlement Method: 
+Transfer Details (if applicable):
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 97536900737
+
+LINKED FACILITIES
+--------------
+Debit Card Number: 8909905054743319
+Internet Banking: Active
+Mobile Banking: Active
+Standing Instructions: No
+",bank,account closure details
+"
+**YES BANK - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+CUSTOMER INFORMATION
+-----------------
+Customer Name: 
+Customer ID: 
+Contact Number: 
+Email ID: 
+
+ACCOUNT DETAILS
+-------------
+Account Number: RWTQ57829035882091
+Account Type: Current
+Branch Location: 
+Account Opening Date: 
+
+CLOSURE INFORMATION
+----------------
+Primary Reason: 
+Additional Comments: 
+Preferred Closure Date: 
+Settlement Mode: Cash
+
+LINKED PRODUCTS
+-------------
+Debit Card Details: 2191568236593278
+Digital Banking: 
+Investment Products: 
+Locker Services: 
+
+SETTLEMENT DETAILS
+---------------
+Transfer Account Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 68672701681
+",bank,account closure details
+"
+**YES BANK - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+CUSTOMER INFORMATION
+-----------------
+Customer Name: 
+Customer ID: 
+Contact Number: 
+Email ID: 
+
+ACCOUNT DETAILS
+-------------
+Account Number: RUIK60320170239653
+Account Type: Current
+Branch Location: 
+Account Opening Date: 
+
+CLOSURE INFORMATION
+----------------
+Primary Reason: 
+Additional Comments: 
+Preferred Closure Date: 
+Settlement Mode: Cheque
+
+LINKED PRODUCTS
+-------------
+Debit Card Details: 9339711791657310
+Digital Banking: 
+Investment Products: 
+Locker Services: 
+
+SETTLEMENT DETAILS
+---------------
+Transfer Account Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 17899110436
+",bank,account closure details
+"
+**CANARA BANK - ACCOUNT CLOSURE APPLICATION**
+Application Number: 
+
+ACCOUNT HOLDER DETAILS
+-------------------
+Name: Nancy Bell
+Customer ID: 
+Mobile Number: (427)908-0842x7499
+Email ID: bowmanandrea@example.org
+
+ACCOUNT INFORMATION
+----------------
+Account Number: AKGI45954464627544
+Account Type: Savings
+Branch: 
+IFSC Code: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: 
+Requested Date: 
+Balance Settlement: Cheque
+Transfer Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 28895655840
+
+LINKED SERVICES
+-------------
+Debit Card: 4791262055105923
+Net Banking: 
+Mobile Banking: Active
+Standing Instructions: Yes
+",bank,account closure details
+"
+**CANARA BANK - ACCOUNT CLOSURE APPLICATION**
+Application Number: 
+
+ACCOUNT HOLDER DETAILS
+-------------------
+Name: Gabriel Robinson
+Customer ID: 
+Mobile Number: 686.362.7904
+Email ID: pereznicholas@example.org
+
+ACCOUNT INFORMATION
+----------------
+Account Number: PXLB87563727422309
+Account Type: Current
+Branch: 
+IFSC Code: 
+
+CLOSURE DETAILS
+-------------
+Reason for Closure: 
+Requested Date: 
+Balance Settlement: Cheque
+Transfer Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 58040134344
+
+LINKED SERVICES
+-------------
+Debit Card: 799258394561377
+Net Banking: 
+Mobile Banking: Inactive
+Standing Instructions: Yes
+",bank,account closure details
+"
+**UNION BANK OF INDIA - ACCOUNT CLOSURE FORM**
+Reference Number: 
+
+CUSTOMER DETAILS
+--------------
+Full Name: 
+Customer ID: 
+Contact Number: 
+Email Address: stephaniehester@example.org
+
+ACCOUNT DETAILS
+-------------
+Account Number: JFJF22978563200144
+Account Type: Savings
+Branch Name: South Christine
+IFSC Code: 
+
+CLOSURE REQUEST
+-------------
+Reason for Closure: 
+Preferred Date: 
+Mode of Settlement: Cheque
+Settlement Account:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 
+
+LINKED FACILITIES
+--------------
+Debit Card Number: 2354056624448904
+Internet Banking: Inactive
+Mobile Banking: Inactive
+Standing Instructions: No
+",bank,account closure details
+"
+**UNION BANK OF INDIA - ACCOUNT CLOSURE FORM**
+Reference Number: 
+
+CUSTOMER DETAILS
+--------------
+Full Name: 
+Customer ID: 
+Contact Number: 
+Email Address: dwoods@example.org
+
+ACCOUNT DETAILS
+-------------
+Account Number: KEJW96502718972761
+Account Type: Savings
+Branch Name: Dixonhaven
+IFSC Code: 
+
+CLOSURE REQUEST
+-------------
+Reason for Closure: 
+Preferred Date: 
+Mode of Settlement: Cash
+Settlement Account:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 
+
+LINKED FACILITIES
+--------------
+Debit Card Number: 2588028329265582
+Internet Banking: Active
+Mobile Banking: Inactive
+Standing Instructions: No
+",bank,account closure details
+"
+**BANK OF BARODA - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Customer Name: 
+Customer ID: 
+Mobile Number: 848.841.0358x488
+Email ID: carla14@example.net
+
+ACCOUNT DETAILS
+-------------
+Account Number: UWQS74025310199681
+Account Type: Current
+Home Branch: 
+IFSC Code: 
+
+CLOSURE INFORMATION
+----------------
+Reason for Closure: 
+Requested Closure Date: 
+Current Balance: 
+Settlement Method: 
+
+SETTLEMENT DETAILS
+---------------
+Transfer Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 25028565576
+    Account Holder Name: 
+
+LINKED SERVICES
+-------------
+Debit Card: 3196136017579209
+Internet Banking: Inactive
+Mobile Banking: Inactive
+Standing Instructions: Yes
+",bank,account closure details
+"
+**BANK OF BARODA - ACCOUNT CLOSURE REQUEST**
+Form Number: 
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Customer Name: 
+Customer ID: 
+Mobile Number: 001-793-972-9712x3131
+Email ID: nbond@example.org
+
+ACCOUNT DETAILS
+-------------
+Account Number: ZLZA19921525177792
+Account Type: Current
+Home Branch: 
+IFSC Code: 
+
+CLOSURE INFORMATION
+----------------
+Reason for Closure: 
+Requested Closure Date: 
+Current Balance: 
+Settlement Method: 
+
+SETTLEMENT DETAILS
+---------------
+Transfer Details:
+    Bank Name: 
+    Account Number: 
+    IFSC Code: 44633234342
+    Account Holder Name: 
+
+LINKED SERVICES
+-------------
+Debit Card: 1154835540553007
+Internet Banking: Active
+Mobile Banking: Active
+Standing Instructions: No
+",bank,account closure details

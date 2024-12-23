@@ -1,0 +1,519 @@
+[
+  {
+    "content": [
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "bhaart raa (Republic of India)",
+        "text": "bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "{\"passport_holder\":\"ALAM MAQSOOD\",\"nationality\":\"INDIAN\",\"date_of_birth\":\"14/08/1973\",\"place_of_birth\":\"MUZAFFARPUR BIHAR\",\"place_of_issue\":\"DELHI\",\"passport_number\":\"H9137927\",\"issue_date\":\"18/02/2010\",\"expiry_date\":\"17/02/2020\"} {\"element\":\"Passport Type\",\"value\":\"P\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"document type\"}} {\"element\":\"Country Code\",\"value\":\"IND\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"country identification\"}} {\"element\":\"Surname\",\"value\":\"ALAM\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"identity\"}} {\"element\":\"Given Name\",\"value\":\"MAQSOOD\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"identity\"}} {\"element\":\"Nationality\",\"value\":\"INDIAN\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"citizenship\"}} {\"element\":\"Sex\",\"value\":\"M\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"gender\"}} {\"element\":\"Date of Birth\",\"value\":\"14/08/1973\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"birth date\"}} {\"element\":\"Place of Birth\",\"value\":\"MUZAFFARPUR BIHAR\",\"relationship\":{\"connected_to\":\"passport holder\",\"type\":\"birth location\"}} {\"element\":\"Place of Issue\",\"value\":\"DELHI\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"issuance location\"}} {\"element\":\"Date of Issue\",\"value\":\"18/02/2010\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"issuance date\"}} {\"element\":\"Date of Expiry\",\"value\":\"17/02/2020\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"expiry date\"}} {\"element\":\"Passport Number\",\"value\":\"H9137927\",\"relationship\":{\"connected_to\":\"passport details\",\"type\":\"identification number\"}} ALAM MAQSOOD is the passport holder, identified by the passport number H9137927. He is an Indian citizen, born on 14th August 1973 in Muzaffarpur, Bihar. The passport was issued in Delhi on 18th February 2010 and is set to expire on 17th February 2020. The document type is 'P', indicating a standard passport, and the country code is 'IND', representing India. The holder's gender is male.",
+        "text": "mw / Type eng wit / Country Code IND H9137927 ALAM Given Nam MAQSOOD / Sex Date of Birth M 14/08/1973 INDIAN MUZAFFARPUR BIHAR aa / Place of sue DELHI Date of issues / Date of Expiry 18/02/2010 17/02/2020 L"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "P < INDALAM << MAQSOOD <<<<<<<<<<<<<<<<<<<<<<<< H9137927 < 3IND7308141M2002178 <<<<<<<<<<<< The text above appears to be a Machine Readable Zone (MRZ) from an Indian passport. The MRZ typically contains the following information: - **P**: Indicates the type of document, in this case, a passport. - **INDALAM**: Likely part of the surname or family name. - **MAQSOOD**: Likely part of the given name or first name. - **H9137927**: Passport number. - **3IND**: Country code, indicating India. - **730814**: Date of birth in YYMMDD format (August 14, 1973). - **1M**: Gender, where \"M\" stands for male. - **200217**: Passport expiry date in YYMMDD format (February 17, 2020). The sequence of characters and numbers is formatted to be read by machines, such as those used at border control.",
+        "text": "P < INDALAM << MAQSOOD <<<<<<<<<<<<<<<<<<<<<<<<<< H9137927 < 3IND7308141M2002178 <<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          2
+        ],
+        "suggested_text": "{\"figure title\":\"Indian Passport\",\"figure number\":1,\"description\":\"Details of an Indian passport belonging to Sukhdeep Kaushal\",\"components\":[\"Name\",\"Date of Birth\",\"Passport Number\",\"Place of Birth\",\"Place of Issue\"],\"relationships\":[{\"source\":\"KAUSHAL SUKHDEEP\",\"target\":\"INDIAN\",\"type\":\"identity\"},{\"source\":\"J2452409\",\"target\":\"personal details\",\"type\":\"identifier\"}]} {\"type\":\"P\",\"country_code\":\"IND\",\"passport_number\":\"J2452409\",\"surname\":\"KAUSHAL\",\"given_names\":\"SUKHDEEP\",\"nationality\":\"INDIAN\",\"sex\":\"F\",\"date_of_birth\":\"20/10/1991\",\"place_of_birth\":\"GALIB KALAN\",\"place_of_issue\":\"CHANDIGARH\",\"date_of_issue\":\"31/08/2010\",\"date_of_expiry\":\"30/08/2020\"} The document is an Indian passport for Sukhdeep Kaushal. The passport type is 'P', indicating a personal passport, and the country code is 'IND' for India. The passport number is J2452409. The surname is Kaushal and the given name is Sukhdeep, identifying her as an Indian citizen. Her gender is female, and her date of birth is October 20, 1991. She was born in Galib Kalan. The passport was issued in Chandigarh on August 31, 2010, and it expires on August 30, 2020.",
+        "text": "bhaart raa REPUBLIC OF INDIA 4 / Type P KAUSHAL SUKHDEEP gwe / Country Code IND < J2452409 INDIAN F 20/10/1991 GALIB KALAN CHANDIGARH aushal Dee of Expiry 31/08/2010 30/08/2020 P < INDKAUSHAL << SUKHDEEP <<<<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          2,
+          3
+        ],
+        "suggested_text": "J2452409 < 5IND9110203F2008309 <<<<<<<<<<<<<< 6 bhaart raa REPUBLIC OF INDIA",
+        "text": "J2452409 < 5IND9110203F2008309 <<<<<<<<<<<<<<< 6 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          3
+        ],
+        "suggested_text": "{\"passport_number\":\"R7123405\",\"name\":\"MAQDOOMA FATHIMA\",\"nationality\":\"INDIAN\",\"date_of_birth\":\"23/06/1981\",\"place_of_birth\":\"CHENNAI, TAMIL NADU\",\"place_of_issue\":\"BENGALURU\",\"date_of_issue\":\"15/12/2017\",\"date_of_expiry\":\"14/12/2027\"} The document is an Indian passport belonging to Maqdooma Fathima. The passport number is R7123405. Maqdooma Fathima is an Indian national, born on June 23, 1981, in Chennai, Tamil Nadu. The passport was issued in Bengaluru on December 15, 2017, and is set to expire on December 14, 2027. The document includes a photograph of Maqdooma Fathima and her signature. The passport type is indicated by the letter \"P,\" and the country code is \"IND.\"",
+        "text": "P w / Surname www / Country Cade IND soud Passport No. R7123405 BMWs / Box Date of Birth F 23/06/1981 Junglemapalliera / Given Name MAQDOOMA FATHIMA / ationally bhaart / INDIAN / Place of Birth CHENNAI , TAMIL NADU aar r aa aa / Place of Insu BENGALURU pavit mt ) aly / Dude of 15/12/2017 mille Trish Date of Expiry 14/12/2027 < IND << MAQDOOMA < FATHIMA <<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          3
+        ],
+        "suggested_text": "P R7123405 < 3IND8106230F2712147 <<<<<<<<<<<<<<< 2 - **P**: Passport type indicator - **R7123405**: Passport number - **3IND**: Issuing country code (India) - **8106230F**: Date of birth (June 23, 1981) and gender (Female) - **2712147**: Passport expiration date (December 14, 2027) - **<<<<<<<<<<<<<<**: Padding characters used in machine-readable zones - **2**: Check digit for verification purposes",
+        "text": "P R7123405 < 3IND8106230F2712147 <<<<<<<<<<<<<<< 2"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          4
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":1,\"description\":\"Passport details of IRFAN PASHA\",\"components\":[\"Name: IRFAN PASHA\",\"Passport Number: Z4676026\",\"Date of Birth: 31/03/1980\",\"Place of Birth: BENGALURU, KARNATAKA\",\"Date of Issue: 20/12/2017\",\"Date of Expiry: 19/12/2027\"],\"relationships\":[{\"source\":\"Passport Number\",\"target\":\"IRFAN PASHA\",\"type\":\"identifies\"},{\"source\":\"Date of Birth\",\"target\":\"IRFAN PASHA\",\"type\":\"verifies age\"},{\"source\":\"Place of Birth\",\"target\":\"IRFAN PASHA\",\"type\":\"geographical identity\"},{\"source\":\"Date of Issue\",\"target\":\"Date of Expiry\",\"type\":\"validity period\"}]} {\"element\":\"IRFAN PASHA\",\"attributes\":{\"passport_number\":\"Z4676026\",\"date_of_birth\":\"31/03/1980\",\"place_of_birth\":\"BENGALURU, KARNATAKA\",\"date_of_issue\":\"20/12/2017\",\"date_of_expiry\":\"19/12/2027\",\"gender\":\"M\",\"nationality\":\"INDIAN\"}} The document is an Indian passport belonging to IRFAN PASHA. It includes the passport number Z4676026, issued on December 20, 2017, and expiring on December 19, 2027. IRFAN PASHA was born on March 31, 1980, in Bengaluru, Karnataka, and holds Indian nationality. The passport confirms his gender as male. The document serves as an official identification and travel authorization for the holder.",
+        "text": "REPUBLIC OF INDIA bhaart raa w / Type P Sunan ng whe / Country Code IND Z4676026 M 31/03/1980 IRFAN PASHA bhaart / INDIAN Birth BENGALURU , KARNATAKA BENGALURU 20/12/2017 19/12/2027"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          4
+        ],
+        "suggested_text": "<<<<<<<<<<<<<<<<<<<< P < IND << IRFAN < PASHA << 2IND8003317M2712192 24676026 < - The text appears to be a section from an Indian passport document. - \"P < IND\" indicates the passport type and country code for India. - \"IRFAN < PASHA\" is likely the name of the passport holder. - \"2IND8003317M2712192 24676026\" seems to be a combination of the passport number and other identifying information. This format is typical for machine-readable zones on passports, which include essential identification details.",
+        "text": "<<<<<<<<<<<<<<<<<<<<<<<<<< P < IND << IRFAN < PASHA << 2IND8003317M2712192 24676026 <"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"figure title\":\"Indian Passport\",\"figure number\":1,\"description\":\"Identification and travel authorization\",\"components\":[\"NAGOOR GANI\",\"SYED MUSTHAFA\",\"H6413091\",\"02/04/1987\",\"TRICHY\",\"TIRUCHIRAPPALLI\",\"08/09/2009\",\"07/09/2019\"]} {\"name\":\"NAGOOR GANI\",\"surname\":\"SYED MUSTHAFA\",\"passport_number\":\"H6413091\",\"nationality\":\"INDIAN\",\"gender\":\"M\",\"date_of_birth\":\"02/04/1987\",\"place_of_birth\":\"TRICHY\",\"place_of_issue\":\"TIRUCHIRAPPALLI\",\"issue_date\":\"08/09/2009\",\"expiry_date\":\"07/09/2019\"} The document is an Indian passport belonging to an individual named NAGOOR GANI, with the surname SYED MUSTHAFA. The passport number is H6413091, indicating the unique identification for this document. The holder's nationality is Indian, and the gender is male. The date of birth is recorded as April 2, 1987, and the place of birth is Trichy. The passport was issued in Tiruchirappalli on September 8, 2009, and it is set to expire on September 7, 2019. This document serves as an official identification and travel authorization for the individual.",
+        "text": "bhaart raa REPUBLIC OF INDIA P NAGOOR GANI SYED MUSTHAFA IND H6413091 INDIAN TRICHY M 02/04/1987 L TIRUCHIRAPPALLI 08/09/2009 07/09/2019 P < INDNAGOOR < GANI << SYED < MUSTHAFA <<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          5,
+          6
+        ],
+        "suggested_text": "H6413091 < 31ND8704027M1909074 <<<<<<<< <<<<<< 0 bhaart raa REPUBLIC OF INDIA www / Type - Passport Number: H6413091 - Personal Number: 31ND8704027M1909074 - Country: bhaart raa (Republic of India) Note: The text includes a passport number and a personal number, indicating it is likely part of a passport document from the Republic of India. The symbols \"<<\" suggest a machine-readable zone commonly found in passports.",
+        "text": "H6413091 < 31ND8704027M1909074 <<<<<<< <<<<<< 0 bhaart raa REPUBLIC OF INDIA www / Type"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"description\":\"Passport details of Gurvir Singh\",\"components\":[\"Surname: Kahlon\",\"Given Name: Gurvir Singh\",\"Nationality: Indian\",\"Passport No: J1440791\",\"Date of Birth: 19/07/1990\",\"Place of Birth: Machhiwara\",\"Sex: M\",\"Place of Issue: Chandigarh\",\"Date of Issue: 22/07/2010\",\"Date of Expiry: 21/07/2020\"]} {\"surname\":\"Kahlon\",\"given_name\":\"Gurvir Singh\",\"nationality\":\"Indian\",\"passport_number\":\"J1440791\",\"date_of_birth\":\"19/07/1990\",\"place_of_birth\":\"Machhiwara\",\"sex\":\"M\",\"place_of_issue\":\"Chandigarh\",\"date_of_issue\":\"22/07/2010\",\"date_of_expiry\":\"21/07/2020\"} Gurvir Singh's passport is issued by the Republic of India. His surname is Kahlon, and his given name is Gurvir Singh. He holds Indian nationality. The passport number is J1440791. Gurvir Singh was born on July 19, 1990, in Machhiwara. His gender is male. The passport was issued in Chandigarh on July 22, 2010, and it expires on July 21, 2020.",
+        "text": "Gava Singh www / Surname KAHLON ba / Country Code IND FONE / Given Name ( s ) GURVIR SINGH gum / Nationality INDIAN / Place of Birth MACHHIWARA and wet Fain / Sex M / Place of Issue CHANDIGARH wet fefte / Date of lase 22/07/2010 www / Passport No J 1440791 / Date of Dirth 19/07/1990 we / Date of Expiry 21/07/2020 P < INDKAHLON << GURVIR < SINGH <<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6,
+          7
+        ],
+        "suggested_text": "J1440791 < 1IND9007194M2007210 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA - **Passport Number**: J1440791 - **Nationality Code**: IND - **Personal Number**: 9007194M - **Date of Issue**: 20 July 2021 - **Country**: Republic of India (bhaart raa) This text appears to be a section from an Indian passport, including the passport number, nationality code, personal number, date of issue, and the country name in both Hindi and English.",
+        "text": "J1440791 < 1IND9007194M2007210 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          7
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"passport_number\":\"G7321732\",\"name\":\"Daljeet Singh\",\"surname\":\"Jhajj\",\"nationality\":\"Indian\",\"sex\":\"M\",\"date_of_birth\":\"01/01/1989\",\"place_of_birth\":\"Ludhiana\",\"place_of_issue\":\"Chandigarh\",\"issue_date\":\"01/02/2008\",\"expiry_date\":\"31/01/2018\"} {\"element\":\"Passport Type\",\"value\":\"P\"} {\"element\":\"Country Code\",\"value\":\"IND\"} {\"element\":\"Given Names\",\"value\":\"Daljeet Singh\"} {\"element\":\"Surname\",\"value\":\"Jhajj\"} {\"element\":\"Nationality\",\"value\":\"Indian\"} {\"element\":\"Sex\",\"value\":\"M\"} {\"element\":\"Date of Birth\",\"value\":\"01/01/1989\"} {\"element\":\"Place of Birth\",\"value\":\"Ludhiana\"} {\"element\":\"Place of Issue\",\"value\":\"Chandigarh\"} {\"element\":\"Date of Issue\",\"value\":\"01/02/2008\"} {\"element\":\"Date of Expiry\",\"value\":\"31/01/2018\"} This document is an Indian passport belonging to Daljeet Singh, whose surname is Jhajj. The passport number is G7321732. Daljeet Singh is an Indian national, born on January 1, 1989, in Ludhiana. The passport was issued in Chandigarh on February 1, 2008, and is set to expire on January 31, 2018. The document specifies that the passport type is 'P' and the country code is 'IND'. Daljeet Singh is male, and his given names are listed as Daljeet Singh.",
+        "text": "/ Type P Surname JHAJJ gh / Country Code IND Passport No. G7321732 Daljeet Singh fo mil en ven Names DALJEET SINGH gem Nationality INDIAN Don Sex Date of Birth M 01/01/1989 Place of Birth LUDHIANA Place of fue CHANDIGARH wet wet all ofs / Date of lasusedor at bes Date of Expiry 01/02/2008 31/01/2018"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          7,
+          8
+        ],
+        "suggested_text": "P < INDJHAJJ << DALJEET < SINGH <<<<<<<< 67321732 < 7IND8901011M1801318 <<<<<<<<<<<<<<<< bhaart raa REPUBLIC OF INDIA - **Passport Type**: P - **Issuing Country Code**: IND - **Surname**: HAJJ - **Given Names**: DALJEET SINGH - **Passport Number**: 67321732 - **Personal Number**: 7IND8901011M1801318 - **Country**: Republic of India (bhaart raa) This text appears to be a Machine Readable Zone (MRZ) from an Indian passport, providing essential identification details such as the passport type, issuing country, surname, given names, passport number, personal number, and country of citizenship.",
+        "text": "P < INDJHAJJ << DALJEET < SINGH <<<<<<< 67321732 < 7IND8901011M1801318 <<<<<<<<<<<<<<< bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          8
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":1,\"description\":\"Passport details of Antriksh Gilhotra.\",\"components\":[\"Surname: GILHOTRA\",\"Given Name: ANTRIKSH\",\"Nationality: INDIAN\",\"Passport No: N2588358\",\"Place of Birth: FAZILKA, PUNJAB\",\"Date of Birth: 04/12/1990\",\"Place of Issue: AMRITSAR\",\"Date of Issue: 01/09/2015\",\"Date of Expiry: 31/08/2025\"],\"relationships\":[{\"source\":\"Passport Number\",\"target\":\"Individual Identity\",\"type\":\"identifies\"},{\"source\":\"Date of Birth\",\"target\":\"Age Verification\",\"type\":\"linked\"},{\"source\":\"Place of Birth\",\"target\":\"Nationality\",\"type\":\"indicates\"}]} {\"element\":\"Surname\",\"value\":\"GILHOTRA\"} {\"element\":\"Given Name\",\"value\":\"ANTRIKSH\"} {\"element\":\"Nationality\",\"value\":\"INDIAN\"} {\"element\":\"Passport Number\",\"value\":\"N2588358\"} {\"element\":\"Place of Birth\",\"value\":\"FAZILKA, PUNJAB\"} {\"element\":\"Date of Birth\",\"value\":\"04/12/1990\"} {\"element\":\"Sex\",\"value\":\"M\"} {\"element\":\"Place of Issue\",\"value\":\"AMRITSAR\"} {\"element\":\"Date of Issue\",\"value\":\"01/09/2015\"} {\"element\":\"Date of Expiry\",\"value\":\"31/08/2025\"} {\"element\":\"Signature\",\"value\":\"Antriksh\"} The document is an Indian passport belonging to Antriksh Gilhotra. It includes personal details such as the surname \"GILHOTRA\" and given name \"ANTRIKSH.\" The nationality is listed as \"INDIAN,\" and the passport number is \"N2588358.\" Antriksh was born on December 4, 1990, in Fazilka, Punjab. The passport was issued in Amritsar on September 1, 2015, and is set to expire on August 31, 2025. The sex of the individual is marked as male. Additionally, there is a handwritten signature of \"Antriksh\" on the document.",
+        "text": "L whe / Country Code IND w / Type w / Surname GILHOTRA feat w / Given Name ( s ) ANTRIKSH / Nationality www / Passport No. N2588358 Antriksh INDIAN rs / Place of Birth FAZILKA , PUNJAB TOPE / Sax Date of Birth M 04/12/1990 aar r aa Place of leade AMRITSAR and we fie / Date of issue 01/09/2015 wwer / Date of Expiry 31/08/2025 <<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          8,
+          9
+        ],
+        "suggested_text": "P < INDGILHOTRA << ANTRIKSH N2588358 < 4IND9012042M2508315 <<<<<<<<<<<< 0 bhaart raa REPUBLIC OF INDIA The above text appears to be a section from an Indian passport. The line \"P < INDGILHOTRA << ANTRIKSH\" likely represents the passport holder's surname and given name, with \"INDGILHOTRA\" being the surname and \"ANTRIKSH\" the given name. The sequence \"N2588358 < 4IND9012042M2508315 <<<<<<<<<<<< 0\" includes the passport number \"N2588358\" and other identifying information, possibly including the holder's nationality, date of birth, and passport expiry date, formatted in a machine-readable zone (MRZ). The phrase \"bhaart raa REPUBLIC OF INDIA\" confirms the passport's issuance by the Republic of India.",
+        "text": "P < INDGILHOTRA << ANTRIKSH N2588358 < 4IND9012042M2508315 <<<<<<<<<<<<<<< 0 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          9
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Gagandeep Singh\",\"figure_number\":\"Figure 1\",\"components\":[\"passport_number\",\"surname\",\"given_names\",\"nationality\",\"place_of_birth\",\"place_of_issue\",\"sex\",\"date_of_birth\",\"date_of_issue\",\"expiry_date\",\"signature\"]} {\"passport_number\":\"M9104700\",\"surname\":\"Sandhu\",\"given_names\":\"Gagandeep Singh\",\"nationality\":\"Indian\",\"place_of_birth\":\"Gangohar, Punjab\",\"place_of_issue\":\"Chandigarh\",\"sex\":\"M\",\"date_of_birth\":\"01/02/1997\",\"date_of_issue\":\"22/05/2015\",\"expiry_date\":\"21/05/2025\",\"signature\":\"Gagandeep Singh\"} The document is an Indian passport belonging to Gagandeep Singh. It includes a passport number, M9104700, and identifies the holder as Gagandeep Singh Sandhu. The nationality is Indian, and the place of birth is Gangohar, Punjab. The passport was issued in Chandigarh. The holder's sex is male, with a date of birth of February 1, 1997. The passport was issued on May 22, 2015, and is valid until May 21, 2025. The signature on the document reads \"Gagandeep Singh.\"",
+        "text": "www / Type whe / Country Code IND wwd / Passport No M9104700 / Sumeme SANDHU / Given Names ) GAGANDEEP SINGH / Nationality INDIAN Place of Birth GANGOHAR , PUNJAB / Place of issue Tv / Sex / Date of Girth M 01/02/1997 L CHANDIGARH Gagandeep Singh ath / Date of issue L 22/05/2015 Expiry 21/05/2025"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          9,
+          10
+        ],
+        "suggested_text": "P < INDSANDHU << GAGANDEEP < SINGH <<<<<<<<<<<<<<<<<<<<< Passport Number: M9104700 Nationality: 1IND Date of Birth: 1997-02-01 Gender: Male Date of Issue: 2021-05-25 Expiry Date: [Not provided, ensure to fill if known] bhaart raa REPUBLIC OF INDIA",
+        "text": "P < INDSANDHU << GAGANDEEP < SINGH <<<<<<<<<<<<<<<< M9104700 < 1IND9702019M2505211 <<<<<<<<<<<<<<< 2 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          10
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":1,\"description\":\"Passport details for Talwinder Singh\",\"components\":[\"Name: Talwinder Singh\",\"Nationality: Indian\",\"Date of Birth: 19/06/1994\",\"Place of Birth: Bairi Kadrabad, Ferozepur, Punjab\",\"Place of Issue: Amritsar\",\"Passport Number: L8001016\",\"Date of Issue: 24/03/2014\",\"Date of Expiry: 23/03/2024\"]} {\"name\":\"Talwinder Singh\",\"type\":\"full name\"} {\"nationality\":\"Indian\",\"type\":\"nationality\"} {\"sex\":\"M\",\"type\":\"gender\"} {\"date_of_birth\":\"19/06/1994\",\"type\":\"date\"} {\"place_of_birth\":\"Bairi Kadrabad, Ferozepur, Punjab\",\"type\":\"location\"} {\"place_of_issue\":\"Amritsar\",\"type\":\"location\"} {\"passport_number\":\"L8001016\",\"type\":\"identifier\"} {\"date_of_issue\":\"24/03/2014\",\"date_of_expiry\":\"23/03/2024\",\"type\":\"date range\"} The passport belongs to Talwinder Singh, an Indian national. His gender is male, and he was born on June 19, 1994, in Bairi Kadrabad, Ferozepur, Punjab. The passport was issued in Amritsar, with the passport number L8001016. It was issued on March 24, 2014, and is valid until March 23, 2024.",
+        "text": "4 / Type ng whe / Country Code IND L L Lyn www / Surname Given Name TALWINDER SINGH INDIAN Place of Birth L8001016 19/06/1994 BAIRI KADRABAD , FEROZEPUR , PUNJAB we w / Place of save AMRITSAR wet wet wh / Date of lat 24/03/2014 23/03/2024 P < IND << TALWINDER < SINGH <<<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          10,
+          11
+        ],
+        "suggested_text": "L8001016 < 9IND9406199M2403236 <<<<<<<<<<<<<<<< 4 bhaart raa REPUBLIC OF INDIA - **Passport Number**: L8001016 - **Nationality Code**: IND - **Date of Birth**: June 19, 1994 - **Gender**: Male (M) - **Passport Expiry Date**: March 24, 2023 The text above represents a section of a passport from the Republic of India, including the passport number, nationality code, date of birth, gender, and passport expiry date.",
+        "text": "L8001016 < 9IND9406199M2403236 <<<<<<<<<<<<<<< 4 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          11
+        ],
+        "suggested_text": "{\"passport_holder_name\":\"Kashish Sharma\",\"nationality\":\"INDIAN\",\"passport_number\":\"L9585535\",\"date_of_birth\":\"07/04/1995\",\"place_of_birth\":\"Malerkotla, Punjab\",\"date_of_issue\":\"30/05/2014\",\"date_of_expiry\":\"29/05/2024\"} {\"element\":\"Passport Holder Name\",\"value\":\"Kashish Sharma\",\"relationship\":\"Identifies the individual\"} {\"element\":\"Nationality\",\"value\":\"INDIAN\",\"relationship\":\"Indicates the citizenship\"} {\"element\":\"Passport Number\",\"value\":\"L9585535\",\"relationship\":\"Unique identifier for the passport\"} {\"element\":\"Date of Birth\",\"value\":\"07/04/1995\",\"relationship\":\"Indicates the birth date of the passport holder\"} {\"element\":\"Place of Birth\",\"value\":\"Malerkotla, Punjab\",\"relationship\":\"Indicates the birth location of the passport holder\"} {\"element\":\"Date of Issue\",\"value\":\"30/05/2014\",\"relationship\":\"Indicates when the passport was issued\"} {\"element\":\"Date of Expiry\",\"value\":\"29/05/2024\",\"relationship\":\"Indicates when the passport will expire\"} {\"element\":\"Place of Issue\",\"value\":\"Chandigarh\",\"relationship\":\"Location where the passport was issued\"} The passport belongs to Kashish Sharma, an Indian citizen. His passport number is L9585535, which serves as a unique identifier. He was born on April 7, 1995, in Malerkotla, Punjab. The passport was issued in Chandigarh on May 30, 2014, and is valid until May 29, 2024. His nationality is listed as Indian.",
+        "text": "Comery Code IND SHARMA KASHISH INDIAN L9585535 07/04/1995 L MALERKOTLA , PUNJAB / Place at Kashish Sharma . CHANDIGARH 30/05/2014 bele of Expity 29/05/2024 P < INDSHARMA << KASHISH <<<<<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          11,
+          12
+        ],
+        "suggested_text": "L9585535 < 1IND9504073M2405296 <<<<<<<<<<<<<<< REPUBLIC OF INDIA - Passport Number: L9585535 - Nationality: Indian - Date of Birth: April 7, 1995 - Sex: Male - Passport Expiry Date: May 29, 2024 - Country: Republic of India This section provides key passport details for an Indian citizen, including the passport number, nationality, date of birth, gender, passport expiry date, and country of issuance.",
+        "text": "L9585535 < 1IND9504073M2405296 <<<<<<<<<<<<<<< REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          12
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":1,\"description\":\"Passport details of Sadique Niyaz Modak including personal information and validity dates.\",\"components\":[\"Surname\",\"Given Name(s)\",\"Nationality\",\"Date of Birth\",\"Place of Birth\",\"Sex\",\"Place of Issue\",\"Date of Issue\",\"Date of Expiry\",\"Passport Number\"],\"relationships\":[{\"surname\":\"MODAK\",\"given_name\":\"SADIQUE NIYAZ\"},{\"nationality\":\"INDIAN\",\"place_of_issue\":\"THANE\"}]} {\"element\":\"Surname\",\"value\":\"MODAK\",\"relationship\":{\"connected_to\":\"Given Name(s)\",\"type\":\"identification\"}} {\"element\":\"Given Name(s)\",\"value\":\"SADIQUE NIYAZ\",\"relationship\":{\"connected_to\":\"Surname\",\"type\":\"identification\"}} {\"element\":\"Nationality\",\"value\":\"INDIAN\",\"relationship\":{\"connected_to\":\"Place of Issue\",\"type\":\"identification\"}} {\"element\":\"Date of Birth\",\"value\":\"01/10/1989\",\"relationship\":{\"connected_to\":\"Place of Birth\",\"type\":\"personal information\"}} {\"element\":\"Place of Birth\",\"value\":\"MURUD\",\"relationship\":{\"connected_to\":\"Date of Birth\",\"type\":\"personal information\"}} {\"element\":\"Sex\",\"value\":\"M\",\"relationship\":{\"connected_to\":\"Date of Birth\",\"type\":\"personal information\"}} {\"element\":\"Place of Issue\",\"value\":\"THANE\",\"relationship\":{\"connected_to\":\"Nationality\",\"type\":\"issuance information\"}} {\"element\":\"Date of Issue\",\"value\":\"22/06/2009\",\"relationship\":{\"connected_to\":\"Date of Expiry\",\"type\":\"validity period\"}} {\"element\":\"Date of Expiry\",\"value\":\"21/06/2019\",\"relationship\":{\"connected_to\":\"Date of Issue\",\"type\":\"validity period\"}} {\"element\":\"Passport Number\",\"value\":\"H5036437\",\"relationship\":{\"connected_to\":\"Country Code\",\"type\":\"identification\"}} The passport belongs to Sadique Niyaz Modak, with the surname \"MODAK\" and given names \"SADIQUE NIYAZ.\" The nationality is Indian, and the passport was issued in Thane. The passport number is H5036437, and the country code is IND. Sadique Niyaz was born on October 1, 1989, in Murud, and is male. The passport was issued on June 22, 2009, and it expires on June 21, 2019. The document serves as an identification and travel authorization for the holder.",
+        "text": "bhaart raa exfu / Type wwm / Surname MODAK eng whe / Country Code IND wh / Passport No. H5036437 YSN.Modak four w / Given Name ( s ) NIYAZ SADIQUE raartaa / Nationality INDIAN aa / Place of Birth MURUD T / Sex M aar r aa aa / Place of Issue THANE aar r t / Date of issue 22/06/2009 wwf / Date of Birth 01/10/1989 wafta h faf / Date of Expiry 21/06/2019 <<<<<<<<<<<<<<<<<<< < NIYAZ SADIQUE << INDMODAK P < <<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          12,
+          13,
+          14
+        ],
+        "suggested_text": "9IND8910015M1906213 < H5036437 bhaart raa REPUBLIC OF INDIA Type: P Country Code: IND Surname: KAINTH Given Name(s): PRABHJINDER SINGH Nationality: INDIAN Passport No.: H7362738 Sex: M Date of Birth: 20/08/1991 Place of Birth: SHANKAR Place of Issue: CHANDIGARH Date of Issue: 01/10/2009 Date of Expiry: 30/09/2019 Machine Readable Zone: P < INDKAINTH << PRABHJINDER < SINGH<<<<<<<<<<<<< H7362738 < 3IND9108208M1909306<<<<<<<<<<<<<< 2 bhaart raa REPUBLIC OF INDIA",
+        "text": "9IND8910015M1906213 < H5036437 bhaart raa REPUBLIC OF INDIA w / Type www / Sumama KAINTH gwhe / Country Code IND Given Name ( a ) PRABHJINDER SINGH INDIAN Passport No. H7362738 ENOV / Sex w / Date of Birth M 20/08/1991 Place of Birth SHANKAR 1 / Place of au babyinden Sinsh CHANDIGARH / Date of laue w / Date of Expiry 01/10/2009 30/09/2019 L P < INDKAINTH << PRABHJINDER < SINGH <<<<<<<<<<<<<< H7362738 < 3IND9108208M1909306 <<<<<<<<<<<<<<< 2 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          14
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":null,\"description\":\"Passport details for Jaspreet Kaur\",\"components\":[\"Photograph\",\"Name\",\"Nationality\",\"Gender\",\"Date of Birth\",\"Place of Birth\",\"Place of Issue\",\"Passport Number\",\"Date of Issue\",\"Date of Expiry\"],\"relationships\":[{\"source\":\"Photograph\",\"target\":\"JASPREET KAUR\",\"type\":\"identity\"},{\"source\":\"Nationality\",\"target\":\"Country Code\",\"type\":\"citizenship\"},{\"source\":\"Date of Birth\",\"target\":\"Age\",\"type\":\"verification\"}]} {\"element\":\"Photograph\",\"associated_with\":\"JASPREET KAUR\"} {\"element\":\"Name\",\"value\":\"JASPREET KAUR\"} {\"element\":\"Nationality\",\"value\":\"INDIAN\"} {\"element\":\"Gender\",\"value\":\"F\"} {\"element\":\"Date of Birth\",\"value\":\"24/09/1994\"} {\"element\":\"Place of Birth\",\"value\":\"RAIKOT, PUNJAB\"} {\"element\":\"Place of Issue\",\"value\":\"CHANDIGARH\"} {\"element\":\"Passport Number\",\"value\":\"J7335300\"} {\"element\":\"Date of Issue\",\"value\":\"24/05/2011\"} {\"element\":\"Date of Expiry\",\"value\":\"23/05/2021\"} The passport for Jaspreet Kaur includes a photograph, confirming her identity. Her name is listed as Jaspreet Kaur, and she holds Indian nationality. The gender is specified as female, with a date of birth on September 24, 1994. She was born in Raikot, Punjab, and the passport was issued in Chandigarh. The passport number is J7335300, issued on May 24, 2011, and it is valid until May 23, 2021.",
+        "text": "eng whe / Country Code IND / Given Name J7335300 JASPREET KAUR Sex INDIAN 24/09/1994 L Place of Birth RAIKOT , PUNJAB we wek w w / Place of lase CHANDIGARH wweit we / Date of issue / Date of Expiry Jaspreet kaur 24/05/2011 IND << JASPREET < KAUR <<<<<<<<< 23/05/2021 <<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          14,
+          15
+        ],
+        "suggested_text": "P < J7335300 < 6IND9409248F2105231 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA Country Code: IND Passport No: J7335300",
+        "text": "P < J7335300 < 6IND9409248F2105231 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA whe / Country Code Passport No"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          15
+        ],
+        "suggested_text": "{\"figure_title\": \"Indian Passport\", \"figure_number\": 1, \"description\": \"Passport details for Shikha Sharma\", \"components\": [\"Name\", \"Date of Birth\", \"Passport Number\", \"Nationality\", \"Place of Birth\", \"Issue Date\", \"Expiry Date\", \"Photograph\", \"Signature\"], \"relationships\": [{\"source\": \"Shikha Sharma\", \"target\": \"Passport\", \"type\": \"identification\"}, {\"source\": \"Passport Number\", \"target\": \"Validity\", \"type\": \"validity period\"}]} {\"element\": \"Shikha Sharma\", \"type\": \"name\"} {\"element\": \"01/12/1985\", \"type\": \"date_of_birth\"} {\"element\": \"M0820537\", \"type\": \"passport_number\"} {\"element\": \"Indian\", \"type\": \"nationality\"} {\"element\": \"F\", \"type\": \"sex\"} {\"element\": \"Ludhiana, Punjab\", \"type\": \"place_of_birth\"} {\"element\": \"Chandigarh\", \"type\": \"place_of_issue\"} {\"element\": \"08/08/2014\", \"type\": \"issue_date\"} {\"element\": \"07/08/2024\", \"type\": \"expiry_date\"} {\"element\": \"Photograph\", \"type\": \"image\"} {\"element\": \"Signature\", \"type\": \"signature\"} The passport is an identification document for Shikha Sharma, an Indian citizen. Her date of birth is December 1, 1985, and she is female. The passport number is M0820537, issued in Chandigarh on August 8, 2014, and it is valid until August 7, 2024. Shikha's place of birth is Ludhiana, Punjab. The document includes her photograph and signature, confirming her identity and authorization for international travel.",
+        "text": "IND M0820537 we / Sex of Bir 01/12/1985 SHARMA SHIKHA INDIAN LUDHIANA , PUNJAB / Place of S CHANDIGARH 08/08/2014 Date of Expity 07/08/2024 P < INDSHARMA << SHIKHA <<<<<<<<<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          15
+        ],
+        "suggested_text": "M0820537 < 3IND8512017F2408079 <<<<<<<<<<<<<<< 2 - **Passport Number**: M0820537 - **Country Code**: IND (India) - **Date of Birth**: 1985-12-01 - **Gender**: Female - **Passport Expiry Date**: 2024-08-07 The above information represents a machine-readable zone (MRZ) from an Indian passport. The MRZ includes the passport number, country code, date of birth, gender, and passport expiry date.",
+        "text": "M0820537 < 3IND8512017F2408079 <<<<<<<<<<<<<<< 2"
+      }
+    ],
+    "document_info": {
+      "file_name": "output_maskrcnn_passport_original_chunk_0",
+      "file_type": "pdf",
+      "language": "English"
+    }
+  },
+  {
+    "content": [
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "bhaart raa REPUBLIC OF INDIA - **Passport Details**: - **Name**: [Full Name of the Passport Holder] - **Date of Birth**: [Date of Birth] - **Place of Birth**: [Place of Birth] - **Passport Number**: [Passport Number] - **Date of Issue**: [Date of Issue] - **Date of Expiry**: [Date of Expiry] - **Place of Issue**: [City or Location of Issue] - **Passport Holders**: - Kamalpreet Kaur - Kangna Amardeep - Kamaljit Kaur - Simranjit Singh - Sita Mahalakshmi - Sukhvir Kaur - Santhoshi Kaluva - Pardeep Singh - Jaydipkumar Ashokbhai Patel - Hussein Mubarak Patel This document serves as an official travel identification for Indian citizens, detailing personal information and passport specifics for individuals issued between 2011 and 2016, with expiration dates ranging from 2021 to 2026. The locations of issue include Amritsar, Mumbai, Chandigarh, Hyderabad, and Ahmedabad.",
+        "text": "bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Kamalpreet Kaur\",\"figure_number\":\"1\",\"description\":\"Official identification document for travel\",\"components\":[\"Name\",\"Nationality\",\"Passport Number\",\"Date of Birth\",\"Place of Birth\",\"Date of Issue\",\"Date of Expiry\",\"Place of Issue\",\"Sex\"],\"relationships\":[\"The photograph confirms the identity of the passport holder\",\"The passport number uniquely identifies the individual\",\"The dates define the validity of the passport\"]} {\"name\":\"KAMALPREET KAUR\",\"relationship\":\"is the passport holder\"} {\"surname\":\"BHULLAR\",\"relationship\":\"is the family name of the passport holder\"} {\"nationality\":\"INDIAN\",\"relationship\":\"indicates the citizenship of the passport holder\"} {\"passport_number\":\"M5466403\",\"relationship\":\"uniquely identifies the individual\"} {\"date_of_birth\":\"10/03/1990\",\"relationship\":\"indicates when the passport holder was born\"} {\"place_of_birth\":\"FEROZEPUR, PUNJAB\",\"relationship\":\"indicates where the passport holder was born\"} {\"sex\":\"F\",\"relationship\":\"indicates the gender of the passport holder\"} {\"place_of_issue\":\"AMRITSAR\",\"relationship\":\"indicates where the passport was issued\"} {\"date_of_issue\":\"13/01/2015\",\"relationship\":\"indicates when the passport was granted\"} {\"date_of_expiry\":\"12/01/2025\",\"relationship\":\"indicates the validity period of the passport\"} Kamalpreet Kaur is the passport holder, identified by the family name Bhullar. She is an Indian citizen with the passport number M5466403. Her date of birth is March 10, 1990, and she was born in Ferozepur, Punjab. The passport indicates her gender as female. It was issued in Amritsar on January 13, 2015, and is valid until January 12, 2025.",
+        "text": "www / Type ng wh / Country Code IND BHULLAR KAMALPREET KAUR INDIAN M5466403 Des / Sex Bir 10/03/1990 FEROZEPUR , PUNJAB ser / Place of asia Kamalpreet kaun L AMRITSAR / Date of sue 13/01/2015 Cale of Expiry 12/01/2025"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "P < INDBHULLAR << KAMALPREET < KAUR <<<<<<<< <<<<<<<< M5466403 < 6IND9003107F2501121 <<<<<<<<<<<<<<<< 8 - **P**: Passport type indicator - **INDBHULLAR**: Surname - **KAMALPREET KAUR**: Given names - **M5466403**: Passport number - **6IND9003107F2501121**: Personal identification code - **8**: Check digit This format is consistent with the Machine Readable Zone (MRZ) found on passports, which includes the passport type, surname, given names, passport number, nationality code, personal identification code, and check digit.",
+        "text": "P < INDBHULLAR << KAMALPREET < KAUR <<<<<<< <<<<<< M5466403 < 6IND9003107F2501121 <<<<<<<<<<<<<<< 8"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          2
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Kangna Amardeep\",\"figure_number\":\"Not available\",\"description\":\"This is a passport document for Kangna Amardeep, issued by the Republic of India.\",\"components\":[\"Name\",\"Date of Birth\",\"Place of Birth\",\"Date of Issue\",\"Date of Expiry\",\"Signature\"],\"relationships\":[\"The photograph is associated with the name\",\"The issue date is linked to the expiry date\"]} {\"name\":\"Kangna Amardeep\",\"surname\":\"Ranaut\",\"nationality\":\"Indian\",\"gender\":\"Female\",\"date_of_birth\":\"23/03/1986\",\"place_of_birth\":\"Bhamla Mandi, Himachal Pradesh\",\"relationship\":{\"type\":\"identity\",\"connected_to\":\"photograph\"}} {\"passport_number\":\"Not visible\",\"type\":\"P\",\"country_code\":\"IND\",\"relationship\":{\"type\":\"identification\",\"connected_to\":\"passport\"}} {\"place_of_issue\":\"Mumbai\",\"date_of_issue\":\"16/09/2011\",\"date_of_expiry\":\"15/09/2021\",\"relationship\":{\"type\":\"validity\",\"connected_to\":\"passport\"}} {\"signature\":\"Kangna\",\"relationship\":{\"type\":\"authenticity\",\"connected_to\":\"passport\"}} The passport document belongs to Kangna Amardeep, with the surname Ranaut, who is an Indian national. She is female, born on March 23, 1986, in Bhamla Mandi, Himachal Pradesh. Her identity is verified by the photograph on the passport. The passport type is 'P', and the country code is 'IND', indicating it is an Indian passport. The passport number is not visible in the image. The passport was issued in Mumbai on September 16, 2011, and is valid until September 15, 2021. This indicates the period during which the passport can be used for travel. Kangna's signature is present on the document, confirming the authenticity and consent for the details provided in the passport.",
+        "text": "REPUBLIC OF INDIA AR RANAUT Givan Name IND Esport N Kangra KANGNA AMARDEEP INDIAN Birth 23/03/1986 BHAMLA MANDI HIMACHAL PRADESH / Place of i MUMBAI 16/09/2011 15/09/2021 <<<<<<<<<<<<<<<< P < INDRANAUT << KANGNA < AMARDEEP"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          2,
+          3
+        ],
+        "suggested_text": "``` Passport No: 2 0IND8603234F2109158 22287778 OF INDIA REPUBLIC raa bhaart ``` - The passport number is \"2 0IND8603234F2109158 22287778\". - The document is issued by the Republic of India, also referred to in Hindi as \"raa bhaart\".",
+        "text": "<<<<<<<<<<<<<<< 2 0IND8603234F2109158 22287778 < OF INDIA REPUBLIC raa bhaart Passport No"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          3
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":\"Passport No: M2802054\",\"description\":\"Official identification for travel\",\"components\":[\"name\",\"passport number\",\"date of birth\",\"place of birth\",\"nationality\",\"sex\",\"place of issue\",\"date of issue\",\"date of expiry\"],\"relationships\":[\"name to passport number\",\"birth details to individual\",\"passport validity dates\"]} {\"name\":\"KAMALJIT KAUR\",\"surname\":\"PANDHER\",\"passport_number\":\"M2802054\",\"nationality\":\"INDIAN\",\"sex\":\"F\",\"date_of_birth\":\"18/08/1993\",\"place_of_birth\":\"CHEEMA, PUNJAB\",\"place_of_issue\":\"CHANDIGARH\",\"date_of_issue\":\"20/10/2014\",\"date_of_expiry\":\"19/10/2024\"} Kamaljit Kaur Pandher holds the Indian passport number M2802054. She is female, born on August 18, 1993, in Cheema, Punjab. Her nationality is Indian. The passport was issued in Chandigarh on October 20, 2014, and it is set to expire on October 19, 2024. This document serves as her official identification for travel.",
+        "text": "/ Type ween / Surname PANDHER whe / Country Code IND / Given Names M2802054 KAMALJIT KAUR Set / Sex INDIAN 18/08/1993 Place of Birth CHEEMA , PUNJAB set wet we / Place of issue Faur Kamayit Pondled Cam T CHANDIGARH L / Date of Expiry issues web wet w shi / Date of 20/10/2014 19/10/2024 <<<<<<<<<<<<<<<<< INDPANDHER << KAMALJIT < KAUR"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          3,
+          4
+        ],
+        "suggested_text": "P < 2 <<<<<<<<<<<<<<< 1IND9308189F2410199 M2802054 < bhaart raa REPUBLIC OF INDIA 14 / Type: Passport whe / Country Code: IND",
+        "text": "P < 2 <<<<<<<<<<<<<<< 1IND9308189F2410199 M2802054 < bhaart raa REPUBLIC OF INDIA 14 / Type whe / Country Code Passport"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          4
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"figure_number\":1,\"description\":\"Official travel document for Indian citizen Simranjit Singh.\",\"components\":[\"Name\",\"Nationality\",\"Date of Birth\",\"Place of Birth\",\"Passport Number\",\"Date of Issue\",\"Date of Expiry\",\"Place of Issue\"],\"relationships\":[\"Name linked to photograph\",\"Passport number linked to identification\"]} {\"name\":\"Simranjit Singh\",\"surname\":\"Singh\",\"given_names\":\"Simranjit\",\"nationality\":\"Indian\",\"gender\":\"M\",\"date_of_birth\":\"22/04/1996\",\"place_of_birth\":\"Rattoke Gurdwara, Punjab\",\"passport_number\":\"M9893722\",\"place_of_issue\":\"Amritsar\",\"date_of_issue\":\"25/05/2015\",\"date_of_expiry\":\"24/05/2025\"} The document is an Indian passport belonging to Simranjit Singh. His surname is Singh, and his given name is Simranjit. He is an Indian national, identified as male, born on April 22, 1996, in Rattoke Gurdwara, Punjab. The passport number is M9893722, issued in Amritsar. It was issued on May 25, 2015, and is valid until May 24, 2025. The name is linked to the photograph for identification purposes.",
+        "text": "P wint / Surname IND from Given Name ( s ) SIMRANJIT SINGH Nationality INDIAN of Birth M9893722 of Birth M 22/04/1996 RATTOKE GURDWARA , PUNJAB L Simanjit Singh AMRITSAR L pe / Place of issue and wet win / Date of tes 25/05/2015 Date of Expiry 24/05/2025"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          4,
+          5
+        ],
+        "suggested_text": "P < IND << SIMRANJIT SINGH <<<<<<<<<<<<<<<<<<<<<< Passport Number: M9893722 < Nationality: IND < Date of Birth: 960422 < Sex: M < Date of Expiry: 250524 <<<<<<<<<<<<<<< bhaart raa REPUBLIC OF INDIA",
+        "text": "P < IND << SIMRANJIT SINGH <<<<<<<<<<<<<<<<<<<<<< M9893722 < 8IND9604227M2505244 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Sita Maha Lakshmi\",\"figure_number\":null,\"description\":\"Official Indian passport details for Sita Maha Lakshmi.\",\"components\":[\"passport_type\",\"country_code\",\"passport_number\",\"surname\",\"full_name\",\"nationality\",\"gender\",\"date_of_birth\",\"place_of_birth\",\"place_of_issue\",\"date_of_issue\",\"date_of_expiry\",\"signature\"],\"relationships\":[\"passport_number connects to full_name\",\"date_of_birth verifies identity\",\"place_of_issue relates to passport validity\"]} {\"passport_type\":\"P\",\"country_code\":\"IND\",\"passport_number\":\"J8369854\",\"surname\":\"RAMADUGULA\",\"full_name\":\"SITA MAHA LAKSHMI\",\"nationality\":\"INDIAN\",\"gender\":\"F\",\"date_of_birth\":\"23/09/1959\",\"place_of_birth\":\"GUNDUGOLANU\",\"place_of_issue\":\"HYDERABAD\",\"date_of_issue\":\"11/10/2011\",\"date_of_expiry\":\"10/10/2021\",\"signature\":\"R.S. Lakshan\"} The document is an Indian passport for Sita Maha Lakshmi. It includes her passport type \"P\" and country code \"IND,\" with the passport number \"J8369854.\" Her surname is \"RAMADUGULA,\" and her full name is \"SITA MAHA LAKSHMI.\" She is identified as \"INDIAN\" by nationality and \"F\" for gender. Her date of birth is \"23/09/1959,\" and she was born in \"GUNDUGOLANU.\" The passport was issued in \"HYDERABAD\" on \"11/10/2011\" and is valid until \"10/10/2021.\" The signature on the document is \"R.S. Lakshan.\" The passport number is linked to her full name, and the date of birth verifies her identity, while the place of issue relates to the passport's validity.",
+        "text": "whe / Cory Cope IND R.S. Lakshan RAMADUGULA SITA MAHA LAKSHMI INDIAN GUNDUGOLANU J8369854 F 23/09/1959 HYDERABAD 11/10/2011 10/10/2021 P < INDRAMADUGULA << SITA < MAHALAKSHMI <<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          5,
+          6
+        ],
+        "suggested_text": "J8369854 < 4IND5909234F2110101 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA - Passport Number: J8369854 - Personal Identification Number: 4IND5909234F2110101 - Country: Republic of India (bhaart raa) The above text represents a section of an Indian passport, including the passport number, a personal identification number, and the country of issuance, which is the Republic of India.",
+        "text": "J8369854 < 4IND5909234F2110101 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"description\":\"Passport details of Sukhvir Kaur.\",\"components\":[\"name\",\"passport_number\",\"nationality\",\"place_of_birth\",\"place_of_issue\",\"date_of_birth\",\"date_of_issue\",\"expiry_date\"],\"relationships\":[\"Sukhvir Kaur is identified by passport number L8809485.\",\"Date of birth is linked to the individual's identity.\"]} {\"name\":\"Sukhvir Kaur\",\"passport_number\":\"L8809485\",\"nationality\":\"Indian\",\"place_of_birth\":\"Moga, Punjab\",\"place_of_issue\":\"Chandigarh\",\"date_of_birth\":\"24/03/1991\",\"date_of_issue\":\"05/05/2014\",\"expiry_date\":\"04/05/2024\"} The document is an Indian passport belonging to Sukhvir Kaur. Her passport number is L8809485, and she holds Indian nationality. She was born in Moga, Punjab, on March 24, 1991. The passport was issued in Chandigarh on May 5, 2014, and is valid until May 4, 2024. The document includes her photograph and a signature, confirming her identity.",
+        "text": "ong w / Country Code Open L IND L8809485 CHAUHAN SUKHVIR KAUR INDIAN MOGA , PUNJAB CHANDIGARH 05/05/2014 Date of Bi 24/03/1991 / O of R 04/05/2024 < INDCHAUHAN << SUKHVIR < KAUR <<<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6,
+          7,
+          8
+        ],
+        "suggested_text": "P L8809485 < 1IND9103247F2405045 <<<<<<<<<<<<<<< 8 bhaart raa / REPUBLIC OF INDIA **Passport Details** - **Type**: P - **Country Code**: IND - **Surname**: KALUVA - **Given Name(s)**: SANTHOSHI - **Nationality**: INDIAN - **Sex**: F (Female) - **Date of Birth**: 09/01/1993 - **Place of Birth**: HYDERABAD, TELANGANA - **Place of Issue**: HYDERABAD - **Date of Issue**: 15/02/2016 - **Date of Expiry**: 14/02/2026 P < INDKALUVA << SANTHOSHI <<<<<<<<<<<<<<<<<<< N7820370 < 6IND9301098F2602143 <<<<<<<<<<<<<<< 6 bhaart raa / REPUBLIC OF INDIA",
+        "text": "P L8809485 < 1IND9103247F2405045 <<<<<<<<<<<<<<< 8 bhaart raa REPUBLIC OF INDIA www / Type P ng / Country Code IND / Surname KALUVA w / Given Name ( s ) SANTHOSHI raartaa / Nationality N7820370 fort / Sex Date of Birth F 09/01/1993 bhaart / INDIAN aa / Place of Birth HYDERABAD , TELANGANA F aar r aa aa / Place of Iosue HYDERABAD aar r t / Date of Inku 15/02/2016 L K. 1. Santhoshi L 14/02/2026 P < INDKALUVA << SANTHOSHI <<<<<<<<<<<<<<<<<<<<<< N7820370 < 6IND9301098F2602143 <<<<<<<<<<<<<<< 6 bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          8
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Pardeep Singh\",\"figure_number\":\"Not available\",\"description\":\"Passport details for Pardeep Singh, including personal identification information.\",\"components\":[\"Name\",\"Passport Number\",\"Date of Birth\",\"Place of Birth\",\"Nationality\",\"Sex\",\"Place of Issue\",\"Date of Issue\",\"Date of Expiry\"],\"relationships\":[\"Name linked to photograph and personal details\",\"Passport Number linked to issue and expiry dates\"]} {\"name\":\"Pardeep Singh\",\"surname\":\"Deol\",\"passport_number\":\"L2741120\",\"country_code\":\"IND\",\"nationality\":\"Indian\",\"sex\":\"M\",\"date_of_birth\":\"05/03/1994\",\"place_of_birth\":\"Bopa Rai Kalan, Punjab\",\"place_of_issue\":\"Chandigarh\",\"date_of_issue\":\"20/06/2013\",\"date_of_expiry\":\"19/06/2023\"} The document is an Indian passport belonging to Pardeep Singh, whose surname is Deol. The passport number is L2741120, and it is issued by the Republic of India, indicated by the country code IND. Pardeep Singh is an Indian national, identified as male, born on March 5, 1994, in Bopa Rai Kalan, Punjab. The passport was issued in Chandigarh on June 20, 2013, and it is set to expire on June 19, 2023. The document includes a photograph of Pardeep Singh and his signature.",
+        "text": "/ Type wwww / Surname DEOL gwhe / Country Code IND PARDEEP SINGH Pasaport L2741120 INDIAN Sex / Duty of Birth 05/03/1994 Pardeep Singh Place of Birth BOPA RAI KALAN , PUNJAB www / Place of issue CHANDIGARH woll wet at thi / Date of laaue 20/06/2013 health / Date of Expiry 19/06/2023 L"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          8,
+          9
+        ],
+        "suggested_text": "Pardeep Singh Passport Number: L2741120 Country Code: IND Date of Birth: 1994-03-05 Gender: Male Passport Expiry Date: 2023-06-19 bhaart raa (Republic of India) Type: Passport Country Code: IND",
+        "text": "<<<<<<<<<<<<<<<<<<<< << PARDEEP < SINGH P < INDDEOL L2741120 < 6IND9403051M2306197 <<<<<<<<<<<<<<< 6 bhaart raa REPUBLIC OF INDIA ww / Type gwhe / Country Code"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          9
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport of Jaydipkumar Ashokbhai\",\"figure_number\":\"not available\",\"description\":\"Official travel document for identification\",\"components\":[\"Name\",\"Nationality\",\"Passport Number\",\"Birth Date\",\"Place of Birth\",\"Place of Issue\",\"Issue Date\",\"Expiry Date\",\"Photograph\",\"Signature\"],\"relationships\":[\"Name to Nationality\",\"Passport Number to Individual\",\"Issue Date to Expiry Date\"]} {\"name\":\"Jaydipkumar Ashokbhai\",\"relationship\":{\"type\":\"identification\",\"connected_to\":\"Indian nationality\"}} {\"surname\":\"Patel\",\"relationship\":{\"type\":\"identification\",\"connected_to\":\"individual\"}} {\"nationality\":\"Indian\",\"relationship\":{\"type\":\"identification\",\"connected_to\":\"Jaydipkumar Ashokbhai\"}} {\"passport_number\":\"M6664736\",\"relationship\":{\"type\":\"identification\",\"connected_to\":\"individual\"}} {\"birth_date\":\"06/09/1990\",\"relationship\":{\"type\":\"personal detail\",\"connected_to\":\"Jaydipkumar Ashokbhai\"}} {\"place_of_birth\":\"Lodra Gandhinagar, Gujarat\",\"relationship\":{\"type\":\"personal detail\",\"connected_to\":\"Jaydipkumar Ashokbhai\"}} {\"place_of_issue\":\"Ahmedabad\",\"relationship\":{\"type\":\"issuance detail\",\"connected_to\":\"passport\"}} {\"issue_date\":\"02/03/2015\",\"expiry_date\":\"01/03/2025\",\"relationship\":{\"type\":\"validity\",\"connected_to\":\"passport\"}} {\"photograph\":\"included\",\"relationship\":{\"type\":\"visual identification\",\"connected_to\":\"Jaydipkumar Ashokbhai\"}} {\"signature\":\"Jaydipkumar Ashokbhai\",\"relationship\":{\"type\":\"authentication\",\"connected_to\":\"passport\"}} The document is an Indian passport belonging to Jaydipkumar Ashokbhai Patel. He is identified as an Indian national, with the passport number M6664736. His date of birth is September 6, 1990, and he was born in Lodra Gandhinagar, Gujarat. The passport was issued in Ahmedabad on March 2, 2015, and is valid until March 1, 2025. The document includes a photograph for visual identification and a signature for authentication.",
+        "text": "L P PATEL www / Given Name ( s ) IND JAYDIPKUMAR ASHOKBHAI w / Nationality INDIAN M M6664736 06/09/1990 Place of Birth LODRA GANDHINAGAR , GUJARAT Eupalts www / Place of lea AHMEDABAD w wek a fe / Date of la 02/03/2015 01/03/2025 < INDPATEL << JAYDIPKUMARKASHOKBHAI <<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          9,
+          10
+        ],
+        "suggested_text": "P M6664736 < 8IND9009062M2503011 <<<<<<<<<<<<<<< bhaart raa REPUBLIC OF INDIA - **Passport Number**: M6664736 - **Personal Number**: 9009062 - **Nationality**: Indian (IND) - **Date of Birth**: Not explicitly mentioned, but the format suggests a birth date of September 6, 1990 (900906) - **Passport Expiry Date**: March 1, 2025 (250301) - **Issuing Country**: Republic of India (bhaart raa)",
+        "text": "P M6664736 < 8IND9009062M2503011 <<<<<<<<<<<<<<< bhaart raa REPUBLIC OF INDIA"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          10
+        ],
+        "suggested_text": "{\"figure_title\":\"Indian Passport\",\"passport_number\":\"L9630722\",\"holder\":{\"name\":\"Hussein Mubarak\",\"surname\":\"Patel\",\"nationality\":\"Indian\",\"gender\":\"M\",\"date_of_birth\":\"30/08/1968\",\"place_of_birth\":\"Sangli, Maharashtra\",\"place_of_issue\":\"Thane\",\"date_of_issue\":\"12/05/2014\",\"date_of_expiry\":\"11/05/2024\"}} {\"element\":\"Passport\",\"type\":\"P\",\"country_code\":\"IND\",\"surname\":\"Patel\",\"given_names\":\"Hussein Mubarak\",\"nationality\":\"Indian\",\"gender\":\"M\",\"date_of_birth\":\"30/08/1968\",\"place_of_birth\":\"Sangli, Maharashtra\",\"place_of_issue\":\"Thane\",\"date_of_issue\":\"12/05/2014\",\"date_of_expiry\":\"11/05/2024\",\"passport_number\":\"L9630722\"} The document is an Indian passport belonging to Hussein Mubarak Patel. It is a type 'P' passport with the country code 'IND', indicating it is issued by the Republic of India. The passport number is L9630722. Hussein Mubarak Patel is an Indian male, born on August 30, 1968, in Sangli, Maharashtra. The passport was issued in Thane on May 12, 2014, and is valid until May 11, 2024. The document includes a photograph of Hussein Mubarak Patel and his signature.",
+        "text": "/ Type eng whe / Country Code IND PATEL ww / Passport No. L9630722 HUSSEIN MUBARAK INDIAN af Birg SANGLI , MAHARASHTRA THANE 30/08/1968 wweit at th / Date of Isave / Dete of Expiry 12/05/2014 11/05/2024 INDPATEL << HUSSEIN < MUBARAK <<<<<<<<<<<<<<<<<"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          10
+        ],
+        "suggested_text": "",
+        "text": "P < L9630722 < 8IND6808301M2405115 <<<<<<"
+      }
+    ],
+    "document_info": {
+      "file_name": "output_maskrcnn_passport_original_chunk_1",
+      "file_type": "pdf",
+      "language": "English"
+    }
+  }
+]

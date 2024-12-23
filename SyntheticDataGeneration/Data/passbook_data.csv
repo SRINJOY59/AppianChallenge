@@ -1,0 +1,403 @@
+information,label,specific_label
+"
+**STATE BANK OF INDIA - PASSBOOK**
+Branch: White Inc
+IFSC: IATF05891062123979
+
+ACCOUNT DETAILS
+--------------
+Account Holder: Cynthia Taylor
+Account Number: 8177561994
+Account Type: Current  # Savings/Current/NRI
+Customer ID: 4883139851
+Opening Date: 2012-04-19
+
+TRANSACTION FORMAT
+----------------
+Date | Value Date | Description | Cheque No. | Debit | Credit | Balance
+2024-12-07 | 2024-04-14 | tend | 170430 | 10000 | 2000 | 50000
+
+Note: This is a computer generated statement
+",passbook,passbook details
+"
+**STATE BANK OF INDIA - PASSBOOK**
+Branch: Lynn Group
+IFSC: MHQQ77972361148404
+
+ACCOUNT DETAILS
+--------------
+Account Holder: Edward Medina
+Account Number: 916031743
+Account Type: NRI  # Savings/Current/NRI
+Customer ID: 7647182510
+Opening Date: 2018-06-10
+
+TRANSACTION FORMAT
+----------------
+Date | Value Date | Description | Cheque No. | Debit | Credit | Balance
+2024-01-31 | 2024-06-29 | wind | 699206 | 15000 | 10000 | 10000
+
+Note: This is a computer generated statement
+",passbook,passbook details
+"
+**HDFC BANK - PASSBOOK**
+Branch: Burton Ltd
+IFSC Code: KDTE78609635243830
+
+ACCOUNT INFORMATION
+-----------------
+Name: Daniel Cervantes
+Account No.: 8801846649
+Product Type: NRI  # Savings/Current/Salary
+Mode of Operation: Single  # Single/Joint
+Mobile: 001-546-838-9664x257
+
+TRANSACTION DETAILS
+-----------------
+Posting Date | Transaction Details | Ref No./Cheque | Withdrawal | Deposit | Balance
+2024-08-14 |  | 687377 | 10000 | 5000 | 10000
+
+This is an electronic statement of your account
+",passbook,passbook details
+"
+**HDFC BANK - PASSBOOK**
+Branch: Adams-Morris
+IFSC Code: NRGO30489340334004
+
+ACCOUNT INFORMATION
+-----------------
+Name: Robin Harris
+Account No.: 2885338070
+Product Type: Current  # Savings/Current/Salary
+Mode of Operation: Joint  # Single/Joint
+Mobile: (318)599-2596
+
+TRANSACTION DETAILS
+-----------------
+Posting Date | Transaction Details | Ref No./Cheque | Withdrawal | Deposit | Balance
+2024-10-17 |  | 25037 | 0 | 500 | 10000
+
+This is an electronic statement of your account
+",passbook,passbook details
+"
+**ICICI BANK - PASSBOOK**
+Branch: Rodriguez Inc
+IFSC: GHAD36083031096373
+
+ACCOUNT HOLDER DETAILS
+--------------------
+Customer Name: Joshua Barber
+Account Number: 3343079942
+Account Type: Current
+Customer ID: 5579041964
+CKYC Number: 7e3e3164-190a-4728-93f0-e2117185e3eb
+
+TRANSACTION RECORD
+----------------
+Date | Particulars | Ref No. | Withdrawals | Deposits | Closing Balance
+2024-01-30 | whole | 707678 |  |  | 
+
+For any queries, please contact your branch
+",passbook,passbook details
+"
+**ICICI BANK - PASSBOOK**
+Branch: Pennington, Martinez and Vasquez
+IFSC: KSUX92784503461703
+
+ACCOUNT HOLDER DETAILS
+--------------------
+Customer Name: Carol Powell
+Account Number: 7965721304
+Account Type: Current
+Customer ID: 3989055592
+CKYC Number: fad91422-a290-41f1-9f19-a4fb2666aff1
+
+TRANSACTION RECORD
+----------------
+Date | Particulars | Ref No. | Withdrawals | Deposits | Closing Balance
+2024-08-07 | million | 974122 |  |  | 
+
+For any queries, please contact your branch
+",passbook,passbook details
+"
+**AXIS BANK - PASSBOOK**
+Branch Name: Estrada-Garcia
+IFSC Code: OXKW42891842177165
+
+ACCOUNT DETAILS
+-------------
+Account Name: 
+Account No: 4935099282
+Product:   # Savings/Current/Salary
+Customer ID: 8883988025
+Mobile No.: +1-377-375-2926x46720
+
+TRANSACTION ENTRIES
+-----------------
+Tran Date | Description | Ref Number | Withdrawal | Deposit | Balance
+2024-12-01 | bank |  | 10000 | 2000 | 20000
+
+This is a system generated statement
+",passbook,passbook details
+"
+**AXIS BANK - PASSBOOK**
+Branch Name: Garcia Group
+IFSC Code: LTMS11815455992724
+
+ACCOUNT DETAILS
+-------------
+Account Name: 
+Account No: 3956490199
+Product:   # Savings/Current/Salary
+Customer ID: 9712654810
+Mobile No.: (838)933-8799x9792
+
+TRANSACTION ENTRIES
+-----------------
+Tran Date | Description | Ref Number | Withdrawal | Deposit | Balance
+2024-10-07 | long |  | 10000 | 5000 | 50000
+
+This is a system generated statement
+",passbook,passbook details
+"
+**KOTAK MAHINDRA BANK - PASSBOOK**
+Home Branch: Pittman-Good
+IFSC: DVMF21040970892111
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder: Regina Hernandez
+Account Number: 1141530146
+Scheme Code: 14940
+Customer Relationship No: 26644687
+Account Opening Date: 2020-10-15
+
+TRANSACTION DETAILS
+-----------------
+Post Date | Value Date | Transaction Description | Chq/Ref No | Debit | Credit | Balance
+ | 2024-10-22 | test | 87557 | 20000 | 10000 | 50000
+
+Please inform the bank of any change in your contact details
+",passbook,passbook details
+"
+**KOTAK MAHINDRA BANK - PASSBOOK**
+Home Branch: Downs, Johnson and Hunter
+IFSC: RAEN91672199367478
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder: Juan Shepherd
+Account Number: 8433953117
+Scheme Code: 93131
+Customer Relationship No: 69783346
+Account Opening Date: 2004-03-05
+
+TRANSACTION DETAILS
+-----------------
+Post Date | Value Date | Transaction Description | Chq/Ref No | Debit | Credit | Balance
+ | 2024-10-05 | billion | 563323 | 1000 | 500 | 20000
+
+Please inform the bank of any change in your contact details
+",passbook,passbook details
+"
+**PUNJAB NATIONAL BANK - PASSBOOK**
+Branch: Bernard, Sutton and Clark
+Branch Code: 68551
+IFSC: JKBZ99789375017645
+
+ACCOUNT DETAILS
+-------------
+Name: Justin Thomas
+Account No.: 8202598812
+Type: Current
+Customer ID: 9193254200
+Mobile: 318-779-6488
+
+TRANSACTION RECORD
+---------------
+Date | Particulars | Instrument No | Debit | Credit | Balance
+2024-12-06 | away | 5563761111 | 5000 | 10000 | 10000
+
+Keep your passbook updated regularly
+",passbook,passbook details
+"
+**PUNJAB NATIONAL BANK - PASSBOOK**
+Branch: Ball-Thompson
+Branch Code: 92201
+IFSC: SULD64275466697603
+
+ACCOUNT DETAILS
+-------------
+Name: Kelsey Thomas
+Account No.: 6978177184
+Type: Savings
+Customer ID: 6964558762
+Mobile: 435.289.9812
+
+TRANSACTION RECORD
+---------------
+Date | Particulars | Instrument No | Debit | Credit | Balance
+2024-06-11 | idea | 5927529082 | 5000 | 2000 | 10000
+
+Keep your passbook updated regularly
+",passbook,passbook details
+"
+**YES BANK - PASSBOOK**
+Branch: Fuller, Mann and Galloway
+IFSC Code: DFYO82634570591760
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Account Name: 
+Account Number: 1749929679
+Product Type: 
+Customer ID: 6314955350
+Statement Period: 
+
+TRANSACTION DETAILS
+----------------
+Transaction Date | Narration | Reference | Withdrawals | Deposits | Balance
+2024-06-22 |  |  |  |  | 50000
+
+For any assistance, please call YES BANK 24/7 at 1800 1200
+",passbook,passbook details
+"
+**YES BANK - PASSBOOK**
+Branch: Carter Ltd
+IFSC Code: HQES85832680487099
+
+ACCOUNT HOLDER INFORMATION
+-----------------------
+Account Name: 
+Account Number: 4160593858
+Product Type: 
+Customer ID: 8293760949
+Statement Period: 
+
+TRANSACTION DETAILS
+----------------
+Transaction Date | Narration | Reference | Withdrawals | Deposits | Balance
+2024-03-19 |  |  |  |  | 50000
+
+For any assistance, please call YES BANK 24/7 at 1800 1200
+",passbook,passbook details
+"
+**CANARA BANK - PASSBOOK**
+Branch: Baker, Payne and Evans
+IFSC Code: AZHG36470109242114
+
+ACCOUNT DETAILS
+-------------
+Name of Account Holder: Mario Young
+Account Number: 7246520169
+Type of Account: NRI
+Customer ID: 8591469064
+Mobile Number: 2939765006
+
+TRANSACTION ENTRIES
+----------------
+Date | Description | Ref.No/Cheque | Debit | Credit | Balance
+2024-11-29 | fund | 206901 | 10000 | 2000 | 50000
+
+Please keep your passbook updated
+",passbook,passbook details
+"
+**CANARA BANK - PASSBOOK**
+Branch: Richard-Fields
+IFSC Code: KMVZ63976486087465
+
+ACCOUNT DETAILS
+-------------
+Name of Account Holder: Scott Mcintyre
+Account Number: 6524237338
+Type of Account: Current
+Customer ID: 4053076595
+Mobile Number: 001-764-865-1597
+
+TRANSACTION ENTRIES
+----------------
+Date | Description | Ref.No/Cheque | Debit | Credit | Balance
+2024-09-19 | growth | 13270 | 10000 | 2000 | 20000
+
+Please keep your passbook updated
+",passbook,passbook details
+"
+**UNION BANK OF INDIA - PASSBOOK**
+Branch Name: Estes-Martin
+IFSC: NHDK41386690665007
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder Name: 
+Account Number: 2454935777
+Account Type: Current
+CIF Number: 
+Mobile: +1-297-700-7102x69731
+
+TRANSACTION DETAILS
+----------------
+Date | Transaction Description | Cheque/Ref No. | Withdrawal | Deposit | Balance
+2024-03-04 | get | 733582 | 5000 | 2000 | 20000
+
+Keep your mobile number updated for SMS alerts
+",passbook,passbook details
+"
+**UNION BANK OF INDIA - PASSBOOK**
+Branch Name: Mccoy Ltd
+IFSC: MOWY54800795339919
+
+ACCOUNT INFORMATION
+-----------------
+Account Holder Name: 
+Account Number: 4395763570
+Account Type: Savings
+CIF Number: 
+Mobile: 932-761-1823x4352
+
+TRANSACTION DETAILS
+----------------
+Date | Transaction Description | Cheque/Ref No. | Withdrawal | Deposit | Balance
+2024-05-26 | image | 791099 | 5000 | 5000 | 20000
+
+Keep your mobile number updated for SMS alerts
+",passbook,passbook details
+"
+**BANK OF BARODA - PASSBOOK**
+Branch: Gonzalez-Gutierrez
+IFSC Code: RWMZ92983214087576
+
+ACCOUNT DETAILS
+-------------
+Customer Name: James King
+Account Number: 1381822042
+Scheme Code: 2030
+Customer ID: 7283658326
+Account Opening Date: 2013-05-30
+
+TRANSACTION RECORD
+---------------
+Tran Date | Particulars | Instrument No | Debit | Credit | Balance
+ | she | 2994011236 | 1000 | 10000 | 20000
+
+Please quote your account number in all correspondence
+",passbook,passbook details
+"
+**BANK OF BARODA - PASSBOOK**
+Branch: Walton Ltd
+IFSC Code: CBWQ53890057511343
+
+ACCOUNT DETAILS
+-------------
+Customer Name: Joseph Shannon
+Account Number: 893058773
+Scheme Code: 37262
+Customer ID: 6834931831
+Account Opening Date: 2004-06-17
+
+TRANSACTION RECORD
+---------------
+Tran Date | Particulars | Instrument No | Debit | Credit | Balance
+ | section | 7267644368 | 5000 | 10000 | 50000
+
+Please quote your account number in all correspondence
+",passbook,passbook details

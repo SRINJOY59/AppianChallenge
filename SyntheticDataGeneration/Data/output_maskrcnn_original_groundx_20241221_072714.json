@@ -1,0 +1,217 @@
+[
+  {
+    "content": [
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "{\"figure_title\": \"aar aar\", \"figure_number\": 1, \"description\": \"rt aaraa aa aar aar\", \"components\": [\"\", \"\", \"QR \"], \"relationships\": [{\"source\": \"\", \"target\": \"\", \"type\": \"identification\"}, {\"source\": \"QR \", \"target\": \"aar aar\", \"type\": \"verification\"}]} {\"element\": \"bhaart raar\", \"connected_to\": \"aar aar\", \"group\": \"raar aa\", \"relative_position\": \"r\"} {\"element\": \"rt aaraa \", \"connected_to\": \"aar aa\", \"group\": \"tt aaaar\", \"relative_position\": \"\"} {\"element\": \" r YoB: 1977\", \"connected_to\": \"tt aaaar\", \"group\": \" r\", \"relative_position\": \"\"} {\"element\": \"r Male\", \"connected_to\": \"tt aaaar\", \"group\": \"\", \"relative_position\": \"\"} {\"element\": \"2173 1296 4875\", \"connected_to\": \"aar aar\", \"group\": \"aar aa\", \"relative_position\": \"\"} {\"element\": \"aar - aa aar\", \"connected_to\": \"aar aar\", \"group\": \"\", \"relative_position\": \"\"} taa rt aaraa aa aar aar , bhaart raar aaraa aar aa aa t aa aa, r 1977, r r raaaa aa aar aa 2173 1296 4875 QR aa aa rtaa r r bhaart r aa aa aa , raar aa raataa \"aar - aa aar\" aa",
+        "text": "bhaart raar GOVERNMENT OF INDIA rt aaraa Riteish Vilasrao Deshmukh r YoB : 1977 Male r 2173 1296 4875 aar - aa aar"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          2
+        ],
+        "suggested_text": "bhaart raar taa bh t aar aar r aa r rtaa , aa, t aa r, , r aar aa aa bhaart raar aaraa aar aar aar aa t aa r aar aa taa aa rtbhaa r r aa , taa 1951 2000 aa aar aa taat raa r raar aa aa aabh raa raa aa aa taa bh raar aar aa aar aa t aa rbh aa , t aa r rt r",
+        "text": "bhaart raar"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          2
+        ],
+        "suggested_text": "{\"figure_title\":\"aar aar\",\"figure_number\":1,\"description\":\" raa aa aa aar aar\",\"components\":[\" raa aa\",\" t: 01/05/1987\",\"r\",\"2601 7614 0865\",\"QR \"],\"relationships\":[{\"source\":\" raa aa\",\"target\":\" t\",\"type\":\"identification\"},{\"source\":\"QR \",\"target\":\" raa aa\",\"type\":\"verification\"}]} {\"aa\":\" raa aa\",\" t\":\"01/05/1987\",\"\":\"r\",\"aar aa\":\"2601 7614 0865\"} {\"type\":\"QR \",\"purpose\":\" aa\"} aar aar raa aa aa aaaar aa aa aa, t 01/05/1987, r, r aar aa 2601 7614 0865 aa QR bh aa aa aataa aar bhaart raar aaraa aar aa aa r aa t aa raat raa",
+        "text": "GOVERNMENT OF INDIA raa aa Bablu Prasad Yadav t / DOB : 01/05/1987 r / MALE 2601 7614 0865 raa aar , r aa"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          3,
+          4
+        ],
+        "suggested_text": "bhaart raar GOVERNMENT OF INDIA raa raa NIRUPMA PUSHKARNA r / Year of Birth (YoB): 1951 aa / Female aar aa: 8716 0813 8875 aar aa aar - bhaart raar GOVERNMENT OF INDIA aaaa aa KANIKA MANOCHA t / Date of Birth (DOB): 11/09/1993 aa / Female aar aa: 2114 5270 9955 aar aa - aar",
+        "text": "bhaart raar GOVERNMENT OF INDIA raa raa NIRUPMA PUSHKARNA r / YoB : 1951 aa Female 8716 0813 8875 aar aa aar - bhaart raar Government of India aaaa aa Kanika Manocha t / DOB : 11/09/1993 aa / Female 2114 5270 9955 aar aa - aar"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"figure_title\":\"aar aar\",\"figure_number\":1,\"description\":\"r aa aar aar\",\"components\":[\"r \",\" t\",\"aa\",\"aar aa\",\"QR \"],\"relationships\":[{\"source\":\"r \",\"target\":\" t\",\"type\":\"identification\"},{\"source\":\"aar aa\",\"target\":\"QR \",\"type\":\"verification\"}]} {\"aa\":\"r \",\" t\":\"01/01/1992\",\"\":\"aa\",\"aar aa\":\"9872 4026 3252\",\"QR \":\"\"} taa r aa aar aar , bhaart raar aaraa aar aa aa r aa aa, t 01/01/1992, r aa r r aar aa 9872 4026 3252 , aa raat rt QR aa r aaaar taa taa aa r \"aar - aa aar\" , aar aar ttaa raataa",
+        "text": "bhaart raar Government of India r Ranju Devi t / DOB : 01/01/1992 aa / Female 9872 4026 3252 aar - aa aar"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6,
+          7
+        ],
+        "suggested_text": "bhaart raar Government of India raa aa Maulik Mulraj Shah r / Year of Birth: 1983 / Gender: r / Male aar aa / Aadhaar Number: 8774 6726 6338 aaaa aaaaaa aar aar bhaart raar",
+        "text": "bhaart raar Government of India raa aa Maulik Mulraj Shah r / Year of Birth 1983 r / Male 8774 6726 6338 aaaa aaaaaa aar aar bhaart raar"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          7
+        ],
+        "suggested_text": "{\"tr r\":\"aar aar\",\"tr aa\":1,\"r\":\" aar aar bhaart raar aaraa aar aa aa \",\"\":[\"aa raa aa\",\" taar: 20/11/1974\",\"r\",\"aar aa: 4449 6440 2247\",\"QR \"],\"\":[{\"rt\":\"aa raa aa\",\"\":\"aar aa\",\"raar\":\"taa\"}]} {\"tt\":\"aa raa aa\",\"aa \":\"aar aa\",\"\":\"taa\"} {\"tt\":\" taar\",\"\":\"20/11/1974\"} {\"tt\":\"\",\"\":\"r\"} {\"tt\":\"aar aa\",\"\":\"4449 6440 2247\"} {\"tt\":\"QR \",\"t\":\"tt aaaar\"} taa aar aar bhaart raar aaraa aar aa aa aa raa aa aa aa, taar 20/11/1974, r r r r aar aa 4449 6440 2247 QR bh aa trt aaaar raa rtaa aar aa r taa aa aataa",
+        "text": "t t Government of India aa raa aa Kesava Rao Baipotul taar / DOB : 20/11/1974 r / Male 4449 6440 2247 aar aaaaaa aar - aaaa"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          8
+        ],
+        "suggested_text": "raar bhaart Government of India aa: tr aar Name: JITENDRA KUMAR taa aa aa: aa Father's Name: KHUSHIHAL t: 16/10/1993 Date of Birth: 16/10/1993 : r Gender: Male aar aa: 2341 4668 7178 Aadhaar Number: 2341 4668 7178 aar - aa aar Aadhaar - Aam Aadmi Ka Adhikar",
+        "text": "raar bhaart Government of India tr aar JITENDRA KUMAR [ t : aa Father KHUSHIHAL t / DOB : 16/10/1993 r / Male 2341 4668 7178 aar - aa aar"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          9
+        ],
+        "suggested_text": "{\"tr_r\": \"aar aar\", \"tr_aa\": 1, \"r\": \" aa aar aar\", \"\": [\" \", \"taa: r \", \" r: 26-11-2009\", \"r\", \"aar - aa aar\", \"aar\"], \"\": [{\"rt\": \" \", \"\": \"taa: r \", \"raar\": \"aaraar\"}, {\"rt\": \" r\", \"\": \"r\", \"raar\": \"aa\"}]} {\"tt\": \" \", \"aa_\": \"taa: r \", \"\": \"aaraar\"} {\"tt\": \" r\", \"aa_\": \"r\", \"\": \"aa\"} aar aar aa r taa aa aa r , t 26-11-2009 , r r aar bhaart raar aaraa aar aa aa r aar bh aa aar r \"aar - aa aar\" aa , t raataa",
+        "text": "bhaart raar GOVERNMENT OF INDIA Tommy Singh taa : r Father : Sheru Singh r / Year of Birth 26-11-2009 r / Male 5485 5000 8000 aar aa aar -"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "suggested_text": "t t bhaart raar GOVERNMENT OF INDIA rr Nalini Vijay Worlikar taar / DOB : 21/12/1967 aa / FEMALE 5613 0382 9978 aar - aar aaaaaa aaaa bhaart raar Government of India aar Sanjeev Kumar t / DOB : 01/01/1998 r / Male 9305 5155 7588 aar aa aar - t t Government of India Aishwarya G / DOB : 17/11/1999 / Female 3052 7875 6145 - t t bhaart raar Government of India tt Uttam Singh t / DOB : 02/10/2000 r / Male 3225 5728 4087 aar aar aa raar bhaart OF INDIA GOVERNMENT Shet Chandrahas Naveen 07/04/1984 / DOB : MALE / 4234 4079 9121 , -- Government of India Sheth Himali / Year of Birth : 1987 / Female - 0088 8404 8739 aa bh t aar aar r rtaa , aa, t aa r, , r aar aa aa bhaart raar aaraa aar aar aar aa t aa r aar aa rtaa taa aa rtbhaa r r aa , taa 1967 2000 aa aar aa taat raa r raar aa aa aabh raa raa",
+        "text": "t t bhaart raar GOVERNMENT OF INDIA rr Nalini Vijay Worlikar taar / DOB : 21/12/1967 aa / FEMALE 5613 0382 9978 aar - aar aaaaaa aaaa bhaart raar Government of India aar Sanjeev Kumar t / DOB : 01/01/1998 r / / Male 9305 5155 7588 aar aa aar - t t Government of India Aishwarya G / DOB : 17/11/1999 / Female 3052 7875 6145 - t t bhaart raar Government of India tt Uttam Singh t / DOB : 02/10/2000 r / Male 3225 5728 4087 aar aar aa raar bhaart OF INDIA GOVERNMENT Shet Chandrahas Naveen 07/04/1984 / DOB : MALE / 4234 4079 9121 , -- Government of India Sheth Himali / Year of Birth : 1987 / Female - 0088 8404 8739"
+      }
+    ],
+    "document_info": {
+      "file_name": "output_maskrcnn_original_chunk_0",
+      "file_type": "pdf",
+      "language": "Hindi"
+    }
+  },
+  {
+    "content": [
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "t t bhaart raar Government of India raa aa / Nirmla Bai t / DOB: 05/07/1990 / Gender: aa / Female aar aa / Aadhaar Number: 3066 2940 6413 aar aa aar -",
+        "text": "t t bhaart raar Government of India raa aa Nirmla Bai t / DOB : 05/07/1990 aa / Female- 3066 2940 6413 aar aa aar -"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          2
+        ],
+        "suggested_text": "{\"figure_title\":\"aar aar\",\"figure_number\":1,\"description\":\" aa aar aar\",\"components\":[\"bhaart raar\",\" \",\" t\",\"r\",\"aar aa\",\"QR \"],\"relationships\":[{\"source\":\"bhaart raar\",\"target\":\" \",\"type\":\"official\"},{\"source\":\" \",\"target\":\"aar aa\",\"type\":\"identification\"}]} {\"r\":\"bhaart raar\",\"r\":\" r aar r r , aartaa raataa \"} {\"aa\":\" \",\"r\":\" t aa aa , aa tr aar raataa \"} {\"_t\":\"01.08.1985\",\"r\":\" t t \"} {\"\":\"r\",\"r\":\" t aa \"} {\"aar_aa\":\"4444 3333 2222\",\"r\":\" t aar aa \"} {\"QR_\":\"\",\"r\":\" aar aar aaaar r \"} {\"aaaa\":\"aar - aa aar\",\"r\":\" aaaa aar aar aaaa ttaa raataa \"} taa aar aar aa r raa rtaa bhaart raar aa aar r , aar raaaataa raataa aa aa, t 01.08.1985, r r r t aar aa 4444 3333 2222 , t aa raat QR bh aa , t , \\\"aar - aa aar\\\" aaaa aar aar aaaa ttaa raataa",
+        "text": "bhaart raar GOVERNMENT OF INDIA Nilesh Singh SAMPLE t / 008 : 01.08 / 1985 Male r 4444 3333 2222 aar - aa aar"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          3
+        ],
+        "suggested_text": "raa aa - **aa**: [t aa raa aa aa r r] - ** t**: [ t aa r r] - ****: [r/aa/] - **aar aa**: [aar aa aa r r] - **taa**: [raa taa aa r r] **tr **: - taa bhaart raar aaraa aar aa aa - \\\"t t\\\" aa - aa raa r aar rtaa ** **: - [ ] aa taat - [ ] taa taat aa t r bh aaaar r t",
+        "text": "raa aa"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          3
+        ],
+        "suggested_text": "{\"figure_title\":\"aar aar\",\"figure_number\":1,\"description\":\"aa aa aar aar\",\"components\":[\"bhaart raar\",\"aa \",\" t\",\"aa\",\"QR \"],\"relationships\":[{\"source\":\"bhaart raar\",\"target\":\"aa \",\"type\":\"official document\"},{\"source\":\"aa \",\"target\":\" t\",\"type\":\"personal information\"}]} {\"tt\":\"bhaart raar\",\"t_\":\"aa \",\"raar\":\"aar taa\"} {\"tt\":\"aa \",\"t_\":\" t\",\"raar\":\"tt aaaar\"} {\"tt\":\"QR \",\"t_\":\"aa \",\"raar\":\"taa\"} aar aar bhaart raar aaraa aar aa aa aa tt aaaar aa , aa aa, t 01/07/1973, r aa aar r QR bh aa ttaa aa aataa aar aa aaraa \"raa aar, r aa\" aa t raataa",
+        "text": "- > bhaart raar Government of India t t aa Vimala Devi t / DOB : 01/07/1973 aa / Female 9559 4365 2642 raa aar , r aa"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          4
+        ],
+        "suggested_text": "bhaart raar bhaart raar t: 17/05/1967 r aar aa: 7019 5801 1898 aar - aa aar",
+        "text": "bhaart raar OF INDIA GOVERNMENT Thomas John Thekkethil DOB : 17/05/1967 Male 7019 5801 1898 Aadhaar - Aam Aadmi ka Adhikar"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"r\":\"aar aar\",\"aa\":1,\"r\":\"r bhaa r aa aar aar\",\"\":[\"aa\",\" taar\",\"\",\"aar aa\",\"QR \"],\"rt\":[{\"rt\":\"r bhaa r\",\"\":\"aar aa\",\"raar\":\"aa\"},{\"rt\":\"QR \",\"\":\"aar aaaar\",\"raar\":\" rtt\"}]} {\"aa\":\"r bhaa r\",\" taar\":\"22/11/1991\",\"\":\"r\",\"aar aa\":\"9718 7996 4278\",\"QR \":\"\"} r bhaa r aa aar aar aa raataa , aa aa, t, r aar aa aa QR r aaaar rtt rtaa",
+        "text": "t t bhaart raar GOVERNMENT OF INDIA r bhaa r Shankar Bhagoji Zore taar / DOB : 22/11/1991 r / MALE 9718 7996 4278 aa aar , aa"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "t t --- **aar aar r:** 1. **aa:** raa aa - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] 2. **aa:** - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] 3. **aa:** aa - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] 4. **aa:** - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] 5. **aa:** r bhaa r - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] 6. **aa:** t t aa - ** t:** [ t aa r r] - **:** [ aa r r] - **aar aa:** [aar aa aa r r] --- taa bhaart raar aaraa aar aa aa r \"t t\" aa bhaart aar tr aa raa",
+        "text": "t t"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "{\"tr_r\":\"aar aar\",\"tr_aa\":1,\"r\":\"t t aa aa aar aar\",\"\":[\"bhaart raar\",\"t t aa\",\" taar: 22/06/1982\",\"r\",\"aar aa: 4682 4476 0254\",\"QR \",\"aaaa aaaaaa aar\"]} t t aa aa aar aar bhaart raar aaraa aar aa aa t t aa aa aa r r aa t 22 1982 r r aar aa 4682 4476 0254 QR bh aa trt aaaar raa r taa taa \\\"aaaa aaaaaa aar\\\" r t",
+        "text": "bhaart raar Government of India t t aa Santosh Anant Kamble taar / DOB : 22/06/1982 r / Male 4682 4476 0254 aaaa aaaaaa aar"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "aar aar tr aa taa bhaart raar aaraa aar aa aataa t aaaar aa t : - **aa**: t aa raa aa - ** t**: t t - ****: r/aa/ - **aar aa**: 12 aa aa - **taa**: t aa aa taa taa bhaart aar aa raa r aar rtaa r \\\"t t\\\" aa taa aa taa r raar aa aa aabh aa aar",
+        "text": "aar"
+      }
+    ],
+    "document_info": {
+      "file_name": "output_maskrcnn_original_chunk_1",
+      "file_type": "pdf",
+      "language": "Hindi"
+    }
+  }
+]

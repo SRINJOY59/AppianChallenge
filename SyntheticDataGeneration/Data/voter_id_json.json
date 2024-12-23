@@ -1,0 +1,231 @@
+[
+  {
+    "content": [
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          1
+        ],
+        "suggested_text": "{\"figure title\":\"Voter Identity Card\",\"figure number\":1,\"description\":\"Identity card issued by the Election Commission of India\",\"components\":[\"Election Commission of India\",\"IDENTITY CARD\",\"BTV1993591\",\"Elector's Name: Malli\",\"Husband's Name: Mansha\",\"Sex: Female\",\"Age as on 1.1.2006: 33\"]} {\"element\":\"Elector's Name\",\"value\":\"Malli\",\"relationship\":{\"connected_to\":\"Photograph\",\"type\":\"identity verification\"}} {\"element\":\"Husband's Name\",\"value\":\"Mansha\",\"relationship\":{\"connected_to\":\"Elector\",\"type\":\"familial connection\"}} {\"element\":\"Sex\",\"value\":\"Female\",\"relationship\":{\"associated_with\":\"Elector\",\"type\":\"demographic information\"}} {\"element\":\"Age\",\"value\":33,\"relationship\":{\"associated_with\":\"Elector\",\"type\":\"demographic information\"}} The document is a voter identity card issued by the Election Commission of India. It includes the card number BTV1993591. The elector's name is Malli, and her photograph is included for identity verification. Her husband's name is Mansha, indicating a familial connection. The card states that Malli is female and was 33 years old as of January 1, 2006. These details are crucial for verifying her identity and eligibility to vote.",
+        "text": "ELECHEN LION OF INDIA aa tr IDENTITY CARD BTV1993591 Praters ar Elector's Name t aa aa Husband's Name Sex 2006 Age as on 1.1.2006 : Wed : Malli : aa : 471 Female Mansha : 33"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "suggested_text": "ORIGINAL SEEN & VERIFIED Emp. Name: Malli Emp. Code: [Unspecified] Signature: [Unspecified] bhaart raa ELECTION COMMISSION OF INDIA IDENTITY CARD ID Number: XCW0432401 Address: 174, Bhalul, Town/Village - Bhalul, Anchal Goreyakothi, District - Siwan - 841413 Elector's Name: Amalavati Devi Husband's Name: Aravind Kumar Yadav Sex/Gender: Female Date of Birth: [Incomplete] XXX198 Date: 15/12/2009 Facsimile Signature of Electoral Registration Officer Constituency: 111, Goria Kothi ORIGINAL SEEN & VERIFIED Emp. Name: [Unspecified] Emp. Code: [Unspecified] Signature: [Unspecified] Device: REDMI NOTE 5 PRO ID Number: SJM1737503 Name: Sushila ORIGINAL SEEN & VERIFIED Emp. Name: Clich Emp. Code: 0013 Signature: [Unspecified] bhaart raa ELECTION COMMISSION OF INDIA ELECTOR PHOTO IDENTITY CARD ID Number: PQN0814325 Gender: Female Date of Birth: [Incomplete] XXXX1973 Address: Town/Village - Jigna Dubey, Anchal/Thane - Bhore, District - Gopalganj - 841425 Elector's Name: Sushila Husband's Name: Hiralal Gor Date: 01/2020 Assembly Constituency No & Name: 103 - Nors Part No & Name: 232 - Madhya Vidyaley Jigna Dubey Note: Mere possession of an Elector Photo Identity card is no guarantee of the same being present in electoral rolls. Please check your name in the current electoral rolls before every election. The date of birth mentioned in this card shall not be treated as proof of age or date of birth for any purpose other than registration in electoral rolls. Name: Suman Devi Signature: [Unspecified]",
+        "text": "ORIGINAL SEEN & VERIFIED Emp . Namen Emp . Code of Signature bhaart raa ELECTION COMMISSION OF INDIA IDENTITY CARD XCW0432401 taa XCW0432401 : , bh , , r tr aa aa - raa aa aa Elector's Name t aa aa aat Amalavati Devi r aar aa Husband Name : Aravind Kumar Sex / t Date of Birth Yadav : Female / aa XXX198 Address : 174 , Bhalul , Bhalul , Town / Vill - Bhalal Anchal Goreyakothi , Distt - Siwan -841413 aa Date : 15/12/2009 | r Facsimile Signature of Electoral Registration Officer 111 , GORIAKOTHI Constituency ORIGINAL SEEN & VERIFIED EMP Name .. EMP Code Signature .. KUM 10 MI DUAL CAMERA REDMI NOTE 5 PRO SJM1737503 SUSHLA ORIGINAL SEEN & VERIFIED Emp . Name CLICH Code0013 Emp . aa Signature bhaart raa ELECTION COMMISSION OF taataa INDIA aa tr ELECTOR PHOTO IDENTITY CARD PQN0814325 Pre / Gender t / Date of BitAge DON3914325 Femal XXXXV1973 --841428 Moss TownWill - Jigna Dubey Anchal / Thane - Bhore , Dist - Gopalganj - 841425 A raaaa aa NAME t aa aa raaaa Husband's NAME : Hiralal Gor [ 01/2020 Edora Pagan Officer aabhaa raa tr - r Assembly Consulency No & Name : 103 - nors r Part No & Name : 232 - Madhya Vidyaley Jigna Dubey / Note : aa r aa raa raa Mere possession of Elector Photo Identity card is no guarantee of same being present in electoral rolls . Please check your name in the current electoral rails before every election aa Date of birth mentioned in this card shall not be treated as a proof af age or date of birth for any purpose ether than registration in alectoral al n rolls C. CAR NAME SUNIL VASAV Eastern Aco14t Acelyt Signature ........"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"figure title\": \"Election Identity Card\", \"figure number\": 1, \"description\": \"Identity card issued by the Election Commission of India for voter identification.\", \"components\": [\"ELECTION COMMISSION OF INDIA\", \"IDENTITY CARD\", \"Kamuni Devi\", \"Mamnath Manjhi\", \"XXXX 1970\", \"BR/06/031/783052\", \"Signature\", \"ORIGINAL SEEN & VERIFIED\", \"EMP. NAME Puzon ka\", \"EP CODE 113\"]} {\"element\": \"ELECTION COMMISSION OF INDIA\", \"relationship\": {\"type\": \"issuer\", \"connected_to\": \"identity card\"}} {\"element\": \"IDENTITY CARD\", \"relationship\": {\"type\": \"document type\", \"connected_to\": \"Kamuni Devi\"}} {\"element\": \"Kamuni Devi\", \"relationship\": {\"type\": \"identity\", \"connected_to\": \"photograph\"}} {\"element\": \"Mamnath Manjhi\", \"relationship\": {\"type\": \"family\", \"connected_to\": \"Kamuni Devi\"}} {\"element\": \"XXXX 1970\", \"relationship\": {\"type\": \"birthdate\", \"connected_to\": \"Kamuni Devi\"}} {\"element\": \"BR/06/031/783052\", \"relationship\": {\"type\": \"unique identifier\", \"connected_to\": \"identity card\"}} {\"element\": \"Signature\", \"relationship\": {\"type\": \"verification\", \"connected_to\": \"identity card\"}} {\"element\": \"ORIGINAL SEEN & VERIFIED\", \"relationship\": {\"type\": \"status\", \"connected_to\": \"identity card\"}} {\"element\": \"EMP. NAME Puzon ka\", \"relationship\": {\"type\": \"verification officer\", \"connected_to\": \"identity card\"}} {\"element\": \"EP CODE 113\", \"relationship\": {\"type\": \"employee code\", \"connected_to\": \"verification officer\"}} The document is an identity card issued by the Election Commission of India, serving as official voter identification. It includes the name Kamuni Devi, linked to her photograph, confirming her identity. Her husband's name, Mamnath Manjhi, is also listed, providing familial context. The date of birth, represented as XXXX 1970, establishes her age. The card has a unique identifier, BR/06/031/783052, and includes a signature field for verification. The status \"ORIGINAL SEEN & VERIFIED\" indicates the card has been authenticated by an officer named Puzon ka, with an employee code of 113.",
+        "text": "ELECTION COMMISSION OF INDIA IDENTITY CARD BR / 06 / 031 / 783052 2 Bank Mamnath Manjhi XXXX 1970"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "{\"title\":\"Identity Card\",\"ID_number\":\"BRUGG/031/783053\",\"name\":\"Mamnath Manjhi\",\"birth_year\":\"1970\",\"address\":\"Ubel Bhagat, Tamsal, Ukan Bujang, Patna, Bihar, 821236\",\"verification_status\":\"Original Seen & Verified\",\"employee_name\":\"Puzon ka\",\"employee_code\":\"113\",\"gender\":\"Male\"} {\"section\":\"Header\",\"ID_number\":\"BRUGG/031/783053\"} {\"section\":\"Personal Information\",\"name\":\"Mamnath Manjhi\",\"birth_year\":\"1970\",\"gender\":\"Male\"} {\"section\":\"Address\",\"address\":\"Ubel Bhagat, Tamsal, Ukan Bujang, Patna, Bihar, 821236\"} {\"section\":\"Verification\",\"verification_status\":\"Original Seen & Verified\",\"employee_name\":\"Puzon ka\",\"employee_code\":\"113\"} The document is an identity card issued by the Election Commission of India. It includes the ID number \"BRUGG/031/783053\" and belongs to an individual named Mamnath Manjhi, born in 1970. The address associated with this identity card is Ubel Bhagat, Tamsal, Ukan Bujang, Patna, Bihar, 821236. The card has been verified with the status \"Original Seen & Verified\" by an employee named Puzon ka, with the employee code 113. The gender of the cardholder is male.",
+        "text": "BRUGG / 031 / 783053"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          5
+        ],
+        "suggested_text": "t ORIGINAL SEEN & VERIFIED EMPLOYEE NAME: Puzon ka EP CODE: 113 [Checkbox marked] lady Signature",
+        "text": "t ORIGINAL SEEN & VERIFIED EMP . NAME Puzon ka EP CODE 113 lady Signature"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "{\"figure_title\":\"Election Commission of India Photo Identity Card\",\"description\":\"An official voter identification card issued by the Election Commission of India.\",\"components\":[\"name\",\"husband's name\",\"serial number\",\"photograph\",\"emblem\",\"barcode\"],\"relationships\":\"The photograph corresponds to the name on the card. The serial number uniquely identifies the cardholder.\"} {\"element\":\"Name\",\"value\":\"Bhagwanti Devi\",\"relationship\":{\"connected_to\":\"Photograph\"}} {\"element\":\"Husband's Name\",\"value\":\"Khadam Yadav\",\"relationship\":{\"type\":\"family relation\"}} {\"element\":\"Serial Number\",\"value\":\"22/288336\",\"relationship\":{\"type\":\"unique identifier\"}} {\"element\":\"Photograph\",\"value\":\"Image of cardholder\",\"relationship\":{\"connected_to\":\"Name\"}} {\"element\":\"Emblem\",\"value\":\"Election Commission of India\",\"relationship\":{\"type\":\"official symbol\"}} {\"element\":\"Barcode\",\"value\":\"Encoded information for verification\",\"relationship\":{\"type\":\"digital verification\"}} The Election Commission of India Photo Identity Card features the name Bhagwanti Devi, accompanied by a photograph that identifies the cardholder. The card includes a unique serial number, 22/288336, which distinguishes it from other identity cards. The husband's name, Khadam Yadav, is also listed, indicating a family relation. The emblem of the Election Commission of India is present as an official symbol. Additionally, a barcode is included for digital verification purposes.",
+        "text": "bhaart raa ELECTION COMMISSION OF INDIA ENTITY CARD 22 / 288is MAND NAMS Devi WTC ."
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "CERTIFIED SUNIL YADAV EMPLOYEE NAME: Sunil Yadav EMPLOYEE CODE: A.14.2 Signature: [Signature Line]",
+        "text": "CRIFIED SUNIL YADAV EMP NAME . EMP CODE ... A . 14.2 . Signature ....."
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          6
+        ],
+        "suggested_text": "{\"figure_title\":\"Identity Card\",\"description\":\"Official identity card issued for verification purposes.\",\"components\":[\"Name\",\"Address\",\"Identification Number\",\"Signature\"],\"relationships\":[{\"source\":\"Identification Number\",\"target\":\"Personal Details\",\"type\":\"verification\"}]} {\"name\":\"Mansha\",\"father_husband_name\":\"Pramila\",\"gender\":\"Female\",\"age\":\"22\",\"identification_number\":\"288is\",\"address\":\"Town/Village: Ugra Dube, Anchal: Thave, District: Gopalganj, 841428\",\"verification_officer\":\"Sunil Yadav\",\"employee_name\":\"Sunil Yadav\",\"employee_code\":\"A.14.2\",\"signature\":\"Sunil Yadav\"} The document is an official identity card issued by the Election Commission of India for verification purposes. It contains the name \"Mansha\" and specifies her father's or husband's name as \"Pramila.\" The cardholder is identified as female, aged 22, with an identification number of \"288is.\" The address listed is \"Town/Village: Ugra Dube, Anchal: Thave, District: Gopalganj, 841428.\" Verification is conducted by Sunil Yadav, whose employee code is \"A.14.2.\" The card includes Sunil Yadav's signature, confirming the verification. This card serves as an official document to verify the identity of the individual named Mansha.",
+        "text": "4 CINEL [ cation ) aat"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          6,
+          7
+        ],
+        "suggested_text": "rt ELECTION COMMISSION OF INDIA IDENTITY CARD bhaart raa aa tr BR04022 / 288028 Elector's Name: bhaa (BHEEMA DEVI) Father's/Mother's/Husband's Name: rr raa (RAGHUVIR RAM) Sex (): Female (tr) Age as on 1.1.1994 (.. aa ): 24 Years (r) Signature: [Space for Signature] EMP CODE: [Space for Employee Code] Note: The identity card is issued by the Election Commission of India and includes personal details such as the elector's name, the name of a parent or spouse, gender, and age as of January 1, 1994. The card also provides spaces for the signature and employee code, indicating official verification.",
+        "text": "rt ELECTION COMMISSION OF INDIA IDENTITY CARD bhaart raa aa tr BR04022 / 288028 raa Elector's aa Name aa . : bhaa BHEEMA DEVI Father Mother Husband's RAGHUVIR RAM Nain taa / aataa / t aa aa rr raa Sex ) Female tr Age as on 1.1.1994 .. aa 24 24 r Years CWCTED EMS N SUNIL JANV EMP CODE ....... Signature ......."
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          7
+        ],
+        "suggested_text": "{\"figure_title\":\"Identity Card\",\"figure_number\":1,\"description\":\"Official identity card issued by the Election Commission of India\",\"components\":[\"Name\",\"Father's Name\",\"Gender\",\"Age\",\"Address\",\"Date of Issue\",\"Signature\"],\"relationships\":[{\"source\":\"Name\",\"target\":\"Identification Number\",\"type\":\"identifies\"},{\"source\":\"Signature\",\"target\":\"Validation\",\"type\":\"validates\"}]} {\"element\":\"Name\",\"value\":\"Bheema Devi\",\"connected_to\":\"Identification Number BR04022 / 288028\"} {\"element\":\"Father's Name\",\"value\":\"Raghuvir Ram\"} {\"element\":\"Gender\",\"value\":\"Female\"} {\"element\":\"Age\",\"value\":\"24 years as of 1.1.1994\"} {\"element\":\"Address\",\"value\":\"H.NO 71, VILL JIGNA DUVE, P.O. JIGNA DUVE, DISTT. GOPALGANJ\"} {\"element\":\"Date of Issue\",\"value\":\"19.04.1995\"} {\"element\":\"Signature\",\"value\":\"Facsimile Signature of Electoral Registration Officer for Constituency Office 022 - BHORE (SC Registration)\"} {\"element\":\"Place\",\"value\":\"Hathua\"} The document is an official identity card issued by the Election Commission of India. It identifies the cardholder as Bheema Devi, with an identification number of BR04022 / 288028. Her father's name is Raghuvir Ram, and she is female, aged 24 years as of January 1, 1994. The address listed is H.NO 71, Village Jigna Duve, Post Office Jigna Duve, District Gopalganj. The card was issued on April 19, 1995, and includes a facsimile signature of the Electoral Registration Officer for the constituency office 022 - BHORE (SC Registration). The place of issue is Hathua. The signature serves to validate the document for use under different government schemes.",
+        "text": "Address H.NO 71,1 taa .. 71 , VILL JIGNA DUVE P.O. JIGN DUVE DISTT . GOPALGANJ aa aa , aar , aa aa Frizant Facsimile Signature of for Elastoral 022 - BHORE ( SC Registration ) Constituency Office . 1.022- taa raa bhr ( .aa. t rrr ) raa aar tr This card may be used Date : 19.04.95 aa 19.04.95 identity card under different Govement Schemes . aa traa bh r raa aa aa taa tt Place HATHUA aa"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          8
+        ],
+        "suggested_text": "The following text is an identity card issued by the Election Commission of India. It includes various details: - **Heading**: \"aa raa tr \" translates to \"Election Commission of India Identity Card.\" - **Card Number**: \"BJM1239243\" - **Name**: \" raaaa aa\" (Chandan Nirvachakka Nag) - **Elector's No**: \"VANGNA\" - **Holder's Name**: \"BLES\" - **Gender**: \"\" (Gender) is listed as \"raa\" (Rahela) - **Additional Text**: \"free\" This identity card is part of the official documentation for voters, detailing personal information such as the card number, name, elector's number, and gender. The card is used for electoral purposes, ensuring the cardholder's information is recorded accurately.",
+        "text": "aa raa tr ELECTION COMMISSION OF INDIA IDENTITY CARD BJM1239243 raaaa aa Eleder's No VANGNA Hatants Nane : BLES raa free"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          8
+        ],
+        "suggested_text": "{\"title\":\"Identity Card\",\"issuing_authority\":\"Election Commission of India\",\"identity_number\":\"BJM1239243\",\"name\":\"Chandan\",\"father's_name\":\"BLES\",\"gender\":\"Male\",\"address\":\"Chakadeya\",\"pincode\":\"273201\",\"registration_officer\":\"SM10000000\"} {\"section\":\"Title\",\"content\":\"Identity Card\",\"language\":\"English\"} {\"section\":\"Issuing Authority\",\"content\":\"Election Commission of India\",\"language\":\"English\"} {\"section\":\"Identity Number\",\"content\":\"BJM1239243\",\"language\":\"English\"} {\"section\":\"Name\",\"content\":\"Chandan\",\"language\":\"English\"} {\"section\":\"Father's Name\",\"content\":\"BLES\",\"language\":\"English\"} {\"section\":\"Gender\",\"content\":\"Male\",\"language\":\"English\"} {\"section\":\"Address\",\"content\":\"Chakadeya\",\"language\":\"English\"} {\"section\":\"Pincode\",\"content\":\"273201\",\"language\":\"English\"} {\"section\":\"Registration Officer\",\"content\":\"SM10000000\",\"language\":\"English\"} The document is an identity card issued by the Election Commission of India. It includes the title \"Identity Card\" and is associated with the identity number BJM1239243. The cardholder's name is Chandan, and the father's name is BLES. The gender of the cardholder is male. The address provided is Chakadeya, with a pincode of 273201. The registration officer associated with this card is identified by the number SM10000000.",
+        "text": "taa .. raa -27320 Chakadeya Address- Pincode TEHCha - 273201 Cha , DST Registration Officer bow r SM10000000 D we"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "suggested_text": "The following text is a collection of excerpts from identity cards issued by the Election Commission of India. Each entry contains the elector's name, their spouse's name, gender, address, and other relevant details. These identity cards are used for electoral purposes, ensuring the cardholder's information is accurately recorded in the electoral rolls. The cards include the facsimile signature of the Electoral Registration Officer, verifying the authenticity of the information. Each card also has a unique identification number and a date of issue, which is crucial for maintaining up-to-date electoral records. Additionally, instructions are provided for updating the electoral roll in case of a change in address, emphasizing the importance of maintaining accurate voter information. 1. **Elector's Name**: Vijanti Devi - **Husband's Name**: Raghubir Mali - **Gender**: Female - **Address**: Bajapur, Rajapur, Kateya, Gopalganj - 841437 - **Date of Issue**: 11/01/2009 - **Facsimile Signature of Electoral Registration Officer**: Kateya Constituency 2. **Elector's Name**: Mina Devi - **Husband's Name**: Ramp Han - **Gender**: Female - **Age**: 35 years as of 01/01/2000 - **Address**: Hathua, Rajapur, Kateya, Gopalganj - 841437 - **Date of Issue**: 14/02/2004 - **Facsimile Signature of Electoral Registration Officer**: Kateya Constituency 3. **Elector's Name**: Asha - **Husband's Name**: Bhulli Lal - **Gender**: Female - **Date of Birth**: XX/XX/1979 - **Address**: HNo.251, Dhanevadhageir-2, PS - Kotvali, Maharajganj, Maharajganj - 273303 - **Date of Issue**: 21/12/2011 - **Facsimile Signature of Electoral Registration Officer**: Maharajganj Constituency 4. **Elector's Name**: Mina Devi - **Husband's Name**: Ishwar Sharma - **Gender**: Female - **Date of Birth**: XX/XX/1978 - **Address**: 25, Gayaghat, Gayaghat, Raghunathapur, Siwan - 841231 - **Date of Issue**: 25/12/2008 - **Facsimile Signature of Electoral Registration Officer**: Raghunathpur Constituency Each entry concludes with a note indicating that the original document has been seen and verified by an employee, whose name and code are provided.",
+        "text": "aa tr ELECTION COMMISSION IDENTITY OF INDU CARD XCW0013342 Prates we : aa Elector's Name : Vijanti Devi t aa aa rr aa Husband's Name : Raghubir Mali Sex we fefte Female / fem ORIGINAL SEEN & LAP Name EMP Code Signature ...... XCW0013342 e- Address $ 1 Dist Reipate : 11/01/2009 A Offer ELECTION COMMISSION OF INDIA IDENTITY CARD raa aa tr Address : Bajapur KST0966234 Town / Vil - Rajapu Andal - Kateys Distt - Gopalganj - 841437 Elector's Name Mina Devi raa aa aa Husband's Name Ramp Han Age Female / 35 Yearson 1.1.2000 Facsimile Signature of Electoral Registration Officer 21. KATEYA Constituency . raa tr raa rrr aar taar t Place : Hathua KST09660234 Date : 14022004 nder diarent Gove aa // ) E ( v ) . ( va ) ( ix ) ( x ) r aa ORIGINAL SEEN & VERIFIED EMP . NAME Sunil Yada EMP CODE ....... ( 49 . Signature ... XCM1439169 bhaart raa aa tr ELECTION COMMISSION OF INDIA IDENTITY CARD NCM1439165 aa aa aa Elector's Name ASHA t aa aa bh aa tands Name : BHULLI LAL : aa / Female 098 XX / XX / 1979 . . 251 , aar -2 . aa -2 , aaaa taa raa , t aaraa , aa - aaraa fuerants -273303 Address- HNo.251 . Dhanevadhageir -2 , DHANEVA DHANEI - 2 , PS - KOTVALI MAHRAJGANJ , TEH - Maharajganj , DIST - Maharajganj Pincode - 273303 Date : 21-12-2011 218 , raa raa tr raa rrr aar taar t Facsimile Signature of the Electora Registration Officer for 318 - Maharajganj - Constituency 143/684 r raa t r aaaa aa aa r raa taa t r r aa t aar aar aar r In case of change in address , mention this Card No , in the relevant Form for including your nam in the roll at the changed address and obtain to the card with the same number 311211 ORIGINAL SEEN & VERIFIED ARULL Emp . Name .......... Emp . Code ... Signature bhaart raa ELECTION COMMISSION OF INDIA UTITY CARD 187010827 raa aa aa aa TETO10002 w / e- -So - ortast Address : 25 , Geyaghat , Gayaghat , Town / Vill Gayaghat , Anchal - Raghunathapur , Distt Siwan - 841231 Pips / Date 25/12/2008 Elector's Name : Mina Devi aa aa r raa Husband's Name : Ishwar Sharm Sex / fr ff : Female / Date of Birth XXXF978 44 , e foi sem Facsimile Signature of Electoral Registration Officer RAGHUNATHPUR Constancy VERIFIED & GEEN ORIGINAL NAME . EMP fasly ku Pacar ... 113 .... CODE raa bhaart aa tr OF INDIA COMMISSION ELECTION CARD IDENTITY XCM1033000"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          13
+        ],
+        "suggested_text": "{\"figure_title\":\"Voter ID Card\",\"figure_number\":1,\"description\":\"Official voter ID card issued by the Election Commission of India.\",\"components\":[\"Card Number: XCM10330\",\"Address: 11, Chanevachaner -1, Dhane Chane\",\"Facsimile Signature\"],\"relationships\":[{\"source\":\"Card Number\",\"target\":\"Elector's Details\",\"type\":\"identification\"},{\"source\":\"Facsimile Signature\",\"target\":\"Card Authenticity\",\"type\":\"verification\"}]} {\"element\":\"Card Number\",\"connected_to\":\"Elector's Details\",\"relationship\":\"identifies\"} {\"element\":\"Address\",\"connected_to\":\"Voter ID\",\"relationship\":\"registered location\"} {\"element\":\"Facsimile Signature\",\"connected_to\":\"Card Authenticity\",\"relationship\":\"verification\"} The document is a voter ID card issued by the Election Commission of India. It includes a card number, XCM10330, which identifies the elector's details. The address listed is 11, Chanevachaner -1, Dhane Chane, indicating the registered location of the voter. The facsimile signature of the Electoral Registration Officer confirms the card's authenticity. Additionally, there is an instruction for voters to mention this card number in the relevant form if there is a change in address, ensuring their name is included in the electoral roll at the new address.",
+        "text": "XCM10330 G : 11 , -1 , th t aaraa aa -273340 Aadress : 11 , Chanevachaner - 1 , Dhane Chane Tets Monaraga | Dog 20327 318 273303 Facsimile Signature of Electoral Registration Officer for 318 - Maharajgan r 1409 aaaa t In case of change in assess mention this No. Card in the relevant Form for including your in the roll nam at the changed address and to obtai"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          13
+        ],
+        "suggested_text": "raa aa aa: r Name: Renu Elector's t aa aa: raaaar Husband's Name: Ramashray / Sex: aa / Female taar / Date of Birth: XXXX / 1987 Signature: [Signature appears here] Note: The date of birth is partially obscured with \"XXXX,\" indicating missing or redacted information.",
+        "text": "raa aa aa : r Name : Renu Elector's t aa aa raaaar Ramashray Name Husband's aa / Female / Sex taar XXXX / 1987 rr SEENE ORIGINAL Rut ... Eimp . Name 03.3 Coda Eirip 4 . Signature"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          14
+        ],
+        "suggested_text": "{\"figure_title\":\"Election Commission Identity Card\",\"figure_number\":1,\"description\":\"Identity card issued by the Election Commission of India for electoral purposes.\",\"components\":[\"Address\",\"Facsimile Signature\",\"Constituency\",\"Place\",\"Date\"],\"relationships\":[{\"source\":\"Address\",\"target\":\"Identity Card Holder\",\"type\":\"identifies\"},{\"source\":\"Facsimile Signature\",\"target\":\"Electoral Registration Officer\",\"type\":\"validates\"}]} {\"section\":\"Address\",\"details\":{\"address_line_1\":\"H.NO.48\",\"village\":\"VILL JIGHA DUBEY\",\"post_office\":\"P.O. JIGAN DUBEY\",\"district\":\"DISTT. GOPALGANJ\"}} {\"section\":\"Facsimile Signature\",\"details\":{\"role\":\"Electoral Registration Officer\",\"constituency\":\"022-BHOREISQ\"}} {\"section\":\"Place and Date\",\"details\":{\"place\":\"HATHUA\",\"date\":\"17.03.85\"}} This document is an identity card issued by the Election Commission of India. It serves as official documentation for electoral purposes. The card includes an address, which identifies the cardholder as residing at House Number 48, Village Jigha Dubey, Post Office Jigan Dubey, in the district of Gopalganj. The facsimile signature of the Electoral Registration Officer is included, validating the card for the 022-BHOREISQ constituency. The card was issued in Hathua on the date 17th March 1985.",
+        "text": "Address : H.NO.48 VILL JIGHA DUBEY , P.A. JICAN DUBEY , DISTT . GOPALGANJ t . . 48 , aa , aar , aa aa Facsimile Signature of Electoral Registration Officer for 022 - BHOREISQ Ceastbancy 022- bhr ( .aa . ) raa tr raa rrr aar taar t Place MATHUA aa aa Data 17.42.35 aa 17.41.35"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          14
+        ],
+        "suggested_text": "{\"figure_title\":\"Election Commission of India Identity Card\",\"figure_number\":1,\"description\":\"Identity card for KALAWATI DEVI issued by the Election Commission of India.\",\"components\":[\"Elector's Name\",\"Father/Mother/Husband's Name\",\"Sex\",\"Age\",\"ID Number\",\"Address\",\"Facsimile Signature\",\"Place\",\"Date\",\"Verification\"],\"relationships\":[{\"source\":\"KALAWATI DEVI\",\"target\":\"TULSI RAM\",\"type\":\"relation\"},{\"source\":\"KALAWATI DEVI\",\"target\":\"Female\",\"type\":\"gender confirmation\"},{\"source\":\"KALAWATI DEVI\",\"target\":\"20 Years\",\"type\":\"age confirmation\"}]} {\"element\":\"Elector's Name\",\"value\":\"KALAWATI DEVI\"} {\"element\":\"Father/Mother/Husband's Name\",\"value\":\"TULSI RAM\"} {\"element\":\"Sex\",\"value\":\"Female\"} {\"element\":\"Age\",\"value\":\"20 Years\"} {\"element\":\"ID Number\",\"value\":\"BRU041222288173\"} {\"element\":\"Address\",\"value\":\"H.NO.48, VILL JIGHA DUBEY, P.A. JICAN DUBEY, DISTT. GOPALGANJ\"} {\"element\":\"Facsimile Signature\",\"value\":\"Electoral Registration Officer for 022 - BHOREISQ Constituency\"} {\"element\":\"Place\",\"value\":\"MATHUA\"} {\"element\":\"Date\",\"value\":\"17.42.35\"} {\"element\":\"Verification\",\"value\":\"ORIGINAL SEEN & VERIFIED EMP. NAME SUNIL YADAV EXP CODE. A M\"} The identity card is issued by the Election Commission of India for KALAWATI DEVI. Her father's or husband's name is TULSI RAM. The card confirms her gender as female and states her age as 20 years. The ID number is BRU041222288173. Her address is listed as H.NO.48, Village JIGHA DUBEY, Post Office JICAN DUBEY, District GOPALGANJ. The card includes a facsimile signature of the Electoral Registration Officer for the 022 - BHOREISQ Constituency. The place of issue is MATHUA, and the date on the card is 17.42.35. The card has been originally seen and verified by an employee named SUNIL YADAV with the experience code A M.",
+        "text": "6.00 04/0221288173 ELECTION COMMISSION OF INDIA IDENTITY CARD bhaart raa aa tr KALAWATI DEVT aat TULSI RAM Decta's Game aa Father Mother Husband's t aa aa traa Female ] [ tr Aare Sex Age 1.1.1934 .. 20 Years 20 r aat"
+      },
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          14,
+          15
+        ],
+        "suggested_text": "ORIGINAL SEEN & VERIFIED Employee Name: SUNIL YADAV Experience Code: A M Haber SHA DEV SANJAY AJM aa ORIGINAL SEEN & VERIFIED Employee Name: aar Employee Code: 664.0 Signature:",
+        "text": "ORIGINAL SEEN & VERIFIED EMP . NANE SUNIL YADAV EXP CODE . A M Haber SHA DEV SANJAY AJM aa ORIGINAL SEEN & VERIFIED Emp . Name ... aar Emp , Code .... 664.0 . Signa"
+      },
+      {
+        "content_type": [
+          "figure"
+        ],
+        "page_numbers": [
+          15
+        ],
+        "suggested_text": "{\"epic_no\":\"SJK0987654\",\"name\":\"Sanjay\",\"father_or_husband_name\":\"Pancha\",\"date_of_birth\":\"01-01-1990\",\"gender\":\"Male\",\"address\":\"Gahar, Akbar Chauraha, Gorakhpur, Uttar Pradesh, 273001\",\"issue_date\":\"28-03-2022\",\"issuing_authority\":\"Electoral Registration Officer\",\"verification_status\":\"Original Seen & Verified\",\"employee_name\":\"Ajay Kumar\",\"employee_code\":\"6640\",\"assembly_constituency_no\":\"328\",\"assembly_constituency_name\":\"Chaurichaura\"} The document is an identity card issued to an individual named Sanjay. His father's or husband's name is Pancha, and he was born on January 1, 1990. Sanjay is male and resides at Gahar, Akbar Chauraha, Gorakhpur, Uttar Pradesh, with the postal code 273001. The card was issued on March 28, 2022, by the Electoral Registration Officer. The verification status of the card is marked as \"Original Seen & Verified.\" The employee responsible for processing this document is Ajay Kumar, with an employee code of 6640. Sanjay is registered in the assembly constituency number 328, named Chaurichaura.",
+        "text": "AURA"
+      }
+    ],
+    "document_info": {
+      "file_name": "voter_ids_chunk_0",
+      "file_type": "pdf",
+      "language": "English"
+    }
+  },
+  {
+    "content": [
+      {
+        "content_type": [
+          "paragraph"
+        ],
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "suggested_text": "B bhaart aa tr ELECTION IDENTITY COMMISSION CARD OF INDIA NEG1522994 raa aa aa: raa Elector's Name: Urmila t aa aa: r Husband's Name: Lorik / Sex: aa / Female taar: XXXXX / 1971 taa: aa raa (7) - 274001 Address: 262 Baronard - 2.3 ORIGINAL SEEN & VERIFIED Emp. Code Name: 0017 Deepenk Kesmi Signature: Tsurya Ost Drona (UP) - 2/401 Date: 02/01/2011 Facsimile Signature of Electoral Registration Officer for 342 Barha Registration Officer: 25/1724 aa aa aar taa aa r r raa t t taa r aar aa t r aa aar r r In case of change in the name or address, obtain the relevant form and mention the same number on this card. bhaart raa aa tr ELECTION COMMISSION OF INDIA IDENTITY CARD RK19870569 Address: bhtaa Res - aar - 274202 Address - 4 Ledah PS - GAURIBAZAR Tupur Dist Deoria Pincode - 274202 raa aa aa: Mira Elector's Name: Mira t aa aa: Very Husband's Name: Very / Sex: aa / Female taar: XXXXX / 1984 SEEN & VERIFIED ORIGINAL Emp. Name: Emp. Code: RKI9870559 Date: 23-05-2014 Facsimile Signature of the Electoral Registration Officer for 134 - Rudrapur In case of change, use the relevant form to update your address or name. bhaart raa ELECTION COMMISSION OF INDIA ELECTOR PHOTO IDENTITY CARD GOVT AUTHORIZED VOTER ID Correction Center | Call 9920497050 GDND225185 raa aa aa: r raa aar Elector's Name: Prem Raj Thakur taa aa aa: aar Father's Name: Kishan Dev Thakur / Sex: taar / Date of Birth: 15/02/1985",
+        "text": "B bhaart aa tr ELECTION IDENTITY COMMISSION CARD OF INDIA NEG1522994 raa aa aa : raa Electir's Name : Urmila t aa aa r Husband's Name Lonk / Sex aa / Female r taar Date Of Bath : XXXXX / 1971 dar 22 Chars 2 NEG1522994 aa raa ( ) -274001 Address : 262 Baronard - 2.3 aa ORIGINAL SEEN & VERIFIED Emp Emp . . Code Name . 0017 Deepenk Kesmi Signature Tsurya Ost Drona ( UP ) -2/401 Date 02/01/2011 342- t rr Facsimile Signature of for 342 Electoral - Barha Registration Officer 25/1724 aa aa aar taa aa r r raa t t taa r aar aa t r aa aar r r in No In the in case rol the of the at card the relevant charge with in changed Form the for address same address , including mention number and to your this obtain nam Card bhaart raa aa tr ELECTION COMMISSION OF INDIA IDENTITY CARD RK19870569 bhtaa ... Res -aar -274202 Address - 4 Ledah PS - GAURIBAZAR Tupur Dist Deoria Pincode - 274202 330 - WY raa aa aa : Excurs Mane Mira Bur Husband's Name : Very aa Female XXXXX01984 www.her Do aa SEEN & VERIFIED ORIGINAL aar Emp , Name , ... Emp . Codea RKI9870559 Date - 23-05-2014 Face Signs of the Escionl Registration Officer for 134 - Rudrapur Constuny 1037 % rr W r t r case of change r Cas relevant Form for including your changed ads the same ber Signature Azy 18 bhaart raa ELECTION COMMISSION OF INDIA what were ELECTOR PHOTO IDENTITY CARD GOVT AUTHO VOTER ID Correction Center | Call 9920497050 GDND225185 raa aa aa : r raa aar ELECTOR'S NAME : PREM RAJ THAKUR taa aa aa FATHER'S NAME / Sex taar DATE OF BIRTH / AGE : aar KISHAN DEV THAKUR 15/02/19858"
+      }
+    ],
+    "document_info": {
+      "file_name": "voter_ids_chunk_1",
+      "file_type": "pdf",
+      "language": "English"
+    }
+  }
+]
