@@ -1,14 +1,19 @@
+import os
 import joblib
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+current_dir = os.path.dirname(__file__)
+
+models_dir = os.path.join(current_dir, '..', 'Trained_Base_Models')
+
 def load_models_and_predict(input_text):
 
-    xgb_model = joblib.load('Trained_Base_Models/xgboost_model.joblib')
-    lgb_model = joblib.load('Trained_Base_Models/lightgbm_model.joblib')
-    catboost_model = joblib.load('Trained_Base_Models/catboost_model.joblib')
-    meta_model = joblib.load('Trained_Base_Models/meta_classifier_model.joblib')
-    label_encoder = joblib.load('Trained_Base_Models/label_encoder.joblib')
+    xgb_model = joblib.load(os.path.join(models_dir, 'xgboost_model.joblib'))
+    lgb_model = joblib.load(os.path.join(models_dir, 'lightgbm_model.joblib'))
+    catboost_model = joblib.load(os.path.join(models_dir, 'catboost_model.joblib'))
+    meta_model = joblib.load(os.path.join(models_dir, 'meta_classifier_model.joblib'))
+    label_encoder = joblib.load(os.path.join(models_dir, 'label_encoder.joblib'))
 
     sentence_transformer = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', trust_remote_code=True)
 
@@ -23,7 +28,6 @@ def load_models_and_predict(input_text):
 
     proper_label = label_encoder.inverse_transform(meta_pred)
     
-    print(proper_label)
 
     return proper_label[0]
 
