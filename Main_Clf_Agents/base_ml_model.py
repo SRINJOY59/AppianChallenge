@@ -32,36 +32,5 @@ def load_models_and_predict(input_text):
     return proper_label[0]
 
 
-sample_receipt = """
-----------------------------------------
-              SHOP NAME
-           Address: 123 Main St
-           Phone: (123) 456-7890
-----------------------------------------
-Date: 2023-10-01
-Time: 14:30
-----------------------------------------
-Item                Qty     Price
-----------------------------------------
-Item 1              2       $10.00
-Item 2              1       $5.50
-Item 3              3       $7.25
-----------------------------------------
-Subtotal:                     $32.75
-Tax (5%):                    $1.64
-----------------------------------------
-Total:                      $34.39
-----------------------------------------
-Thank you for shopping with us!
-----------------------------------------
-"""
-
-
-input_text = sample_receipt
-
-
-
-final_prediction = load_models_and_predict(input_text)
-print(f"Final Prediction: {final_prediction}")
 
 

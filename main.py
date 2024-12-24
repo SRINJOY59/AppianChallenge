@@ -1,3 +1,4 @@
+import warnings
 from KGAgent.KnowledgeGraphAgent import KnowledgeGraphAgent, load_as_json
 from Specific_Agents.bank_specification_agent import DocumentSummaryAgentBank
 from Specific_Agents.financial_specification_agent import FinancialSummaryAgent
@@ -6,6 +7,8 @@ from Specific_Agents.receipt_specification_agent import ReceiptClassificationAge
 from Main_Clf_Agents.base_ml_model import load_models_and_predict
 from Main_Clf_Agents.mistral_base_agent import MistralBaseAgent
 from Main_Clf_Agents.gemini_base_agent import DocumentCategoryAgentGemini
+
+warnings.filterwarnings("ignore")
 
 def main():
     
@@ -30,7 +33,6 @@ def main():
     ----------------------------------------
     """
     
-    start_time = time.time()
     prediction = load_models_and_predict(sample_text)
     categorizer_mistral = MistralBaseAgent()
     category_mistral = categorizer_mistral.classify_document(sample_text)
@@ -69,7 +71,7 @@ def main():
         print("Receipt Summary:", receipt_summary)
     else:
         print("This is a uncategorized document.")
-    
+
 
 
 if __name__ == "__main__":
