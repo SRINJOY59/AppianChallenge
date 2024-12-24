@@ -2,8 +2,14 @@ import re
 import json
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
+import tiktoken
+import json
+import time
+from dataclasses import dataclass
+from typing import Dict, Any
 from langchain.globals import set_llm_cache
 from langchain_community.cache import InMemoryCache
+
 
 set_llm_cache(InMemoryCache())
 
@@ -52,8 +58,11 @@ class KnowledgeGraphAgent:
             ("system", system_prompt),
             ("human", f"Graph Type: {graph_type}\n\nText: {text}"),
         ]
+        
+        
 
         ai_msg = self.llm.invoke(messages)
+        
         return ai_msg.content
 
 if __name__ == "__main__":
