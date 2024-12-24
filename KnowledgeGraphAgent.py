@@ -9,7 +9,7 @@ def clean_json_string(input_string):
 
 def load_as_json(input_string):
     cleaned_string = clean_json_string(input_string)
-    return json.loads(cleaned_string)
+    return json.loads(cleaned_string.strip())
 
 load_dotenv()
 
@@ -25,39 +25,28 @@ class KnowledgeGraphAgent:
 
     def generate_knowledge_graph(self, text: str, graph_type: str) -> dict:
         system_prompt = f"""
-        You are a highly skilled assistant that specializes in extracting information from text and structuring it into a JSON-based Knowledge Graph (KG). Your task is to analyze the provided text and generate a JSON KG based on the specified document type.
+        You are a highly skilled assistant specializing in extracting structured information from unstructured text and organizing it into a JSON-based Knowledge Graph (KG). Your task is to analyze the provided unstructured text and identify key entities, attributes, and relationships within the content. You will then generate a JSON representation of the information, ensuring it includes the most relevant data.
 
-        The following are the supported types of knowledge graphs you can generate:
+        The input will also specify the type of Knowledge Graph to generate, which is provided as `graph_type`. The graph type can be one of the following:
 
-        1. **Bank Application KG:**
-            - Extract personal details (Name, DOB, Gender, Nationality, Category).
-            - Extract identity proof details (PAN, Aadhaar, Other IDs).
-            - Extract contact information (Mobile, Email, Address, PIN Code).
-            - Extract employment and income details.
-            - Extract existing relationship details (Account Number, IFSC Code, etc.).
-            - Extract card selection details (Card Type, Add-on Card Requirement).
+        1. **Bank Application KG**: Personal details, identity proof, contact information, employment details, and card selection.
+        2. **Identity Document KG**: Personal details and document details.
+        3. **Financial Statement KG**: Financial summary, transactions, and key metrics.
+        4. **Receipt or Invoice KG**: Store details, purchase details, and payment information.
 
-        2. **Identity Document KG (e.g., Passport):**
-            - Extract personal information (Name, DOB, Gender, Nationality).
-            - Extract document details (Passport Number, Issue Date, Expiry Date, Issuing Authority).
-            - Extract address details (Residential Address, City, PIN Code, Country).
+        Based on the provided graph type, you should extract and organize the relevant information accordingly.
 
-        3. **Financial Statement KG:**
-            - Extract financial summary (Total Income, Total Expense, Net Savings).
-            - Extract transaction details (Date, Description, Debit, Credit, Balance).
-            - Extract key metrics (Highest Transaction, Lowest Transaction, Average Monthly Spending).
-
-        4. **Receipt or Invoice KG:**
-            - Extract store details (Store Name, Address, Contact Info).
-            - Extract purchase details (Item Names, Quantities, Prices, Subtotal, Taxes, Total).
-            - Extract payment information (Payment Method, Card Number, Transaction ID).
-
-        You must output the Knowledge Graph as a JSON object strictly following the specified structure. Do not include any extra text, explanation, or commentary. If any required fields are missing in the provided text, don't include those fields in the JSON.
+        Your output should be a structured JSON object that represents the information extracted from the unstructured text, with the following attributes:
+        - `graph_type`: The type of knowledge graph (e.g., "Bank Application KG").
+        - `entities`: A list of key entities identified in the text.
+        - `attributes`: Relevant attributes and relationships between entities, categorized based on the `graph_type`.
+        
+        Do not include any extra commentary or explanations in the output. Ensure that the structure is clean and only includes relevant data points.
         """
 
         messages = [
             ("system", system_prompt),
-            ("human", f"Document Type: {graph_type}\n\n{text}"),
+            ("human", f"Graph Type: {graph_type}\n\nText: {text}"),
         ]
 
         ai_msg = self.llm.invoke(messages)
@@ -66,14 +55,15 @@ class KnowledgeGraphAgent:
 if __name__ == "__main__":
     kg_agent = KnowledgeGraphAgent()
 
+    # Example inputs
     bank_application_text = """
-    Karina Richards has applied for a Union Bank of India credit card, as indicated by the provided application details.  While the application includes personal information like her name, birthdate (September 9, 1970), and PAN number (I1570), several fields are incomplete.  Her gender, nationality, and category (General/SC/ST/OBC/Minority) are missing.  For identification, she provided her Aadhaar number (746666835556), but fields for other ID types and numbers are left blank.  Her contact information includes a mobile number (905.581.5443) and email address (kingheather@example.org), but the alternate number and residential address are incomplete, lacking the street address and only providing a PIN code (51141).  Crucially, the employment and income section is entirely blank, omitting details about her employment type, employer name, office address, monthly income, and other income sources.  While she indicates an existing relationship with Union Bank, providing an account number (ICMY58011763128333), the home branch and IFSC code are missing.  Finally, she has selected a Signature card type but hasn't specified whether an add-on card is required.  The application reference number is also missing from the provided details.  Overall, the application is significantly incomplete, lacking crucial information required for processing, particularly regarding employment and income details.   
+    Karina Richards has applied for a Union Bank of India credit card, as indicated by the provided application details. While the application includes personal information like her name, birthdate (September 9, 1970), and PAN number (I1570), several fields are incomplete. Her gender, nationality, and category (General/SC/ST/OBC/Minority) are missing. For identification, she provided her Aadhaar number (746666835556), but fields for other ID types and numbers are left blank. Her contact information includes a mobile number (905.581.5443) and email address (kingheather@example.org), but the alternate number and residential address are incomplete, lacking the street address and only providing a PIN code (51141). Crucially, the employment and income section is entirely blank, omitting details about her employment type, employer name, office address, monthly income, and other income sources. While she indicates an existing relationship with Union Bank, providing an account number (ICMY58011763128333), the home branch and IFSC code are missing. Finally, she has selected a Signature card type but hasn't specified whether an add-on card is required. The application reference number is also missing from the provided details. Overall, the application is significantly incomplete, lacking crucial information required for processing, particularly regarding employment and income details.
     """
 
     kg_bank_application = kg_agent.generate_knowledge_graph(bank_application_text, graph_type="Bank Application KG")
     print("Bank Application Knowledge Graph:", kg_bank_application)
     kg_bank_json = load_as_json(kg_bank_application)
-    print("Bank Application json: ", kg_bank_json)
+    print("Bank Application JSON: ", kg_bank_json)
 
     passport_text = """
     Name: John Doe
@@ -90,7 +80,7 @@ if __name__ == "__main__":
     kg_passport = kg_agent.generate_knowledge_graph(passport_text, graph_type="Identity Document KG")
     print("Passport Knowledge Graph:", kg_passport)
     kg_passport_json = load_as_json(kg_passport)
-    print("Passport KG json: ", kg_passport_json)
+    print("Passport KG JSON: ", kg_passport_json)
 
     financial_statement_text = """
     Total Income: $120,000
@@ -110,7 +100,7 @@ if __name__ == "__main__":
     kg_financial_statement = kg_agent.generate_knowledge_graph(financial_statement_text, graph_type="Financial Statement KG")
     print("Financial Statement Knowledge Graph:", kg_financial_statement)
     kg_financial_json = load_as_json(kg_financial_statement)
-    print("Financial KG as JSON: ", kg_financial_json)
+    print("Financial KG JSON: ", kg_financial_json)
 
     receipt_text = """
     Store Name: Best Buy
