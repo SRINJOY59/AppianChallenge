@@ -6,6 +6,7 @@ from Specific_Agents.receipt_specification_agent import ReceiptClassificationAge
 from Main_Clf_Agents.base_ml_model import load_models_and_predict
 from Main_Clf_Agents.mistral_base_agent import MistralBaseAgent
 from Main_Clf_Agents.gemini_base_agent import DocumentCategoryAgentGemini
+
 def main():
     
     sample_text = """
@@ -29,6 +30,7 @@ def main():
     ----------------------------------------
     """
     
+    start_time = time.time()
     prediction = load_models_and_predict(sample_text)
     categorizer_mistral = MistralBaseAgent()
     category_mistral = categorizer_mistral.classify_document(sample_text)
@@ -67,6 +69,8 @@ def main():
         print("Receipt Summary:", receipt_summary)
     else:
         print("This is a uncategorized document.")
+    
+
 
 if __name__ == "__main__":
     main()
