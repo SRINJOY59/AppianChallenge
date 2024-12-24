@@ -1,33 +1,28 @@
-from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from langchain.globals import set_llm_cache
 from langchain.cache import InMemoryCache
 
 set_llm_cache(InMemoryCache())
 
+
 load_dotenv()
 
-class MistralBaseAgent:
-    def __init__(self, model="mixtral-8x7b-32768", temperature=0, max_tokens=None, timeout=None, max_retries=2):
+class DocumentCategoryAgentGemini:
+    def __init__(self, model="gemini-1.5-flash", temperature=0, max_tokens=None, timeout=None, max_retries=2):
         """
         Initialize the Document Category Agent with the Mistral AI model and configuration parameters.
         """
-        self.llm = ChatGroq(
+        self.llm = ChatGoogleGenerativeAI(
             model=model,
             temperature=temperature,
-            max_tokens=max_tokens,
-            timeout=timeout,
-            max_retries=max_retries,
+            max_output_tokens=max_tokens if max_tokens else 2048,
         )
 
-    def classify_document(self, input_text: str) -> str:
+    def categorize_document(self, input_text: str) -> tuple[str, int]:
         """
-        Classify the given input text into one of the predefined categories:
-        - Bank
-        - Finance
-        - Receipt
-        - Identity
-        If none apply, return 'Uncategorized'.
+        Classify the given input text into predefined categories and return the token count.
+        Returns a tuple of (category, token_count)
         """
         system_prompt = """
         You are an expert document classifier assistant. Your task is to analyze the given text and determine its category based on its content.
@@ -83,13 +78,8 @@ class MistralBaseAgent:
         This is a random paragraph discussing the benefits of exercise for mental health. It contains no financial or personal identification information.
         Output: Uncategorized
 
-        ### Chain-of-Thought Reasoning:
-        Please carefully consider the text and think through the category it most likely falls into. 
-        - Identify keywords that could be related to financial operations, banking, identification, or receipts.
-        - Focus on the structure and content. 
-        Only one word should be returned in the output: bank, finance, receipt, identity, or Uncategorized.
-        Don't put any other details in the output
-
+        Output will be just a single word : bank or finance or identity or receipt
+        no other text will be there in output.
         Now, classify the following text:
         {input_text}
         """
@@ -100,34 +90,39 @@ class MistralBaseAgent:
         ]
         
         ai_msg = self.llm.invoke(messages)
-        return ai_msg.content.strip()
+        response = ai_msg.content.strip()
+        
+        
+        return response
 
 if __name__ == "__main__":
-    categorizer = MistralBaseAgent()
+    categorizer = DocumentCategoryAgentGemini()
+
 
     sample_text = """
-    ----------------------------------------
-                  SHOP NAME
-               Address: 123 Main St
-               Phone: (123) 456-7890
-    ----------------------------------------
-    Date: 2023-10-01
-    Time: 14:30
-    ----------------------------------------
-    Item                Qty     Price
-    ----------------------------------------
-    Item 1              2       $10.00
-    Item 2              1       $5.50
-    Item 3              3       $7.25
-    ----------------------------------------
-    Subtotal:                     $32.75
-    Tax (5%):                    $1.64
-    ----------------------------------------
-    Total:                      $34.39
-    ----------------------------------------
-    Thank you for shopping with us!
-    ----------------------------------------
-    """
+----------------------------------------
+              SHOP NAME
+           Address: 123 Main St
+           Phone: (123) 456-7890
+----------------------------------------
+Date: 2023-10-01
+Time: 14:30
+----------------------------------------
+Item                Qty     Price
+----------------------------------------
+Item 1              2       $10.00
+Item 2              1       $5.50
+Item 3              3       $7.25
+----------------------------------------
+Subtotal:                     $32.75
+Tax (5%):                    $1.64
+----------------------------------------
+Total:                      $34.39
+----------------------------------------
+Thank you for shopping with us!
+----------------------------------------
+"""
 
-    category = categorizer.classify_document(sample_text)
+    category= categorizer.categorize_document(sample_text)
     print("Document Category:", category)
+    

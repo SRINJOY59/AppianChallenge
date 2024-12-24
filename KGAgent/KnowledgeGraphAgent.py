@@ -2,6 +2,10 @@ import re
 import json
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
+from langchain.globals import set_llm_cache
+from langchain.cache import InMemoryCache
+
+set_llm_cache(InMemoryCache())
 
 def clean_json_string(input_string):
     cleaned_string = re.sub(r"```json|```", '', input_string)
