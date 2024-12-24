@@ -79,8 +79,13 @@ class DocumentCategoryAgent:
         This is a random paragraph discussing the benefits of exercise for mental health. It contains no financial or personal identification information.
         Output: Uncategorized
 
-        Output will be just a single word : bank or finance or identity or receipt
-        no other text will be there in output.
+        ### Chain-of-Thought Reasoning:
+        Please carefully consider the text and think through the category it most likely falls into. 
+        - Identify keywords that could be related to financial operations, banking, identification, or receipts.
+        - Focus on the structure and content. 
+        Only one word should be returned in the output: bank, finance, receipt, identity, or Uncategorized.
+        Don't put any other details in the output
+
         Now, classify the following text:
         {input_text}
         """
@@ -96,30 +101,29 @@ class DocumentCategoryAgent:
 if __name__ == "__main__":
     categorizer = DocumentCategoryAgent()
 
-
     sample_text = """
-----------------------------------------
-              SHOP NAME
-           Address: 123 Main St
-           Phone: (123) 456-7890
-----------------------------------------
-Date: 2023-10-01
-Time: 14:30
-----------------------------------------
-Item                Qty     Price
-----------------------------------------
-Item 1              2       $10.00
-Item 2              1       $5.50
-Item 3              3       $7.25
-----------------------------------------
-Subtotal:                     $32.75
-Tax (5%):                    $1.64
-----------------------------------------
-Total:                      $34.39
-----------------------------------------
-Thank you for shopping with us!
-----------------------------------------
-"""
+    ----------------------------------------
+                  SHOP NAME
+               Address: 123 Main St
+               Phone: (123) 456-7890
+    ----------------------------------------
+    Date: 2023-10-01
+    Time: 14:30
+    ----------------------------------------
+    Item                Qty     Price
+    ----------------------------------------
+    Item 1              2       $10.00
+    Item 2              1       $5.50
+    Item 3              3       $7.25
+    ----------------------------------------
+    Subtotal:                     $32.75
+    Tax (5%):                    $1.64
+    ----------------------------------------
+    Total:                      $34.39
+    ----------------------------------------
+    Thank you for shopping with us!
+    ----------------------------------------
+    """
 
     category = categorizer.categorize_document(sample_text)
     print("Document Category:", category)
