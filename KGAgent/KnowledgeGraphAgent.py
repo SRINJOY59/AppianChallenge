@@ -1,6 +1,6 @@
 import re
 import json
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import tiktoken
 import json
@@ -24,11 +24,10 @@ def load_as_json(input_string):
 load_dotenv()
 
 class KnowledgeGraphAgent:
-    def __init__(self, model="gemini-1.5-pro", temperature=0, max_tokens=None, timeout=None, max_retries=2):
-        self.llm = ChatGoogleGenerativeAI(
+    def __init__(self, model="mixtral-8x7b-32768", temperature=0, max_tokens=None, timeout=None, max_retries=2):
+        self.llm = ChatGroq(
             model=model,
             temperature=temperature,
-            max_tokens=max_tokens,
             timeout=timeout,
             max_retries=max_retries,
         )
