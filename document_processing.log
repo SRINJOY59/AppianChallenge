@@ -1,0 +1,14 @@
+2024-12-26 02:38:41,452 - Text_Extraction.scan_checker - ERROR - Error analyzing PDF: no such file: 'kutta_pdf.pdf'
+2024-12-26 02:38:42,722 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2024-12-26 02:38:42,723 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-26 02:38:48,754 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 02:40:31,292 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2024-12-26 02:40:31,294 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2024-12-26 02:40:38,158 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-12-26 02:40:40,162 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/a960b634-a084-47e6-83ec-3ed22de33fc3 "HTTP/1.1 200 OK"
+2024-12-26 02:40:43,123 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/a960b634-a084-47e6-83ec-3ed22de33fc3 "HTTP/1.1 200 OK"
+2024-12-26 02:40:43,594 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/a960b634-a084-47e6-83ec-3ed22de33fc3/result/markdown "HTTP/1.1 200 OK"
+2024-12-26 02:40:44,730 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2024-12-26 02:40:44,730 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-26 02:40:50,935 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 02:40:53,923 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,78 @@
+2024-12-26 01:52:13,189 - __main__ - INFO - GroundX client initialized successfully.
+2024-12-26 01:52:13,189 - __main__ - INFO - Starting document parsing...
+2024-12-26 01:52:13,796 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 401 Unauthorized"
+2024-12-26 01:52:13,797 - __main__ - ERROR - GroundX error: status_code: 401, body: {'message': 'You did not include your API key in this request'}
+2024-12-26 01:52:48,620 - __main__ - INFO - GroundX client initialized successfully.
+2024-12-26 01:52:48,621 - __main__ - INFO - Starting document parsing...
+2024-12-26 01:52:51,276 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2024-12-26 01:52:51,280 - __main__ - INFO - Created bucket: 13667
+2024-12-26 01:52:51,280 - __main__ - ERROR - GroundX error: Invalid file path: kutta_pdf.pdf
+2024-12-26 01:53:11,620 - __main__ - INFO - GroundX client initialized successfully.
+2024-12-26 01:53:11,621 - __main__ - INFO - Starting document parsing...
+2024-12-26 01:53:13,855 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2024-12-26 01:53:13,857 - __main__ - INFO - Created bucket: 13668
+2024-12-26 01:53:15,726 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:19,468 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:23,026 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:26,331 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:29,865 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:36,053 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:39,801 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:43,826 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:47,112 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:51,116 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:54,856 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:53:58,874 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:02,167 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:06,493 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:09,787 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:13,360 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:16,666 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:20,886 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:24,638 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:28,647 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:32,401 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:36,412 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:39,707 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:43,256 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:46,988 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:50,529 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:53,831 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:54:57,394 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:55:00,706 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:55:04,256 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/8dcb874a-3028-4199-b8b4-a20b00def906 "HTTP/1.1 200 OK"
+2024-12-26 01:55:05,027 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13668 "HTTP/1.1 200 OK"
+2024-12-26 01:55:06,310 - __main__ - INFO - Document parsing completed successfully.
+2024-12-26 01:56:20,094 - __main__ - INFO - GroundX client initialized successfully.
+2024-12-26 01:56:20,094 - __main__ - INFO - Starting document parsing...
+2024-12-26 01:56:22,746 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2024-12-26 01:56:22,749 - __main__ - INFO - Created bucket: 13669
+2024-12-26 01:56:24,626 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:28,372 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:32,397 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:36,117 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:40,123 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:43,437 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:46,971 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:50,268 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:54,316 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:56:58,054 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:02,066 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:05,369 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:08,909 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:12,201 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:15,720 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:19,027 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:23,011 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:26,759 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:30,439 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:33,757 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:37,769 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:41,509 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:45,044 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:48,816 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:52,387 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/4c450863-5394-44b4-8530-feb61665ccdb "HTTP/1.1 200 OK"
+2024-12-26 01:57:52,728 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13669 "HTTP/1.1 200 OK"
+2024-12-26 01:57:53,934 - __main__ - INFO - Document parsing completed successfully.
+2024-12-26 02:02:09,739 - __main__ - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2024-12-26 02:02:09,740 - __main__ - INFO - Scan detection result: Scanned (confidence: 0.90)

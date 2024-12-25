@@ -414,7 +414,7 @@ class CombinedDocumentParser:
                     json.dump(groundx_data, f, indent=2, ensure_ascii=True, sort_keys=True)
             
             logger.info(f"GroundX results saved to: {groundx_output}")
-            return str(groundx_output)
+            return str(groundx_data)
 
         except Exception as e:
             logger.error(f"Error in parse_document_groundx: {str(e)}")
@@ -474,7 +474,7 @@ class CombinedDocumentParser:
                 f.write(final_llama_text.strip())
             
             logger.info(f"LlamaParse results saved to: {llama_output}")
-            return str(llama_output)
+            return str(final_llama_text)
 
         except Exception as e:
             logger.error(f"Error in parse_document_llama: {str(e)}")
@@ -487,35 +487,31 @@ class CombinedDocumentParser:
         return mode
     
 
-    def execution(self, pdf_path: str, output_dir: str = "parsed_output"):
+    def execution(self, pdf_path: str, mode : str = None, output_dir: str = "parsed_output"):
         if(self.is_scanned_pdf(pdf_path)):
             print("scanned pdf")
-            mode = self.mode_selection()
             if(mode == "groundx"):
                 groundx_output = self.parse_document_groundx(
                     file_path=pdf_path,
-                    output_dir="parsed_output"
+                    output_dir=output_dir
                 )
                 return groundx_output
             else:
                 llama_output = self.parse_document_llama(
                     file_path=pdf_path,
-                    output_dir="parsed_output"
+                    output_dir=output_dir
                 )
                 return llama_output
         else:
             print("machine readable pdf")
             extracted_content = self.process_pdf(pdf_path)
             
-            # Create output directory if it doesn't exist
             output_path = Path(output_dir)
             output_path.mkdir(parents=True, exist_ok=True)
             
-            # Generate timestamp and filename
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             file_name = Path(pdf_path).stem
             
-            # Save extracted text
             text_output = output_path / f"{file_name}_extracted_{timestamp}.txt"
             with open(text_output, 'w', encoding='utf-8') as f:
                 f.write("=== Extracted Text ===\n\n")
@@ -529,51 +525,3 @@ class CombinedDocumentParser:
             logger.info(f"Machine-readable PDF results saved to: {text_output}")
             return str(text_output)
 
-def main():
-    # GroundX API keys
-    groundx_api_keys = [
-        "bfa1f574-8d3e-46dd-ac94-d7e6cf4b29e2",
-        "9c758966-e5a5-4135-86b4-71e71c1063bb",
-        "a666a712-d99f-43cb-be2c-31c77addc456",
-        "3b3c586f-476e-494b-8b2f-c91f1b07af2f",
-        "bb60249a-e71b-438f-a701-ccc63b88d71c",
-        "239cdd42-e258-46fd-a89f-5210ba52bc34"
-    ]
-
-    # LlamaParse API keys
-    llama_api_keys = [
-        "llx-TONwLNMZee82X68phw1R6lcUgS0sXvTBRwgYn8IfoSPDj1IW",
-        "llx-U9jmQbrvmzCasd6cu5c6843RPXrxAhNZVqujFQTlazpgotrF",
-        "llx-NBW6S9wkcKwcxaxN7t6TclHOVntON27WKc0kDGBiCRWfuM3D",
-        "llx-K1BQ2MhtL8C7XtTjM2bjcUhmoI2oWht435bqLTPYjx6TQpI6",
-        "llx-8hKTBd9bI5Csjk7FH4XvA4ShPFCuCI4M6aspONEg4tIZsNCv",
-        "llx-QNSS2RZRqE7Z6ToFGCOgiSdDoX7Q4ZvrA5vyC53c6gZsxbMc"
-    ]
-
-    try:
-        # Initialize parser with multiple API keys and chunk size
-        parser = CombinedDocumentParser(
-            groundx_api_keys=groundx_api_keys,
-            llama_api_keys=llama_api_keys,
-            max_pages_per_chunk=15  # Adjust this value as needed
-        )
-        
-        
-        # Process document
-        # #
-        # # #
-        # # # #
-        input_file = "text_extraction/Dz18s4RU0AAxcWU.pdf"  # Replace with your PDF file
-        # # # #
-        # # #
-        # #
-        #
-        
-        parser.execution(input_file, "parsed_output")
-        
-    except Exception as e:
-        logger.error(f"Fatal error in main: {str(e)}", exc_info=True)
-        raise
-
-if __name__ == "__main__":
-    main()

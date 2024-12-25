@@ -1,0 +1,266 @@
+[
+    {
+        "query": "UNION BANK OF INDIA - CREDIT CARD APPLICATION**\nApplication Reference: \n\nPERSONAL DETAILS\n--------------\nName: Karina Richards\nDate of Birth: 1970-09-09\nGender: \nNationality: \nCategory:   # General/SC/ST/OBC/Minority\n\nIDENTITY PROOF\n------------\nPAN Number: I1570\nAadhaar Number: 746666835556\nOther ID Type: \nOther ID Number: \n\nCONTACT INFORMATION\n-----------------\nMobile Number: 905.581.5443\nAlternate Number: \nEmail Address: kingheather@example.org\nResidential Address: \nPIN Code: 51141\n\nEMPLOYMENT & INCOME\n----------------\nEmployment Type: \nEmployer Name: \nOffice Address: \nMonthly Income: \nOther Income Sources: \n\nEXISTING RELATIONSHIPS\n-------------------\nUnion Bank Account: \nAccount Number: ICMY58011763128333\nHome Branch: \nIFSC Code: \n\nCARD SELECTION\n------------\nCard Type: Signature  # Classic/Gold/Platinum/Signature\nAdd-on Card Required:   # Yes/No",
+        "relevant_information": {
+            "Name": "Karina Richards",
+            "Date of Birth": "1970-09-09",
+            "PAN Number": "I1570",
+            "Aadhaar Number": "746666835556",
+            "Mobile Number": "905.581.5443",
+            "Email Address": "kingheather@example.org",
+            "PIN Code": "51141",
+            "Card Type": "Signature",
+            "Account Number": "ICMY58011763128333"
+        }
+    },
+    {
+        "query": "UNION BANK OF INDIA - CREDIT CARD APPLICATION**\nApplication Reference: \n\nPERSONAL DETAILS\n--------------\nName: Karina Richards\nDate of Birth: 1970-09-09\nGender: \nNationality: \nCategory:   # General/SC/ST/OBC/Minority\n\nIDENTITY PROOF\n------------\nPAN Number: I1570\nAadhaar Number: 746666835556\nOther ID Type: \nOther ID Number: \n\nCONTACT INFORMATION\n-----------------\nMobile Number: 905.581.5443\nAlternate Number: \nEmail Address: kingheather@example.org\nResidential Address: \nPIN Code: 51141\n\nEMPLOYMENT & INCOME\n----------------\nEmployment Type: \nEmployer Name: \nOffice Address: \nMonthly Income: \nOther Income Sources: \n\nEXISTING RELATIONSHIPS\n-------------------\nUnion Bank Account: \nAccount Number: ICMY58011763128333\nHome Branch: \nIFSC Code: \n\nCARD SELECTION\n------------\nCard Type: Signature  # Classic/Gold/Platinum/Signature\nAdd-on Card Required:   # Yes/No",
+        "relevant_information": {
+            "Name": "Karina Richards",
+            "Date of Birth": "1970-09-09",
+            "PAN Number": "I1570",
+            "Aadhaar Number": "746666835556",
+            "Mobile Number": "905.581.5443",
+            "Email Address": "kingheather@example.org",
+            "PIN Code": "51141",
+            "Card Type": "Signature",
+            "Account Number": "ICMY58011763128333"
+        }
+    },
+    {
+        "query": "UNION BANK OF INDIA - CREDIT CARD APPLICATION**\nApplication Reference: \n\nPERSONAL DETAILS\n--------------\nName: Karina Richards\nDate of Birth: 1970-09-09\nGender: \nNationality: \nCategory:   # General/SC/ST/OBC/Minority\n\nIDENTITY PROOF\n------------\nPAN Number: I1570\nAadhaar Number: 746666835556\nOther ID Type: \nOther ID Number: \n\nCONTACT INFORMATION\n-----------------\nMobile Number: 905.581.5443\nAlternate Number: \nEmail Address: kingheather@example.org\nResidential Address: \nPIN Code: 51141\n\nEMPLOYMENT & INCOME\n----------------\nEmployment Type: \nEmployer Name: \nOffice Address: \nMonthly Income: \nOther Income Sources: \n\nEXISTING RELATIONSHIPS\n-------------------\nUnion Bank Account: \nAccount Number: ICMY58011763128333\nHome Branch: \nIFSC Code: \n\nCARD SELECTION\n------------\nCard Type: Signature  # Classic/Gold/Platinum/Signature\nAdd-on Card Required:   # Yes/No",
+        "relevant_information": {
+            "Name": "Karina Richards",
+            "Date of Birth": "1970-09-09",
+            "PAN Number": "I1570",
+            "Aadhaar Number": "746666835556",
+            "Mobile Number": "905.581.5443",
+            "Email Address": "kingheather@example.org",
+            "PIN Code": "51141",
+            "Card Type": "Signature",
+            "Account Number": "ICMY58011763128333"
+        }
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "parsed_output\\tmph4cjlw1i_llama_20241226_001132.txt",
+        "relevant_information": {
+            "Personal Details": {
+                "Full Name": "Llama",
+                "Date of Birth": "2024-12-26",
+                "ID Number": "tmph4cjlw1i"
+            },
+            "Document Details": {
+                "Issue Date": null,
+                "Expiration Date": "2024-12-26"
+            }
+        },
+        "timestamp": "2024-12-26 00:11:54"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "parsed_output\\tmpxcbhvljb_llama_20241226_001724.txt",
+        "relevant_information": {
+            "Name": "Llama",
+            "Date of Birth": "2024-12-26",
+            "Document Type": "Identity Document",
+            "Document ID": "parsed_output\\tmpxcbhvljb_llama_20241226_001724.txt"
+        },
+        "timestamp": "2024-12-26 00:17:43"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "parsed_output\\tmpcggg5dn0_llama_20241226_002524.txt",
+        "relevant_information": {
+            "Name": "John Doe",
+            "Date of Birth": "01/01/1990",
+            "Gender": "Male",
+            "Document Type": "Passport",
+            "Document Number": "123456789",
+            "Issuing Country": "United States",
+            "Issue Date": "02/02/2015",
+            "Expiry Date": "02/02/2025"
+        },
+        "timestamp": "2024-12-26 00:25:44"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "parsed_output\\tmp6yk06bfi_llama_20241226_003935.txt",
+        "relevant_information": {
+            "name": "John Doe",
+            "date_of_birth": "01/01/1990",
+            "age": "32",
+            "gender": "Male",
+            "document_type": "Driver's License",
+            "document_number": "123456789",
+            "issuing_authority": "Department of Motor Vehicles",
+            "issue_date": "01/01/2019",
+            "expiration_date": "01/01/2024"
+        },
+        "timestamp": "2024-12-26 00:39:55"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "# GOVERNMENT OF INDIA\n\nName: Tomm} Singh\n\nFather's Name: shetu Singh\n\nYear of Birth: 7A44\n\nGender: Male\n\nIdentification Numbers: 5485 5000 8000\n\n34R  314 fuaTr",
+        "relevant_information": {
+            "Name": "Tomm} Singh",
+            "Father's Name": "shetu Singh",
+            "Year of Birth": "7A44",
+            "Gender": "Male",
+            "Identification Numbers": [
+                "5485 5000 8000",
+                "34R  314 fuaTr"
+            ]
+        },
+        "timestamp": "2024-12-26 01:48:04"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "# GOVERNMENT OF INDIA\n\nName: Tomm} Singh\n\nFather's Name: shetu Singh\n\nYear of Birth: 7A44\n\nGender: Male\n\nIdentification Numbers: 5485 5000 8000\n\n34R  314 fuaTr",
+        "relevant_information": {
+            "Name": "Tomm} Singh",
+            "Father's Name": "shetu Singh",
+            "Year of Birth": "7A44",
+            "Gender": "Male",
+            "Identification Numbers": [
+                "5485 5000 8000",
+                "34R  314 fuaTr"
+            ]
+        },
+        "timestamp": "2024-12-26 02:15:19"
+    },
+    {
+        "username": "srinjoy",
+        "email": "srinjoydas566@gmail.com",
+        "query": "bhaart raar GOVERNMENT OF INDIA Tommy Singh taa : r Father : Sheru Singh r / Year of Birth 26-11-2009 r / Male 5485 5000 8000 aar aa aar -",
+        "relevant_information": {
+            "name": "Bhaart Raar",
+            "father_name": "Tommy Singh",
+            "gender": "Male",
+            "date_of_birth": "26-11-2009",
+            "document_type": "GOVERNMENT OF INDIA",
+            "document_number": "5485 5000 8000"
+        },
+        "timestamp": "2024-12-26 02:16:56"
+    },
+    {
+        "username": "soumyadip",
+        "email": "soumyadip.paik.gns@gmail.com",
+        "query": "# GOVERNMENT OF INDIA\n\nName: Tomm} Singh\n\nFather's Name: shetu Singh\n\nYear of Birth: 7A44\n\nGender: Male\n\nIdentification Numbers: 5485 5000 8000\n\n34R  314 fuaTr",
+        "relevant_information": {
+            "Name": "Tomm} Singh",
+            "Father's Name": "shetu Singh",
+            "Year of Birth": "7A44",
+            "Gender": "Male",
+            "Identification Numbers": [
+                "5485 5000 8000",
+                "34R  314 fuaTr"
+            ]
+        },
+        "timestamp": "2024-12-26 02:26:21"
+    },
+    {
+        "username": "soumyadip",
+        "email": "soumyadip.paik.gns@gmail.com",
+        "query": "# INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR\n\n# Performance Details\n\n|Roll No|Name|Department|Course Name|Minor Course Name|Micro Specialisation Name|\n|---|---|---|---|---|---|\n|22CS30054|Srinjoy Das|COMPUTER SCIENCE & ENGINEERING|COMPUTER SCIENCE & ENGG. (M Tech Dual SY)| | |\n\n# Semester Curricula Summary\n\n|Curricula Cumulative Total|Registered|Cleared|\n|---|---|---|\n|Depth CORE|5 - 5 - 5|38|\n|Depth Elective|1 - 1 - 1|0 - 0 - 0|\n|Breadth Elective|1 - 1|0 - 0|\n|HSS-Breadth|0 - 0|0 - 0|\n|Project Elective|1 - 1|0 - 0|\n\n# Subject Details\n\n|Subno|Subject Name|Sub Type|LT-P|Credit|Reg Sem|Register Session|Grade|Register Status|\n|---|---|---|---|---|---|---|---|---|\n|CS31005|ALGORITHMS|Depth CORE|3-1-0| |AU-24-25| |Currently Registered| |\n|CS31007|COMPUTER ORGANIZATION & ARCHITECTURE|Depth CORE|3-1-0| |AU-24-25| |Currently Registered| |\n|CS31003|COMPILERS|Depth CORE|3-0-0| |AU-24-25| |Currently Registered| |\n|CS39001|COMPUTER ORGANIZATION LABORATORY|Depth CORE|0-0-6| |AU-24-25|EX|Currently Registered| |\n|CS39003|COMPILERS LABORATORY|Depth CORE|0-0-3| |AU-24-25| |Currently Registered| |\n|MA60269|OPTIMIZATION METHODS IN FINANCE|Breadth Elective II|3-0-0| |AU-24-25 (P)|EX|Currently Registered| |\n|CS60021|SCALABLE DATA MINING|Depth Elective|3-0-0| |AU-24-25 (P)|EX|Currently Registered| |\n\n# Performance Summary\n\n|TCT|TCC|SCT|SCC|NCGPA|CGPA|SGPA|ATCT|ATCC|ASCT|ASCC|ACGPA|ASGPA|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|120 - 120|23 - 23|8.70 - 8.70 - 8.87| |0.00|0.00| | | | | | | |\n\nGeneration Date: Dec 26, 2024 1:09 AM\n\nGenerated By: ERP; IIT KGP",
+        "relevant_information": {
+            "Institution Name": "INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR",
+            "Roll No": "22CS30054",
+            "Name": "Srinjoy Das",
+            "Department": "COMPUTER SCIENCE & ENGINEERING",
+            "Course Name": "COMPUTER SCIENCE & ENGG. (M Tech Dual SY)",
+            "Performance Summary": {
+                "TCT": "120 - 120",
+                "TCC": "23 - 23",
+                "SCT": "8.70 - 8.70 - 8.87",
+                "NCGPA": "0.00",
+                "CGPA": "0.00",
+                "SGPA": ""
+            },
+            "Semester Curricula Summary": {
+                "Curricula Cumulative Total": "Depth CORE - Depth Elective - Breadth Elective - HSS-Breadth - Project Elective",
+                "Registered": "38 - 0 - 0 - 0 - 0",
+                "Cleared": "38 - 0 - 0 - 0 - 0"
+            },
+            "Subject Details": {
+                "CS31005": {
+                    "Subject Name": "ALGORITHMS",
+                    "Sub Type": "Depth CORE",
+                    "LT-P": "3-1-0",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25",
+                    "Register Session": "",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "CS31007": {
+                    "Subject Name": "COMPUTER ORGANIZATION & ARCHITECTURE",
+                    "Sub Type": "Depth CORE",
+                    "LT-P": "3-1-0",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25",
+                    "Register Session": "",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "CS31003": {
+                    "Subject Name": "COMPILERS",
+                    "Sub Type": "Depth CORE",
+                    "LT-P": "3-0-0",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25",
+                    "Register Session": "",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "CS39001": {
+                    "Subject Name": "COMPUTER ORGANIZATION LABORATORY",
+                    "Sub Type": "Depth CORE",
+                    "LT-P": "0-0-6",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25",
+                    "Register Session": "EX",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "CS39003": {
+                    "Subject Name": "COMPILERS LABORATORY",
+                    "Sub Type": "Depth CORE",
+                    "LT-P": "0-0-3",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25",
+                    "Register Session": "",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "MA60269": {
+                    "Subject Name": "OPTIMIZATION METHODS IN FINANCE",
+                    "Sub Type": "Breadth Elective II",
+                    "LT-P": "3-0-0",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25 (P)",
+                    "Register Session": "EX",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                },
+                "CS60021": {
+                    "Subject Name": "SCALABLE DATA MINING",
+                    "Sub Type": "Depth Elective",
+                    "LT-P": "3-0-0",
+                    "Credit": "",
+                    "Reg Sem": "AU-24-25 (P)",
+                    "Register Session": "EX",
+                    "Grade": "",
+                    "Register Status": "Currently Registered"
+                }
+            }
+        },
+        "timestamp": "2024-12-26 02:33:38"
+    }
+]
