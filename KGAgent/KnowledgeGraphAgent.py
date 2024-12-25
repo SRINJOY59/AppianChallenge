@@ -47,9 +47,8 @@ class KnowledgeGraphAgent:
 
         Your output should be a structured JSON object that represents the information extracted from the unstructured text, with the following attributes:
         - `graph_type`: The type of knowledge graph (e.g., "Bank Application KG").
-        - `entities`: A list of key entities identified in the text.
         - `attributes`: Relevant attributes and relationships between entities, categorized based on the `graph_type`.
-        
+        - `relevant_information` : The relevant key-value pairs extracted from the text in dictionary format.
         Do not include any extra commentary or explanations in the output. Ensure that the structure is clean and only includes relevant data points.
         """
 
@@ -75,7 +74,9 @@ if __name__ == "__main__":
     kg_bank_application = kg_agent.generate_knowledge_graph(bank_application_text, graph_type="Bank Application KG")
     print("Bank Application Knowledge Graph:", kg_bank_application)
     kg_bank_json = load_as_json(kg_bank_application)
-    print("Bank Application JSON: ", kg_bank_json)
+    print("Bank Application JSON: \n")
+    print(kg_bank_json)
+    print(kg_bank_json['relevant_information'])
 
     passport_text = """
     Name: John Doe
@@ -92,7 +93,8 @@ if __name__ == "__main__":
     kg_passport = kg_agent.generate_knowledge_graph(passport_text, graph_type="Identity Document KG")
     print("Passport Knowledge Graph:", kg_passport)
     kg_passport_json = load_as_json(kg_passport)
-    print("Passport KG JSON: ", kg_passport_json)
+    print("Passport KG JSON: \n", kg_passport_json)
+    print(kg_passport_json['relevant_information'])
 
     financial_statement_text = """
     Total Income: $120,000
@@ -112,7 +114,9 @@ if __name__ == "__main__":
     kg_financial_statement = kg_agent.generate_knowledge_graph(financial_statement_text, graph_type="Financial Statement KG")
     print("Financial Statement Knowledge Graph:", kg_financial_statement)
     kg_financial_json = load_as_json(kg_financial_statement)
-    print("Financial KG JSON: ", kg_financial_json)
+    print("Financial KG JSON: \n", kg_financial_json)
+    print(kg_financial_json['relevant_information'])
+    
 
     receipt_text = """
     Store Name: Best Buy
@@ -135,4 +139,5 @@ if __name__ == "__main__":
     kg_receipt = kg_agent.generate_knowledge_graph(receipt_text, graph_type="Receipt or Invoice KG")
     print("Receipt Knowledge Graph:", kg_receipt)
     kg_receipt_json = load_as_json(kg_receipt)
-    print("Receipt KG JSON: ", kg_receipt_json)
+    print("Receipt KG JSON: \n", kg_receipt_json)
+    print(kg_receipt_json['relevant_information'])
