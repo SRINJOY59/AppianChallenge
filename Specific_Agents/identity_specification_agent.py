@@ -1,5 +1,5 @@
 import json
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from langchain.globals import set_llm_cache
 from langchain_community.cache import InMemoryCache
@@ -9,8 +9,8 @@ set_llm_cache(InMemoryCache())
 load_dotenv()
 
 class IdentityClassificationAgent:
-    def __init__(self, model="gemini-1.5-pro", temperature=0, max_tokens=None, timeout=None, max_retries=2):
-        self.llm = ChatGoogleGenerativeAI(
+    def __init__(self, model="llama3-70b-8192", temperature=0, max_tokens=None, timeout=None, max_retries=2):
+        self.llm = ChatGroq(
             model=model,
             temperature=temperature,
             max_tokens=max_tokens,

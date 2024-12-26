@@ -1,3 +1,4 @@
+import os
 import warnings
 from KGAgent.KnowledgeGraphAgent import KnowledgeGraphAgent, load_as_json
 from Specific_Agents.bank_specification_agent import DocumentSummaryAgentBank
@@ -13,8 +14,6 @@ from Text_Extraction.parser_pdfminer import extract_text_from_pdf
 from Text_Extraction.scan_checker import is_scanned_pdf
 from dotenv import load_dotenv
 from collections import Counter
-
-import os
 
 load_dotenv()
 warnings.filterwarnings("ignore") 

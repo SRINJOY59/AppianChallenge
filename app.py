@@ -143,7 +143,7 @@ def main():
             return  
         
         add_blue_theme()
-        tmp_path = 'kutta_pdf.pdf'
+        tmp_path = 'Aaadhar.pdf'
         st.markdown("### Welcome to the DocuParse Pro!")
         st.markdown("### Effortlessly upload, analyze, and extract insights from your documents with precision.")
         uploaded_file = st.file_uploader("Upload a PDF document", type=['pdf'])

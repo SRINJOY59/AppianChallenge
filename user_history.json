@@ -262,5 +262,17 @@
             }
         },
         "timestamp": "2024-12-26 02:33:38"
+    },
+    {
+        "username": "anushree",
+        "email": "anushreeghosh200@gmail.com",
+        "query": "# ELECTION COLISSI ION OF INDLADFNTITY CARD\n\nNCS1694975\n\nFreaMmc\n\nDate of Birth: 25/08/1936",
+        "relevant_information": {
+            "Name": "FreaMmc",
+            "Date of Birth": "25/08/1936",
+            "Document Type": "Election Identity Card",
+            "Card Number": "NCS1694975"
+        },
+        "timestamp": "2024-12-26 11:54:07"
     }
 ]
