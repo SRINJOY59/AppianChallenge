@@ -15,9 +15,7 @@ from Text_Extraction.parser_llama import extract_text_from_llama_parse
 from Text_Extraction.parser_pdfminer import extract_text_from_pdf
 from Text_Extraction.parser_groundX import initialize_groundx_client, parse_with_groundx
 from Text_Extraction.scan_checker import is_scanned_pdf
-
 from Main_Clf_Agents.gemini_base_agent import DocumentCategoryAgentGemini
-
 from Email_services.email_service import EmailService
 
 
