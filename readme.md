@@ -5,7 +5,7 @@
 
 ## FinDoc.ai Pipeline
 
-![FinDoc.ai Pipeline](Model_Pipeline.png)
+![FinDoc.ai Pipeline](Model_architecture.png)
 
 
 ### Problem Statement  
