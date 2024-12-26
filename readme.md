@@ -3,6 +3,11 @@
 ## Overview  
 **FinDoc.ai** is an intelligent system designed to automate the classification and summarization of unstructured financial documents for Appian Credit Union. It leverages machine learning, large language models, and knowledge graphs to enhance efficiency, reduce manual effort, and improve the reliability of document organization.
 
+## FinDoc.ai Pipeline
+
+![FinDoc.ai Pipeline](Model_Pipeline.png)
+
+
 ### Problem Statement  
 Appian Credit Union receives thousands of documents daily, such as:  
 - **Applications for bank accounts** (credit card, savings account).  

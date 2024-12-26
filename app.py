@@ -248,11 +248,17 @@ def main():
                 st.warning("Please enter the document text to proceed.")
             else:
                 with st.spinner("Classifying document... This may take a moment."):
+                    
+                    show_progress("Step 1: Predicting the document type using the base models...")
 
                     prediction = load_models_and_predict(sample_text) 
+                    
+                    show_progress("Step 2: Predicting the document type using Mixtral...")
 
                     mistral_agent = MistralBaseAgent()
                     mistral_prediction = mistral_agent.classify_document(sample_text) 
+                    
+                    show_progress("Step 3: Predicting the document type using Gemini...")
 
                     gemini_agent = DocumentCategoryAgentGemini()
                     gemini_prediction = gemini_agent.categorize_document(sample_text)  

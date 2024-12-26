@@ -42,7 +42,9 @@ class DocumentSummaryAgentBank:
             ("human", f"Knowledge Graph:\n\n{knowledge_graph_str}"),
         ]
 
+
         ai_msg = self.llm.invoke(messages)
+
         return ai_msg.content
 
 

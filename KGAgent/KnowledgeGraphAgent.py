@@ -55,10 +55,10 @@ class KnowledgeGraphAgent:
             ("human", f"Graph Type: {graph_type}\n\nText: {text}"),
         ]
         
-        
 
         ai_msg = self.llm.invoke(messages)
         
+
         return ai_msg.content
 
 if __name__ == "__main__":

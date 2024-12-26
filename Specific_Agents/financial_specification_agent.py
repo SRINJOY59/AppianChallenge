@@ -53,6 +53,7 @@ class FinancialSummaryAgent:
         ]
 
         ai_msg = self.llm.invoke(messages)
+        end_time = time.time()
         return ai_msg.content
 
 
