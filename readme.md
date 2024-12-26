@@ -125,7 +125,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:  
    ```bash
-   https://github.com/SRINJOY59/AppianChallenge.git
+   git clone https://github.com/SRINJOY59/AppianChallenge.git
    cd AppianChallenge
    ```  
 
@@ -136,8 +136,13 @@ pip install -r requirements.txt
 
 3. Run the app locally:  
    ```bash
-   python app.py
+   python main.py
    ```  
+4. Run the Streamlit app:  
+   ```bash
+   streamlit run app.py
+   ```      
+  
 
 ---
 
