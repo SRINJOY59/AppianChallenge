@@ -54,20 +54,20 @@ Handles PDF-to-text conversion using the following parsers:
 
 ### 3. **Classification Models and Agents**  
 
-#### **Base Models:**  
+#### **Stacking Models:**  
 - **Models Used:**  
   - XGBoost, LightGBM, CatBoost as base classifiers.  
+  - XGBoost as the meta-classifier.  
 - **Process:**  
   - Encoded text using SentenceTransformer (`nvidia-Embed-v2`).  
-  - Base classifiers provide predictions.  
-  - Meta-classifier combines predictions for final output.  
+  -  
 
 #### **Gemini and Mistral Agents:**  
 - **Gemini Agent:**  
-  - LLM: ChatGoogleGenerativeAI (Gemini-1.5-Flash).  
+  - Langchain ChatGoogleGenerativeAI (Gemini-1.5-Flash).  
   - Uses few-shot examples and structured prompts.  
 - **Mistral Agent:**  
-  - LLM: ChatGroq (Mixtral-8x7b-32768).  
+  - Langchain ChatGroq (Mixtral-8x7b-32768).  
   - Employs Chain-of-Thought reasoning and structured prompts.  
 
 #### **Majority Voting:**  
@@ -88,10 +88,10 @@ _Trained models are stored in `Trained_Base_Models/` (joblib format)._
 - Supports multiple document types (Bank, Finance, Receipt, Identity).  
 
 #### **Specialist Agents (Llama-3-70b):**  
-- **Bank Specialist:** Analyzes banking documents.  
-- **Financial Specialist:** Organizes financial data.  
-- **Receipt Specialist:** Summarizes receipt data.  
-- **Identity Specialist:** Categorizes identity documents.  
+- **Bank Specialist:** Analyzes banking documents and provides summary of the document along with the finer classifications like it is a credit card application or a savings account application.  
+- **Financial Specialist:** Organizes financial data and provides summary of the document along with the finer classifications like it is a income statement or a tax return.  
+- **Receipt Specialist:** Summarizes receipt data and provides summary of the document along with the finer classifications like it is a grocery receipt or a restaurant receipt.  
+- **Identity Specialist:** Categorizes identity documents and provides summary of the document along with the finer classifications like it is a driver's license or a passport.  
 - Inputs KG and outputs structured summaries and finer classifications.  
 
 ---
