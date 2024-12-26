@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import time
 import os
+import smtplib
 import tempfile
 from collections import Counter
 from KGAgent.KnowledgeGraphAgent import KnowledgeGraphAgent, load_as_json
@@ -15,24 +16,40 @@ from Text_Extraction.parser_llama import extract_text_from_llama_parse
 from Text_Extraction.parser_pdfminer import extract_text_from_pdf
 from Text_Extraction.parser_groundX import initialize_groundx_client, parse_with_groundx
 from Text_Extraction.scan_checker import is_scanned_pdf
+
 from Main_Clf_Agents.gemini_base_agent import DocumentCategoryAgentGemini
+
+from Email_services.email_service import EmailService
 
 
 def save_user_data(username, email):
     try:
-        with open('user_data.json', 'r') as file:
+        with open('USER_DATA/user_data.json', 'r') as file:
             user_data = json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         user_data = []
+        
+    email_sender = EmailService()
+    html_template = """
+    <html>
+        <body>
+            <h2>Welcome to FinDoc.ai!</h2>
+            <p>Hello {name},</p>
+            <p>Thank you for using our service. Your account has been successfully created.</p>
+            <p>Best regards,<br>Your Team</p>
+        </body>
+    </html>
+    """
+    if not any(user['username'] == username for user in user_data):
+        user_data.append({"username": username, "email": email})
+        email_sender.send_email(recipient_email=email, subject="Welcome to FinDoc.ai", html_content=html_template.format(name=username))
 
-    user_data.append({"username": username, "email": email})
-
-    with open('user_data.json', 'w') as file:
+    with open('USER_DATA/user_data.json', 'w') as file:
         json.dump(user_data, file, indent=4)
 
 def save_user_history(query, relevant_info):
     try:
-        with open('user_history.json', 'r') as file:
+        with open('USER_DATA/user_history.json', 'r') as file:
             history = json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         history = []
@@ -48,12 +65,12 @@ def save_user_history(query, relevant_info):
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
     })
 
-    with open('user_history.json', 'w') as file:
+    with open('USER_DATA/user_history.json', 'w') as file:
         json.dump(history, file, indent=4)
 
 def display_user_history():
     try:
-        with open('user_history.json', 'r') as file:
+        with open('USER_DATA/user_history.json', 'r') as file:
             history = json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         history = []
@@ -116,11 +133,11 @@ def add_blue_theme():
         unsafe_allow_html=True,
     )
 
-st.set_page_config(page_title="Document Processing App", layout="wide", page_icon="🔖")
+st.set_page_config(page_title="FinDoc.ai", layout="wide", page_icon="🔖")
 
 def main():
     if "username" not in st.session_state or "email" not in st.session_state:
-        st.title("🔖 DocuParse Pro: Intelligent Document Parsing and Knowledge Extraction")
+        st.title("🔖 FinDoc.ai: Intelligent Document Parsing and Knowledge Extraction")
         st.markdown("### Please enter your details to get started.")
 
         with st.container():
@@ -144,7 +161,7 @@ def main():
         
         add_blue_theme()
         tmp_path = r'Test_PDFs\voter_card.pdf'
-        st.markdown("### Welcome to the DocuParse Pro!")
+        st.markdown("### Welcome to the FinDoc.ai!")
         st.markdown("### Effortlessly upload, analyze, and extract insights from your documents with precision.")
         uploaded_file = st.file_uploader("Upload a PDF document", type=['pdf'])
         mode = st.selectbox("Select Processing Mode", options=["groundx", "llama"])
@@ -171,7 +188,6 @@ def main():
 
         
         print(sample_text)
-        os.unlink(tmp_path)
 
         if st.button("Process Document"):
             if not sample_text.strip():
@@ -179,14 +195,11 @@ def main():
             else:
                 with st.spinner("Classifying document... This may take a moment."):
 
-                    show_progress("Step 1: Performing stacking model classification...")
                     prediction = load_models_and_predict(sample_text) 
 
-                    show_progress("Step 2: Performing Mistral agent for classification...")
                     mistral_agent = MistralBaseAgent()
                     mistral_prediction = mistral_agent.classify_document(sample_text) 
 
-                    show_progress("Step 3: Performing Gemini agent for classification...")
                     gemini_agent = DocumentCategoryAgentGemini()
                     gemini_prediction = gemini_agent.categorize_document(sample_text)  
 

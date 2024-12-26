@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 
 def main():
 
-    input_file = "Aaadhar.pdf" 
+    input_file = "TEST_PDFs/Aaadhar.pdf" 
     bucket_name = "sample_bucket"
     api_key = os.getenv("GROUNDX_API_KEY")
     groundx_client = initialize_groundx_client(api_key)
