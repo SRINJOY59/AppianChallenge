@@ -153,7 +153,7 @@ pip install -r requirements.txt
 
 ## Future Enhancements  
 - Integration with a cloud database for user data management.  
-- Enhancements in model performance and accuracy using advanced LLMs.  
+- Enhancements in model performance and accuracy using advanced LLMs like openAI.  
 - Addition of more document types and specialized agents.  
 
 ---
