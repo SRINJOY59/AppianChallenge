@@ -24,7 +24,7 @@ These documents have traditionally been manually verified, a process that is rep
 Contains preprocessed datasets used for model training:  
 - Financial data (HuggingFace).  
 - Receipt data (HuggingFace).  
-- Identity data (HuggingFace).  
+- Identity data (Github).  
 - Bank data (synthetically generated using Faker).  
 
 _Data preparation scripts are in the `feat/Synthetic-data-gen` branch._  
@@ -59,7 +59,7 @@ Handles PDF-to-text conversion using the following parsers:
   - XGBoost, LightGBM, CatBoost as base classifiers.  
   - XGBoost as the meta-classifier.  
 - **Process:**  
-  - Encoded text using SentenceTransformer (`nvidia-Embed-v2`).  
+  - Encoded text using SentenceTransformer (`Nvidia-Embed-v2`).  
   -  
 
 #### **Gemini and Mistral Agents:**  
