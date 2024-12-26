@@ -65,7 +65,8 @@ Handles PDF-to-text conversion using the following parsers:
   - XGBoost as the meta-classifier.  
 - **Process:**  
   - Encoded text using SentenceTransformer (`Nvidia-Embed-v2`).  
-  -  
+  - Base classifiers provide predictions.  
+  - Meta-classifier combines predictions for final output
 
 #### **Gemini and Mistral Agents:**  
 - **Gemini Agent:**  
