@@ -65,7 +65,8 @@ Handles PDF-to-text conversion using the following parsers:
   - XGBoost as the meta-classifier.  
 - **Process:**  
   - Encoded text using SentenceTransformer (`Nvidia-Embed-v2`).  
-  -  
+  - Base classifiers provide predictions.  
+  - Meta-classifier combines predictions for final output
 
 #### **Gemini and Mistral Agents:**  
 - **Gemini Agent:**  
@@ -153,7 +154,7 @@ pip install -r requirements.txt
 
 ## Future Enhancements  
 - Integration with a cloud database for user data management.  
-- Enhancements in model performance and accuracy using advanced LLMs.  
+- Enhancements in model performance and accuracy using advanced LLMs like openAI.  
 - Addition of more document types and specialized agents.  
 
 ---
