@@ -112,12 +112,7 @@ _Trained models are stored in `Trained_Base_Models/` (joblib format)._
 
 ---
 
-### 7. **Local Database**  
-- **Folder:** `USER_DATA/`  
-- Serves as a local database for user data.  
-- Cloud database integration is not implemented due to MongoDB's paid hosting requirements. Future updates may incorporate cloud support.  
 
----
 
 ### Dependencies  
 All required packages are listed in `requirements.txt`. Install them using:  
@@ -153,7 +148,6 @@ pip install -r requirements.txt
 ---
 
 ## Future Enhancements  
-- Integration with a cloud database for user data management.  
 - Enhancements in model performance and accuracy using advanced LLMs like openAI.  
 - Addition of more document types and specialized agents.  
 
