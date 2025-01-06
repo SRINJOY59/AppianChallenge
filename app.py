@@ -17,14 +17,9 @@ from Text_Extraction.parser_groundX import initialize_groundx_client, parse_with
 from Text_Extraction.scan_checker import is_scanned_pdf
 from Main_Clf_Agents.gemini_base_agent import DocumentCategoryAgentGemini
 from Email_services.email_service import EmailService
-
+from mongo_integration import PushToMongo
 
 def save_user_data(username, email):
-    try:
-        with open('USER_DATA/user_data.json', 'r') as file:
-            user_data = json.load(file)
-    except (FileNotFoundError, json.JSONDecodeError):
-        user_data = []
         
     email_sender = EmailService()
     html_template = """
@@ -80,33 +75,16 @@ def save_user_data(username, email):
         </body>
     </html>
     """
-    if not any(user['username'] == username for user in user_data):
-        user_data.append({"username": username, "email": email})
-        email_sender.send_email(recipient_email=email, subject="Welcome to FinDoc.ai", html_content=html_template.format(name=username))
+    email_sender.send_email(email, "Welcome to FinDoc.ai!", html_template.format(name=username))    
 
-    with open('USER_DATA/user_data.json', 'w') as file:
-        json.dump(user_data, file, indent=4)
-
-def save_user_history(query, relevant_info):
-    try:
-        with open('USER_DATA/user_history.json', 'r') as file:
-            history = json.load(file)
-    except (FileNotFoundError, json.JSONDecodeError):
-        history = []
+def save_user_history(base_prediction, relevant_info):
 
     username = st.session_state.username
     email = st.session_state.email
     
-    history.append({
-        "username": username,
-        "email": email,
-        "query": query,
-        "relevant_information": relevant_info,
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-    })
-
-    with open('USER_DATA/user_history.json', 'w') as file:
-        json.dump(history, file, indent=4)
+    
+    mongo_client = PushToMongo()
+    mongo_client.store_in_mongo(username, base_prediction, relevant_info)
 
 def display_user_history():
     try:
@@ -216,7 +194,7 @@ def main():
             - 📊 Good accuracy for most documents
  
 
-            _Select the mode that best suits your needs!
+            Select the mode that best suits your needs!
         """)
         mode = st.selectbox("Select Processing Mode", options=["groundx", "llama"])
         
@@ -277,8 +255,9 @@ def main():
                     knowledge_graph_json = load_as_json(knowledge_graph)
 
                     st.success("Knowledge graph created successfully!")
+                    
+                    save_user_history(base_prediction, knowledge_graph_json.get('relevant_information', 'No relevant information'))
 
-                    save_user_history(sample_text, knowledge_graph_json.get('relevant_information', 'No relevant information'))
                     
                     if base_prediction == "bank":
                         bank_agent = DocumentSummaryAgentBank()
@@ -299,7 +278,7 @@ def main():
                     else:
                         st.markdown("No relevant information found")
 
-                display_user_history()
+                # display_user_history()
 
 if __name__ == "__main__":
     main()

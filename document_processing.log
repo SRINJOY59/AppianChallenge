@@ -752,3 +752,236 @@
 2024-12-26 22:20:09,950 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dae838aa-dd18-497a-afb6-b5000878e8d2 "HTTP/1.1 200 OK"
 2024-12-26 22:20:13,981 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dae838aa-dd18-497a-afb6-b5000878e8d2 "HTTP/1.1 200 OK"
 2024-12-26 22:20:14,323 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13706 "HTTP/1.1 200 OK"
+2024-12-26 22:37:09,512 - tensorflow - WARNING - From C:\Users\Srinjoy\AppData\Roaming\Python\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-12-26 22:38:02,106 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2024-12-26 22:38:02,108 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2024-12-26 22:38:06,517 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2024-12-26 22:38:06,520 - Text_Extraction.parser_groundX - INFO - Created bucket: 13707
+2024-12-26 22:38:07,716 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2024-12-26 22:38:07,717 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2024-12-26 22:38:09,060 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:09,471 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-12-26 22:38:11,616 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/34152679-1df3-4ce0-b23e-53612fbd46f3 "HTTP/1.1 200 OK"
+2024-12-26 22:38:12,113 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/34152679-1df3-4ce0-b23e-53612fbd46f3/result/markdown "HTTP/1.1 200 OK"
+2024-12-26 22:38:12,808 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:16,417 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:19,701 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:23,891 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:27,209 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:31,191 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:34,495 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:38,088 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:41,393 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:45,218 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:48,528 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:52,069 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:55,368 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:38:59,372 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:02,662 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:06,677 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:09,978 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:13,663 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:16,970 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:20,547 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:23,847 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:27,408 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:30,727 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:34,301 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:37,616 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:41,172 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:44,490 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:48,072 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/19e17e54-839f-4888-a848-1084185ec633 "HTTP/1.1 200 OK"
+2024-12-26 22:39:48,397 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13707 "HTTP/1.1 200 OK"
+2024-12-26 22:40:45,504 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2024-12-26 22:40:45,505 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2024-12-26 22:40:52,017 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2024-12-26 22:40:52,018 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2024-12-26 22:40:54,366 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2024-12-26 22:40:54,367 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-12-26 22:41:01,093 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 22:41:09,186 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 22:41:10,689 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:01:12,974 - tensorflow - WARNING - From C:\Users\Srinjoy\AppData\Roaming\Python\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-06 22:03:37,358 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:03:37,359 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:03:40,932 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:03:40,942 - Text_Extraction.parser_groundX - INFO - Created bucket: 13776
+2025-01-06 22:03:42,890 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:03:46,194 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:03:49,772 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:03:53,509 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:03:57,636 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:00,932 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:05,120 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:08,865 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:12,427 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:16,179 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:20,196 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:23,950 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:28,179 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:30,054 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:04:30,055 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:04:33,379 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:04:33,379 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:04:33,980 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:04:33,981 - Text_Extraction.parser_groundX - INFO - Created bucket: 13777
+2025-01-06 22:04:34,672 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:35,262 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-01-06 22:04:36,304 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:37,134 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ccf9b6d2-4735-47a2-9394-d08ab299c120 "HTTP/1.1 200 OK"
+2025-01-06 22:04:37,982 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:40,022 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ccf9b6d2-4735-47a2-9394-d08ab299c120 "HTTP/1.1 200 OK"
+2025-01-06 22:04:40,085 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:40,479 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ccf9b6d2-4735-47a2-9394-d08ab299c120/result/markdown "HTTP/1.1 200 OK"
+2025-01-06 22:04:42,083 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:43,672 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:46,048 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:46,920 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:04:46,920 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:04:47,421 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:48,389 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-01-06 22:04:50,057 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/704794f1-6852-4e00-b1bf-69ccfac769b3 "HTTP/1.1 200 OK"
+2025-01-06 22:04:50,357 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cb2ecd06-cc9d-44be-a411-9ee75da04b15 "HTTP/1.1 200 OK"
+2025-01-06 22:04:50,839 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13776 "HTTP/1.1 200 OK"
+2025-01-06 22:04:50,861 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cb2ecd06-cc9d-44be-a411-9ee75da04b15/result/markdown "HTTP/1.1 200 OK"
+2025-01-06 22:04:51,394 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:55,167 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:04:58,772 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:01,217 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-06 22:05:01,218 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-01-06 22:05:02,565 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:06,619 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:08,936 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:05:10,364 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:14,452 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:16,852 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:05:17,932 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:05:18,262 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:22,355 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:26,121 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:30,144 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/2eaab30c-efaa-4a89-a1f5-eb41507b53ed "HTTP/1.1 200 OK"
+2025-01-06 22:05:31,204 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13777 "HTTP/1.1 200 OK"
+2025-01-06 22:06:01,902 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:06:01,904 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:06:02,968 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:06:02,970 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:06:04,746 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:06:04,748 - Text_Extraction.parser_groundX - INFO - Created bucket: 13778
+2025-01-06 22:06:06,595 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:06,910 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:06:06,911 - Text_Extraction.parser_groundX - INFO - Created bucket: 13779
+2025-01-06 22:06:08,568 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:10,372 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:11,875 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:14,412 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:15,901 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:18,172 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:19,207 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:21,767 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:23,429 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:25,262 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:27,211 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:29,020 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:31,230 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:32,322 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:34,530 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:36,083 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:38,550 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:39,848 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:42,364 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:43,632 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:46,388 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:47,368 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:50,139 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:51,129 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:53,711 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:54,425 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:06:57,459 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:06:58,179 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:01,488 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:07:01,922 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:05,299 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:07:06,217 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:09,349 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:07:09,978 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:12,695 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:07:14,008 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:16,258 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/dc2e188e-d828-4d42-b5ed-80751b9c1332 "HTTP/1.1 200 OK"
+2025-01-06 22:07:17,049 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13779 "HTTP/1.1 200 OK"
+2025-01-06 22:07:17,804 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:20,075 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-06 22:07:20,076 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-01-06 22:07:21,576 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:25,328 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:27,218 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:07:29,167 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:32,959 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:34,187 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:07:35,258 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:07:36,708 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:40,502 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:44,285 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:47,661 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:51,259 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:55,027 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:07:59,063 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/73de1ebf-ddfc-4a37-a949-533f992846f7 "HTTP/1.1 200 OK"
+2025-01-06 22:08:00,098 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13778 "HTTP/1.1 200 OK"
+2025-01-06 22:22:21,793 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:22:21,794 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:22:25,745 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:22:25,747 - Text_Extraction.parser_groundX - INFO - Created bucket: 13780
+2025-01-06 22:34:08,883 - tensorflow - WARNING - From C:\Users\Srinjoy\AppData\Roaming\Python\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-06 22:35:01,864 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 0.00, Images per page: 1.00
+2025-01-06 22:35:01,864 - Text_Extraction.scan_checker - INFO - Scan detection result: Scanned (confidence: 0.90)
+2025-01-06 22:35:05,675 - httpx - INFO - HTTP Request: POST https://api.groundx.ai/api/v1/bucket "HTTP/1.1 200 OK"
+2025-01-06 22:35:05,679 - Text_Extraction.parser_groundX - INFO - Created bucket: 13782
+2025-01-06 22:35:07,925 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:11,707 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:15,759 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:19,526 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:23,136 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:26,453 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:30,486 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:33,787 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:37,345 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:41,135 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:41,412 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2025-01-06 22:35:41,414 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2025-01-06 22:35:45,174 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:48,941 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:53,078 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:54,377 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2025-01-06 22:35:54,378 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2025-01-06 22:35:55,529 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2025-01-06 22:35:55,530 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2025-01-06 22:35:56,852 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:35:59,172 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-06 22:35:59,172 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-01-06 22:36:00,931 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:04,704 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:05,792 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:36:08,861 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:12,183 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:13,639 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:36:16,339 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:25,885 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:29,540 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:33,937 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:37,715 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:41,740 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:45,051 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:49,348 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:36:55,849 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:37:00,014 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/5bddd84e-8a2c-4e06-a9f2-cbc185fd637e "HTTP/1.1 200 OK"
+2025-01-06 22:37:00,783 - httpx - INFO - HTTP Request: GET https://api.groundx.ai/api/v1/ingest/documents/13782 "HTTP/1.1 200 OK"
+2025-01-06 22:38:15,267 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2025-01-06 22:38:15,268 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2025-01-06 22:38:20,918 - Text_Extraction.scan_checker - INFO - PDF Analysis - Chars per page: 8425.00, Images per page: 1.00
+2025-01-06 22:38:20,918 - Text_Extraction.scan_checker - INFO - Scan detection result: Digital (confidence: 0.90)
+2025-01-06 22:38:23,300 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-01-06 22:38:23,300 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-01-06 22:38:29,580 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 22:38:37,415 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

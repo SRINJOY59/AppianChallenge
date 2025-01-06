@@ -22,5 +22,60 @@
             "status": "Remitted"
         },
         "timestamp": "2024-12-26 22:19:21"
+    },
+    {
+        "username": "anushree",
+        "email": "anushreeghosh200@gmail.com",
+        "query": "Acknowledgement Receipt - RTGS/NEFT Fund Transfer\n\nTransfer Type\nFrom Account Number\nBeneficiary's Account Number\nBeneficiary's Name\nBeneficiary's Nick Name\nBeneficiary's Mobile Number\nBeneficiary's IFSC Code\nBeneficiary's Bank Name\nBeneficiary's Branch Name\nTransfer Amount\nAmount In Words\n\nRemark\nUTR No\nUser ID\nUser Name\nTransaction Date\nStatus\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\n :\n\nNEFT\n20016730430\n57027517696\nThe Indian Instititue of Metals\nIIM\n9604020899\nSBTR0000682\nSTATE BANK OF TRAVANCORE\nSALT LAKE CITY\nINR 1625.00\nRupees One Thousand Six Hundred and\nTwenty Five Only\nIIM REGISTRATION FEES\nMAHBH16090554574\n10016708239\nANAND MADHUKAR GAVALI\n2016/03/30 11:58:52 AM\nRemitted\n\nPage No: 1\n\n                                                                                                  \n                                                                                                           \n                                                                                                                    \n                                                                                                                             \n                                                                                                                                      \n                                                                                                                                               \n                                                                                                                                                        \n                                                                                                                                                                 \n                                                                                                                                                                          \n                                                                                                                                                                                   \n                                                                                                                                                                                            \n                                                                                                                                                                                                     \n                                                                                                                                                                                                              \n                                                                                                                                                                                                                       \n                                                                                                                                                                                                                                \n                                                                                                                                                                                                                                         \n                                                                                                                                                                                                                                                  \n                                                                                                                                                                                                                                                           \n                                                                                                                                                                                                                                                                    \n                                                                                                                                                                                                                                                                             \n                                                                                                                                                                                                                                                                                      \n                                                                                                                                                                                                                                                                                               \n                                                                                                                                                                                                                                                                                                             \n                                                                                                                                                                      \n                                                                                                                                                                               \n                                                                                                                                                                                        \n                                                                                                                                                                                                 \n                                                                                                                                                                                                          \n                                                                                                                                                                                                                   \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                                     \n                                                                                                                                                                                                                                              \n                                                                                                                                                                                                                                                       \n                                                                                                                                                                                                                                                                \n                                                                                                                                                                                                                                                                         \n                                                                                                                                                                                                                                                                                  \n                                                                                                                                                                                                                                                                                            \n \n\f",
+        "relevant_information": {
+            "bank_name": "STATE BANK OF TRAVANCORE",
+            "transfer_type": "NEFT",
+            "from_account_number": "20016730430",
+            "beneficiarys_account_number": "57027517696",
+            "beneficiarys_name": "The Indian Instititue of Metals",
+            "beneficiarys_nick_name": "IIM",
+            "beneficiarys_mobile_number": "9604020899",
+            "beneficiarys_ifsc_code": "SBTR0000682",
+            "transfer_amount": "INR 1625.00",
+            "amount_in_words": "Rupees One Thousand Six Hundred and Twenty Five Only",
+            "remark": "IIM REGISTRATION FEES",
+            "utr_no": "MAHBH16090554574",
+            "transaction_date": "2016/03/30 11:58:52 AM",
+            "user_id": "10016708239",
+            "user_name": "ANAND MADHUKAR GAVALI",
+            "status": "Remitted"
+        },
+        "timestamp": "2024-12-26 22:41:09"
+    },
+    {
+        "username": "sample",
+        "email": "machinelearning917@gmail.com",
+        "query": "# GOVERNMENT OF INDIA\n\nName: Tomm} Singh\n\nFather's Name: shetu Singh\n\nYear of Birth: 7A44\n\nGender: Male\n\nIdentification Numbers: 5485 5000 8000\n\nAdditional Information: 34R 314 fuaTr",
+        "relevant_information": {
+            "personal_details": {
+                "name": "Tomm Singh",
+                "father_name": "shetu Singh",
+                "year_of_birth": "7A44",
+                "gender": "Male"
+            },
+            "document_details": {
+                "identification_numbers": "5485 5000 8000"
+            }
+        },
+        "timestamp": "2025-01-06 22:05:16"
+    },
+    {
+        "username": "sample",
+        "email": "machinelearning917@gmail.com",
+        "query": "bhaart raar GOVERNMENT OF INDIA Tommy Singh taa : r Father : Sheru Singh r / Year of Birth 26-11-2009 r / Male 5485 5000 8000 aar aa aar -",
+        "relevant_information": {
+            "name": "Bhaart Raar",
+            "father_name": "Tommy Singh",
+            "gender": "Male",
+            "date_of_birth": "26-11-2009",
+            "document_type": "GOVERNMENT OF INDIA",
+            "document_number": "5485 5000 8000"
+        },
+        "timestamp": "2025-01-06 22:07:34"
     }
 ]
